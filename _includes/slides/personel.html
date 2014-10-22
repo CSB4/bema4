@@ -10,7 +10,7 @@
 		      	<h3>{{ image.position }}</h3>
 		        <p>{{ image.description }}</p>
 	        </div>
-	        <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}">
+	        <img src="{{ site.baseurl }}/{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}">
      	</div>
       </li>
     {% endfor %}
