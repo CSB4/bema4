@@ -11,18 +11,6 @@
     
 	<script src="{{ "/javascript/enquire.js" | prepend: site.baseurl }}"></script>
 
-	<script type="text/javascript">
-	    function loadJS(url)
-	    {
-	       var head = document.getElementsByTagName('head')[0];
-	       var script = document.createElement('script');
-	       script.type = 'text/javascript';
-	       script.src = url;
-	
-	       head.appendChild(script);
-	    }
-	</script>
-
     <script src="{{ "/javascript/modernizr.js" | prepend: site.baseurl }}"></script>
     
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
