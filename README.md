@@ -29,6 +29,8 @@ w pliku <code>head.html</code> ładują się dwa małe skrypty <code>enquire.js<
 
 W pliku <code>footer.html</code> za pomocą <code>enquier.js</code> sprawdzam na jakim urządzeniu się znajdujemy i w zależności ładuje odpowiednie skrypty. Co najwaznejsze robi to po załadowaniu strony, dzięki czemu strona nie musi czekać na pliki, które nie są potrzebne do jej wyświetlenia i znacznie przyśpiesza ogólne działanie.
 
+Zdjęcia w tłąch slidów ładują się tylko wtedy gdy są wyświetlane, czyli na dużym ekrania. (łądują się po załądowaniu reszty strony).
+
 #zdjęcia
 
 W przyszości gdy będziecie dodawać zdjęcia do strony posstarajcię się jej nimi nie zapchać. Możecie użyc takich samych rozmiarów jakie znajdują się do tej pory w galerii (dosyć ważne żeby miniaturki do slidu galeria były kwadratami a zdjęcia personelu w formacie 2:3).
