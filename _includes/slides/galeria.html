@@ -4,8 +4,8 @@
     <ul id="og-grid" class="og-grid">
     {% for image in gallery.images %}
       <li>
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.title }}"  data-largesrc="{{ gallery.imagefolder }}/{{ image.name }}" data-title="{{ image.title }}" data-description="{{ image.description }}">
-          <img src="{{ gallery.thumbfolder }}/{{ image.name }}" alt="{{ image.name }}">
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" title="{{ image.title }}"  data-largesrc="{{site.baseurl}}/{{ gallery.imagefolder }}/{{ image.name }}" data-title="{{ image.title }}" data-description="{{ image.description }}">
+          <img src="{{site.baseurl}}/{{ gallery.thumbfolder }}/{{ image.name }}" alt="{{ image.name }}">
         </a>
       </li>
     {% endfor %}
