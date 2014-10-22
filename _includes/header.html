@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="nav-col">
+
+    
+
+    <nav class="site-nav">
+      <div class="title-area">
+      	 <a class="site-title logo" href="{{ site.baseurl }}/"><img src="{{ "/images/style/logo.png" | prepend: site.baseurl }}" alt="{{ site.title }}" /></a>
+      </div>
+
+      <section class="nav-collapse">
+      	<ul>
+     	
+	 		{% for slide in site.slides %}
+			
+				<li>
+	    			<a href="#{{ slide.type }}" data-scroll>{{ slide.title }}</a>
+	   		 	</li>
+	   		 	
+			{% endfor %}
+		     		
+      	</ul>
+      </section>
+
+      
+    </nav>
+  </div>
+</header>

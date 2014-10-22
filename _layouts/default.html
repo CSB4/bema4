@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="main-container">
+   	
+		{% for slide in site.slides %}
+		
+			<div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
+		
+    			{% include slides/{{slide.type}}.html %}
+   		 	
+   		 	</div>
+   		 	
+		{% endfor %}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

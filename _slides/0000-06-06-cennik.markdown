@@ -1,0 +1,66 @@
+---
+label: slide
+title:  "Cennik"
+type: cennik
+fullscreen: true
+---
+#<span>Cennik usług podstawowych</span>
+
+##Stomatologia zachowawcza
+
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0–50 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>100 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 1­powierzchniowe</span><span>120-150 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 2­powierzchniowe</span><span>150-170 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 3­powierzchniowe</span><span>180-220 pln</span>
+* <span>rekonstrukcja zachowawcza</span><span>230­280 pln</span>
+* <span>założenie opatrunku leczniczego</span><span>60 pln</span>
+* <span>znieczulenie miejscowe/przewodowe</span><span>10/20 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym 1 ­ powierzchniowe</span><span>100 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span><span>120 pln</span>
+* <span>RVG</span><span>20 pln</span>
+
+##Wybielanie:
+
+* <span>wybielanie metodą domową</span><span>800 pln</span>
+* <span>wybielanie zębów w gabinecie + nakładki</span><span>1000-1300 pln</span>
+
+##Endodoncja (leczenie kanałowe)
+
+* <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
+* <span>wypełnienie ostateczne kanału - ząb 1-kanałowy</span><span>210 pln</span>
+* <span>wypełnienie ostateczne kanału - ząb 2-kanałowy</span><span>360 pln</span>
+* <span>wypełnienie ostateczne kanału - ząb 3-kanałowy</span><span>520 pln</span>
+* <span>wypełnienie ostateczne kanału - ząb 4-kanałowy</span><span>620 pln</span>
+* <span>wypełnienie ostateczne kanału - ząb 5­kanałowy</span><span>700 pln</span>
+* <span>usunięcie złamanego narzędzia</span><span>150 pln</span>
+
+##Profilaktyka
+
+* <span>usunięcie kamienia (2 łuki)</span><span>180 pln</span>
+* <span>fluoryzacja pianką</span><span>20 pln</span>
+* <span>piaskowanie</span><span>100 pln</span>
+* <span>usunięcie kamienia + piaskowanie + fluoryzacja</span><span>200 pln</span>
+* <span>lakierowanie zębów mlecznych / stałych</span><span>60 pln / 120 pln</span>
+* <span>lakowanie zębów stałych (1 ząb)</span><span>50 pln</span>
+
+##Chirurgia stomatologiczna
+
+* <span>usunięcie zęba stałego</span><span>120-150 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span><span>220 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span><span>260 pln</span>
+* <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460­600 pln</span>
+* <span>usuniecie zęba mlecznego lub rozchwianego</span><span>100 pln</span>
+* <span>resekcja zęba 1­korzeniowego / wielokorzeniowego</span><span>360 / 420 pln</span>
+* <span>hemisekcja 250 pln</span>
+* <span>szycie / chirurgiczne zaopatrzenie rany</span><span>50 / 70 pln</span>
+
+##Protetyka
+
+* <span>korona bezmetalowa ZIRKONIA</span><span>1500­1800 pln</span>
+* <span>korona bezmetalowa e.max</span><span>1500 pln</span>
+* <span>korona porcelanowa na metalu</span><span>920 pln</span>
+* <span>proteza akrylowa całkowita</span><span>1200 pln</span>
+* <span>proteza akrylowa częściowa</span><span>350-1000 pln</span>
+* <span>proteza szkieletowa od</span><span>1700 pln</span>
+* <span>naprawa protezy (1 punkt)</span><span>100 pln</span>

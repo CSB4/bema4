@@ -1,0 +1,423 @@
+// Screen
+// ======
+
+// normalize
+//@import "normalize";
+
+// reset browser default style
+@import "compass/reset";
+
+//variables and functions
+@import "global";
+@import "compass";
+
+//susy grids
+@import "breakpoint";
+@import "grids";
+
+//typography
+@import "typography";
+
+// navigation
+@import "navigation";
+
+//gallery
+@import "gallery";
+
+img {
+  max-width:100%;
+}
+
+//slides
+.slide {
+  clear:both;
+  overflow:hidden;
+  padding:10% 0;   
+}
+.slide-galeria, .slide-personel {
+  padding:0;
+}
+
+////////////////////////
+//full screen background
+.bg-image {
+  display:none;
+}
+@include breakpoint($large) {
+  .mh-100 {
+    min-height:100vh;
+    position:relative;
+    
+    .bg-image {
+      max-width:4000px;
+      position:relative;
+      z-index:0;   
+      z-index:-1;
+      display:block;
+    }
+  }
+}
+
+
+/////////////
+//kontakt
+.slide-kontakt {
+  background:$light-blue;
+  @include large;
+  
+  .header {
+      color:$white;  
+      @include bold;
+      padding-bottom:40px;
+      margin-bottom:40px;
+      border-bottom:3px solid $white;
+      padding-top:50px;
+      
+      p {
+        margin:0;
+      }
+    }
+    
+    ul {
+     color:black;
+      
+      li {
+        padding:6px 0;
+      }
+      li:before {
+        @include bold;
+        color:$dark-blue;
+        display:block;
+        padding-right:8px;
+        float:left;
+      }
+      li.adres:before {
+        content:"A: ";
+      }li.telefon:before {
+        content:"T: ";
+      }li.fax:before{
+        content:"F: ";
+      }li.godziny:before{
+        content:"G: ";
+      }
+    }   
+    
+    .kontakt-content{
+      @include span($m-cols-content of $col-medium);
+      @include push($m-cols-content-margin of $col-medium); 
+    }
+}
+@include breakpoint($medium-up) {
+  .slide-kontakt {
+    .header {
+      padding-top:0;
+    }
+  }
+}
+
+
+@include breakpoint($large) {
+  .full {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+  }
+  .slide-kontakt {
+    background:transparent;
+   
+    .wrapper {    
+      @include span(12 of $col-large);  
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      background:rgba($light-blue,0.8);
+      z-index:111;
+      
+      .kontakt-content{
+        padding:10% 8.3% 0 0;
+        margin-left:8.3%;
+      }
+    }
+  }
+}
+/////////
+//galeria
+.slide-galeria {
+  background:$white;
+}
+
+//cennik
+.slide-cennik {
+  overflow:hidden;
+  
+  h1 {
+    text-transform:uppercase;
+    color:$dark-blue;
+    @include large;
+    @include trailer(3/2*$lil);
+    overflow:hidden;
+    
+    span {
+      float:left;
+    }
+  } 
+  h2 {
+    @include trailer(0.5);
+    @include bold;
+    clear:both;
+  }
+  ul {
+    @include trailer(1.5*$lil);
+
+    li { 
+      clear: both; 
+      padding: 0 0 5px 0;       
+      
+      span + span {
+        @include bold;
+      
+        &:before {
+          content: ' (';
+        }
+        &:after {
+          content: ')';
+        }        
+      }
+    }  
+            
+    @include breakpoint($medium-up) {
+      
+      h1 {
+        text-transform:uppercase;
+        color:$dark-blue;
+        @include xlarge;
+        @include trailer(3/2*$lil);        
+        
+        &:before {
+          content: "|";
+          display:block;
+          padding-right:12px;
+          float:left;
+          font-size:1.3em;
+        }
+        &:after {
+          content: "|"; 
+          display:block;
+          padding-left:12px;  
+          float:left;  
+          font-size:1.3em;         
+        }
+      }
+      .bg-image {
+        opacity:0.15;
+      } 
+      li { 
+        clear: both;
+        padding:0; 
+        
+        span:first-child {
+          float: left;
+          padding: 0 .4em 0 0;
+          margin: 0;
+        }
+        span + span {
+          float: right;
+          padding: 0 0 0 .4em;
+          margin: 0;
+          @include regular;
+          
+          &:before,&:after {
+            content:"";
+          }
+        }
+        &:after {
+          content: "";
+          display: block;
+          overflow: hidden;
+          height: 1em;
+          border-bottom: 1px dotted;
+          color: $light-blue;
+          position:relative;
+          top:-0.22em;
+        }
+      }
+    }
+  }  
+}
+
+@include breakpoint($medium-up) {
+  .slide-cennik h1 {
+    @include large;  
+  }
+}
+//uslugi
+.slide-uslugi {
+    background:$dark-blue;
+    color:$white;
+    @include large;
+    
+    p {
+      @include regular;
+    }
+    
+    ul {
+      margin-top:40px;
+      
+      li {
+        clear:both;
+        &:before {
+          content:"- ";
+        }
+      }
+   }
+}
+
+@include breakpoint($medium-up) {
+  .slide-uslugi {
+      background:rgba($dark-blue, 0.85);
+      
+      ul {
+        
+        li {
+          float:left;
+          clear:none;
+          &:before {
+            content:"";
+          }
+          &:after {
+            content:"/";
+            @include bold; 
+            @include regular;       
+            color:$light-blue;
+          }
+          &:last-child:after {
+            content:"";
+          }
+        }
+     }
+  }
+}
+
+//personel
+@include breakpoint($medium-up){
+  .personel-list {  
+    li {
+      @include gallery(6 of 12);
+      position:relative;
+    }
+  }  
+}
+@include breakpoint($large){
+  .personel-list {  
+    li {
+      @include gallery(4 of 12);
+      position:relative;
+    }
+  }  
+}
+
+.personel-list {
+      
+  .full-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 150%; 
+  }
+    
+    h2 {
+      position:absolute;
+      background:rgba($light-blue,0.75);
+      color:$white;
+      width:100%;
+      padding:24px 0 15px 0;
+      text-align:center;
+      @include large;
+      @include bold;     
+      bottom:0; 
+    }
+    h3,p {
+      display:none;
+    }  
+}
+
+@include breakpoint($medium-up) {
+    
+  .personel-list {
+    color:$black;
+    li {     
+      h2 {
+        position:static;
+        background:transparent;
+        color:$black;
+        padding:0;
+        @include light;
+        text-align:left;         
+      }
+      h3 {
+        @include trailer;
+        padding-left:17px;
+        display:block;
+        
+        &:before {    
+          height:1px;
+          width:12px;
+          content:"";
+          background:$black;
+          display:block;
+          position:relative;
+          top:0.8em;
+          left:-17px;
+          display:block;
+        }      
+      }
+      p {
+        display:block;
+      }
+      .full-wrapper {
+        position: relative;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 150%; 
+        background:$light-blue;
+        z-index:34;        
+        
+        .full-content {
+          top:10%;
+          left:10%;
+          bottom:10%;
+          right:10%;
+          position:absolute;
+          opacity:0; 
+          @include transition-property(opacity);      
+          @include transition-duration($transition-time);          
+        }
+        &:hover img {
+          opacity:0.1;
+          @include transition-property(opacity);      
+          @include transition-duration($transition-time);         
+        }
+        &:hover .full-content {
+          opacity:1;
+        }                
+      }
+    }
+  }
+}
+.slide-historia {
+  h1 {
+    @include xlarge;
+    @include trailer();
+  }
+  p:first-child {
+    @include regular;
+  }
+  p {
+    @include trailer($lil);
+  }
+}
