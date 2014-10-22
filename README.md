@@ -3,31 +3,31 @@ www
 
 #struktura plików
 
-Główny plik strony: _layouts/default.html
+Główny plik strony: <code>_layouts/default.html<code>
 
-Odpala pętle chodzącą po wszystkich plikach w _slides. W nich są dane wyświetlane poźniej na stronie i to te pliki edytujesz żeby zmienić coś na stronie (nazwy zazwierają daty - slidy posegregowane są wg. daty). Każdy slide do wyświetlania siebie używa templata, który znajduje się w _includes/slides/nazwa-slida.
+Odpala pętle chodzącą po wszystkich plikach w <code>_slides</code>. W nich są dane wyświetlane poźniej na stronie i to te pliki edytujesz żeby zmienić coś na stronie (nazwy zazwierają daty - slidy posegregowane są wg. daty). Każdy slide do wyświetlania siebie używa templata, który znajduje się w <code>_includes/slides/nazwa-slida</code>.
 
-Templaty dla slidów galeria i personel zawierają, pętle wyświetlające zdjęcia. Dane do nich są w pliku _data/galleries.yml Zdjęcia są w katalogu images.
+Templaty dla slidów galeria i personel zawierają, pętle wyświetlające zdjęcia. Dane do nich są w pliku <code>_data/galleries.yml</code> Zdjęcia są w katalogu images.
 
 #style strony
 
-Pliki, które mialbys edytowac sa w katalogu _scss. Plik konfiguracyjny jest w katalogu _sass. W katalogu _plugin jest skrypt kompilujący scss do css.
+Pliki, które mialbys edytowac sa w katalogu <code>_scss</code>. Plik konfiguracyjny jest w katalogu <code>_sass</code>. W katalogu <code>_plugin</code> jest skrypt kompilujący <code>scss</code> do <code>css</code>.
 
 #opis strony
-W pliku _config.yml masz dane konfiguracyjne dla jekyll i tytuł i opis strony.
+W pliku <code>_config.yml</code> masz dane konfiguracyjne dla jekyll i tytuł i opis strony.
 
 #head, header, footer
 
 Do pliku default.html masz zaincludowane pliki: 
-* head.html - zawartość tagu <head></head>
+* head.html - zawartość tagu </code><head></head></code>
 * header.html - lewa kolumna strony (nawigacja i logo)
 * footer.html - stopka strony
 
 #javascript
 
-w pliku head.html ładują się dwa małe skrypty enquire.js i modernizr.js. Modernizr rozpoznaje funkcję, które obsługuje przeglądarka i pomoga dopasować do niej stronę.
+w pliku <code>head.html</code> ładują się dwa małe skrypty <code>enquire.js</code> i <code>modernizr.js</code>. Modernizr rozpoznaje funkcję, które obsługuje przeglądarka i pomoga dopasować do niej stronę.
 
-W pliku footer.html za pomocą enquier.js sprawdzam na jakim urządzeniu się znajdujemy i w zależności ładuje odpowiednie skrypty. Co najwaznejsze robi to po załadowaniu strony, dzięki czemu strona nie musi czekać na pliki, które nie są potrzebne do jej wyświetlenia i znacznie przyśpiesza ogólne działanie.
+W pliku <code>footer.html</code> za pomocą <code>enquier.js</code> sprawdzam na jakim urządzeniu się znajdujemy i w zależności ładuje odpowiednie skrypty. Co najwaznejsze robi to po załadowaniu strony, dzięki czemu strona nie musi czekać na pliki, które nie są potrzebne do jej wyświetlenia i znacznie przyśpiesza ogólne działanie.
 
 #zdjęcia
 
