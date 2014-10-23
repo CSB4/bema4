@@ -2,7 +2,7 @@
 label: slide
 title:  "Kontakt"
 type: kontakt
-adres: "Słowackiego 49, 33-124 Kraków"
+adres: "Gdynia, gen. Józefa Bema 4/2"
 telefon: "+48 620 21 82"
 fax: "+48 58 727 92 59"
 mail: "stomatologia@bema4.pl"
