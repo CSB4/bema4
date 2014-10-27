@@ -1,6 +1,0 @@
----
-label: slide
-title:  "Personel"
-date:   2014-08-21 19:53:26
-type: personel
----
