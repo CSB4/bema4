@@ -4,10 +4,10 @@
 				{{ 	slide.content }}
 			</div>
 			<ul>
-				<li class="adres"><a href="{{ slide.adres_url}}" >{{ slide.adres }}</a></li>
-				<li class="telefon">{{ slide.telefon }}</li>
-				<li class="fax">{{ slide.fax }}</li>
-				<li class="godziny">{{ slide.godziny_pn }}</li>
+				<li class="adres"><span class="tooltip">A:<span class="tooltip-content">Adres</span></span><a href="{{ slide.adres_url}}" >{{ slide.adres }}</a></li>
+				<li class="telefon"><span class="tooltip">Telefon</span>{{ slide.telefon }}</li>
+				<li class="fax"><span class="tooltip">Fax</span>{{ slide.fax }}</li>
+				<li class="godziny"><span class="tooltip">Godziny otwarcia</span>{{ slide.godziny_pn }}</li>
 				<li>{{ slide.godziny_wt }}</li>
 				<li>{{ slide.godziny_sr }}</li>
 				<li>{{ slide.godziny_czw }}</li>

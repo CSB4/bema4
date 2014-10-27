@@ -88,6 +88,12 @@ img {
           @include regular;
         }
       }
+      .tooltip {
+        display:none;
+      }
+      li:before:hover .tooltip {
+        display:block;
+      }
       li:before {
         @include bold;
         color:$dark-blue;
