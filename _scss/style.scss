@@ -413,7 +413,6 @@ img {
         height: 0;
         overflow: hidden;
         padding-bottom: 150%;
-        background:$light-blue;
         z-index:34;
 
         .full-content {
@@ -434,6 +433,15 @@ img {
         &:hover .full-content {
           opacity:1;
         }
+      }
+      &.founders .full-wrapper {
+        background:$light-blue;
+      }
+      &.doctors .full-wrapper {
+        background:$dark-blue;
+      }
+      &.asisstants .full-wrapper {
+        background:$white;
       }
     }
   }
