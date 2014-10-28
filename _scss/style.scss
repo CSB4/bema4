@@ -32,7 +32,7 @@ img {
 .slide {
   clear:both;
   overflow:hidden;
-  padding:10% 0;   
+  padding:10% 0;
 }
 .slide-galeria, .slide-personel {
   padding:0;
@@ -47,11 +47,11 @@ img {
   .mh-100 {
     min-height:100vh;
     position:relative;
-    
+
     .bg-image {
       max-width:4000px;
       position:relative;
-      z-index:0;   
+      z-index:0;
       z-index:-1;
       display:block;
     }
@@ -64,42 +64,43 @@ img {
 .slide-kontakt {
   background:$light-blue;
   @include large;
-  
+
   .header {
-      color:$white;  
+      color:$white;
       @include bold;
       padding-bottom:30px;
       margin-bottom:30px;
       border-bottom:3px solid $white;
       padding-top:40px;
-      
+
       p {
         margin:0;
       }
     }
-    
+
     ul {
      color:black;
-      
+
       li {
         padding:6px 0;
-        
+
         b {
           @include regular;
         }
       }
+      zalozyciele lekarze asystentki
       .tooltip-content {
         height:0;
-        @include transition-property(opacity);      
-        @include transition-duration($transition-time);  
-        opacity:0;       
+        @include transition-property(opacity);
+        @include transition-duration($transition-time);
+        opacity:0;
         position:absolute;
         background:$white;
         color:$dark-blue;
         @include light;
         padding: 3px 6px;
       }
-      .tooltip > span:hover .tooltip-content{
+      .tooltip > span:hover .tooltip-content {
         height:auto;
         opacity:1;
       }
@@ -118,14 +119,14 @@ img {
         width:rem-calc(40px);
         float:left;
         content:"";
-        height:10px;  
-        display:block;              
+        height:10px;
+        display:block;
       }
-    }   
-    
+    }
+
     .kontakt-content{
       @include span($m-cols-content of $col-medium);
-      @include push($m-cols-content-margin of $col-medium); 
+      @include push($m-cols-content-margin of $col-medium);
     }
 }
 @include breakpoint($medium-up) {
@@ -147,16 +148,16 @@ img {
   }
   .slide-kontakt {
     background:transparent;
-   
-    .wrapper {    
-      @include span(12 of $col-large);  
+
+    .wrapper {
+      @include span(12 of $col-large);
       position:absolute;
       top:0;
       left:0;
       bottom:0;
       background:rgba($light-blue,0.8);
       z-index:111;
-      
+
       .kontakt-content{
         padding:10% 8.3% 0 0;
         margin-left:8.3%;
@@ -173,18 +174,18 @@ img {
 //cennik
 .slide-cennik {
   overflow:hidden;
-  
+
   h1 {
     text-transform:uppercase;
     color:$dark-blue;
     @include large;
     @include trailer(3/2*$lil);
     overflow:hidden;
-    
+
     span {
       float:left;
     }
-  } 
+  }
   h2 {
     @include trailer(0.5);
     @include bold;
@@ -193,30 +194,30 @@ img {
   ul {
     @include trailer(1.5*$lil);
 
-    li { 
-      clear: both; 
-      padding: 0 0 5px 0;       
-      
+    li {
+      clear: both;
+      padding: 0 0 5px 0;
+
       span + span {
         @include bold;
-      
+
         &:before {
           content: ' (';
         }
         &:after {
           content: ')';
-        }        
+        }
       }
-    }  
-            
+    }
+
     @include breakpoint($medium-up) {
-      
+
       h1 {
         text-transform:uppercase;
         color:$dark-blue;
         @include xlarge;
-        @include trailer(3/2*$lil);        
-        
+        @include trailer(3/2*$lil);
+
         &:before {
           content: "|";
           display:block;
@@ -225,20 +226,20 @@ img {
           font-size:1.3em;
         }
         &:after {
-          content: "|"; 
+          content: "|";
           display:block;
-          padding-left:12px;  
-          float:left;  
-          font-size:1.3em;         
+          padding-left:12px;
+          float:left;
+          font-size:1.3em;
         }
       }
       .bg-image {
         opacity:0.15;
-      } 
-      li { 
+      }
+      li {
         clear: both;
-        padding:0; 
-        
+        padding:0;
+
         span:first-child {
           float: left;
           padding: 0 .4em 0 0;
@@ -249,7 +250,7 @@ img {
           padding: 0 0 0 .4em;
           margin: 0;
           @include regular;
-          
+
           &:before,&:after {
             content:"";
           }
@@ -266,12 +267,12 @@ img {
         }
       }
     }
-  }  
+  }
 }
 
 @include breakpoint($medium-up) {
   .slide-cennik h1 {
-    @include large;  
+    @include large;
   }
 }
 //uslugi
@@ -279,14 +280,14 @@ img {
     background:$dark-blue;
     color:$white;
     @include large;
-    
+
     p {
       @include regular;
     }
-    
+
     ul {
       margin-top:40px;
-      
+
       li {
         clear:both;
         &:before {
@@ -299,9 +300,9 @@ img {
 @include breakpoint($medium-up) {
   .slide-uslugi {
       background:rgba($dark-blue, 0.85);
-      
+
       ul {
-        
+
         li {
           float:left;
           clear:none;
@@ -310,8 +311,8 @@ img {
           }
           &:after {
             content:"/";
-            @include bold; 
-            @include regular;       
+            @include bold;
+            @include regular;
             color:$light-blue;
           }
           &:last-child:after {
@@ -324,32 +325,32 @@ img {
 
 //personel
 @include breakpoint($medium-up){
-  .personel-list {  
+  .personel-list {
     li {
       @include gallery(6 of 12);
       position:relative;
     }
-  }  
+  }
 }
 @include breakpoint($large){
-  .personel-list {  
+  .personel-list {
     li {
       @include gallery(4 of 12);
       position:relative;
     }
-  }  
+  }
 }
 
 .personel-list {
-      
+
   .full-wrapper {
     position: relative;
     width: 100%;
     height: 0;
     overflow: hidden;
-    padding-bottom: 150%; 
+    padding-bottom: 150%;
   }
-    
+
     h2 {
       position:absolute;
       background:rgba($light-blue,0.75);
@@ -358,33 +359,33 @@ img {
       padding:24px 0 15px 0;
       text-align:center;
       @include large;
-      @include bold;     
-      bottom:0; 
+      @include bold;
+      bottom:0;
     }
     h3,p {
       display:none;
-    }  
+    }
 }
 
 @include breakpoint($medium-up) {
-    
+
   .personel-list {
     color:$black;
-    li {     
+    li {
       h2 {
         position:static;
         background:transparent;
         color:$black;
         padding:0;
         @include light;
-        text-align:left;         
+        text-align:left;
       }
       h3 {
         @include trailer;
         padding-left:17px;
         display:block;
-        
-        &:before {    
+
+        &:before {
           height:1px;
           width:12px;
           content:"";
@@ -394,7 +395,7 @@ img {
           top:0.8em;
           left:-17px;
           display:block;
-        }      
+        }
       }
       p {
         display:block;
@@ -404,28 +405,28 @@ img {
         width: 100%;
         height: 0;
         overflow: hidden;
-        padding-bottom: 150%; 
+        padding-bottom: 150%;
         background:$light-blue;
-        z-index:34;        
-        
+        z-index:34;
+
         .full-content {
           top:10%;
           left:10%;
           bottom:10%;
           right:10%;
           position:absolute;
-          opacity:0; 
-          @include transition-property(opacity);      
-          @include transition-duration($transition-time);          
+          opacity:0;
+          @include transition-property(opacity);
+          @include transition-duration($transition-time);
         }
         &:hover img {
           opacity:0.1;
-          @include transition-property(opacity);      
-          @include transition-duration($transition-time);         
+          @include transition-property(opacity);
+          @include transition-duration($transition-time);
         }
         &:hover .full-content {
           opacity:1;
-        }                
+        }
       }
     }
   }

@@ -34,43 +34,56 @@
 - id: personel
   imagefolder: /images/personel
   images:
+    
   - name: malgorzata.jpg
-    title: Małgorzata
-    position: Lekarz
+    title: lek. med. Małgorzata Komorowska
+    position: Założyciel
+    group: founders
     description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+
+  - name: maciej.jpg
+    title: lek. stom. Maciej Jarząbek
+    position: Lekarz
+    group: doctors
+    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+  - name: iza.jpg
+    title: lek. stom. Maciej Jarząbek
+    position: Lekarz
+    group: doctors
+    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+  - name: tomasz.jpg
+    title: lek. stom. Maciej Jarząbek
+    position: Lekarz
+    group: doctors
+    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+
   - name: agnieszka.jpg
-    title: Agnieszka
-    position: Stomatolog
+    title: Agnieszka Wasilewska
+    position: Asystentka
+    group: asisstants
     description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: ania.jpg
-    title: Ania
-    position: Lekarz
+  - name: ania_k.jpg
+    title: Anna Konopka
+    position: Asystentka
+    group: asisstants
+    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+  - name: asia_d.jpg
+    title: Joanna Dawidowska
+    position: Recepcjonistka
+    group: asisstants
+    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
+  - name: asia_p.jpg
+    title: Joanna Pajko
+    position: Asystentka
+    group: asisstants
     description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
   - name: monika.jpg
-    title: The first image
-    position: Stomatolog
+    title: Monika
+    position: Asystentka
+    group: asisstants
     description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: asia.jpg
-    title: The second image
-    position: Lekarz
+  - name: ola.jpg
+    title: Aleksandra Koroś
+    position: Asystentka
+    group: asisstants
     description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: 5.jpg
-    title: Małgorzata
-    position: Lekarz
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: 1.jpg
-    title: Agnieszka
-    position: Stomatolog
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: 2.jpg
-    title: Ania
-    position: Lekarz
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: 3.jpg
-    title: The first image
-    position: Stomatolog
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-  - name: 4.jpg
-    title: The second image
-    position: Lekarz
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.    

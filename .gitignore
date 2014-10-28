@@ -1,3 +1,2 @@
 _site
-_sass\.sass-cache\*
-*.db
+_sass\.sass-cache
