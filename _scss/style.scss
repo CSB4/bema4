@@ -88,7 +88,7 @@ img {
           @include regular;
         }
       }
-      zalozyciele lekarze asystentki
+
       .tooltip-content {
         height:0;
         @include transition-property(opacity);
@@ -99,6 +99,7 @@ img {
         color:$dark-blue;
         @include light;
         padding: 3px 6px;
+        margin-left:10px;
       }
       .tooltip > span:hover .tooltip-content {
         height:auto;
@@ -146,21 +147,27 @@ img {
     left:0;
     bottom:0;
   }
+  .bg-kontakt {
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background:rgba($light-blue,0.8);
+      z-index:110;   
+      @include span(12 of $col-large);
+      position:absolute;         
+  }
   .slide-kontakt {
     background:transparent;
 
     .wrapper {
       @include span(12 of $col-large);
-      position:absolute;
-      top:0;
-      left:0;
-      bottom:0;
-      background:rgba($light-blue,0.8);
-      z-index:111;
 
       .kontakt-content{
         padding:10% 8.3% 0 0;
         margin-left:8.3%;
+        position:relative;
+        z-index:111;        
       }
     }
   }
@@ -311,8 +318,8 @@ img {
           }
           &:after {
             content:"/";
+            padding:0 5px;
             @include bold;
-            @include regular;
             color:$light-blue;
           }
           &:last-child:after {
