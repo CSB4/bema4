@@ -32,7 +32,6 @@
 }
 
 
-
 //  MASK
 
 
@@ -228,6 +227,7 @@ $toggle_font: 35px;
           content:"";
           background:$menu-line;
           display:block;
+          background:$menu-tab-background-hover; 
           position:relative;
           top:0.8em;
           left:0;      
