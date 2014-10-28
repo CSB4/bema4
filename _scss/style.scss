@@ -429,6 +429,9 @@ img {
           @include transition-property(opacity);
           @include transition-duration($transition-time);
         }
+        img {
+          margin:0 auto;
+        }
         &:hover img {
           opacity:0.1;
           @include transition-property(opacity);
