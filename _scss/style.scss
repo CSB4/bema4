@@ -220,8 +220,8 @@ img {
         }
       }
     }
-
-    @include breakpoint($medium-up) {
+// cennik needs brekpoint 800px
+    @include breakpoint(800px) {
 
       h1 {
         text-transform:uppercase;
