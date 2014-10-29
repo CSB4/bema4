@@ -25,7 +25,7 @@
   height: 35px;
   float: left;
   overflow: hidden;
-  
+
   img {
     width:35px;
   }
@@ -36,8 +36,8 @@
 
 
 .mask {
-  @include transition-property(opacity);      
-  @include transition-duration($transition-time); 
+  @include transition-property(opacity);
+  @include transition-duration($transition-time);
   background: rgba($dark-blue, .5);
   visibility: hidden;
   position: fixed;
@@ -92,23 +92,23 @@
   width: 100%;
   float: left;
   border-bottom: 1px solid $dark-blue;
-  
+
   li {
     width: 100%;
     padding:0 12px;
     background:$light-blue;
-    
+
     a {
       padding:10px 0;
       width:100%;
       border-bottom: 1px solid $dark-blue;
       display:block;
-      
+
     }
     &:last-child a {
       border-bottom:0;
     }
-  }  
+  }
 }
 
 
@@ -184,66 +184,66 @@ $toggle_font: 35px;
     position:fixed;
     background:$menu-column-background;
     padding:25px 25px 0 25px;
-    
+
     .title-area {
       margin-bottom:25px;
     }
   }
-  
+
   .nav-collapse ul {
   $menu-line-wd:55px;
   $menu-line-height:1px;
   $menu-line-gap:65px;
-  
+
     margin: 0;
     padding: 0;
     width: 100%;
     display: block;
     list-style: none;
-  
+
     li {
       padding:0;
-      
-      a {      
+
+      a {
         color:$menu-tab-text;
         background:$menu-tab-background;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
         width: 100%;
         float: left;
-        padding:rem-calc(4px) 0;  
-        @include transition-property(all);      
-        @include transition-duration($transition-time); 
-        border:none;      
-        
+        padding:rem-calc(4px) 0;
+        @include transition-property(all);
+        @include transition-duration($transition-time);
+        border:none;
+
         &:hover {
           color:$menu-tab-text-hover;
-          background:$menu-tab-background-hover;
-          padding-left:$menu-line-gap;      
-          
-        }
-        &:before {
-          height:$menu-line-height;
-          width:0;
-          content:"";
-          background:$menu-line;
-          display:block;
-          background:$menu-tab-background-hover; 
-          position:relative;
-          top:0.8em;
-          left:0;      
+          padding-left:$menu-line-gap;
+
+
+          &:before {
+            height:$menu-line-height;
+            width:0;
+            content:"";
+            background:$menu-line;
+            display:block;
+            background:$menu-tab-background-hover;
+            position:relative;
+            top:0.8em;
+            left:0;
+          }
         }
         &:hover:before {
           width:$menu-line-wd;
           left:-$menu-line-gap;
         }
       }
-    
-  
+
+
       &.active a, a:active {
         color:$menu-tab-text-hover;
-        background:$menu-tab-background-hover;   
-        padding-left:$menu-line-gap;        
-      
+        background:$menu-tab-background-hover;
+        padding-left:$menu-line-gap;
+
         &:before {
           height:$menu-line-height;
           width:$menu-line-wd;
@@ -252,8 +252,8 @@ $toggle_font: 35px;
           display:block;
           position:relative;
           top:$base-line-height;
-          left:-$menu-line-gap; 
-        }   
+          left:-$menu-line-gap;
+        }
       }
     }
   }
@@ -289,7 +289,7 @@ $toggle_font: 35px;
 @include breakpoint($medium-up) {
   .js .nav-collapse {
     position: relative;
-    max-height: none;    
+    max-height: none;
   }
   .js .nav-collapse.closed {
     max-height: none;
@@ -304,12 +304,12 @@ $toggle_font: 35px;
 @include breakpoint($medium-up) {
   .nav-collapse {
     width: 100%;
-    
+
     ul {
       border-bottom: 0;
-    }  
+    }
   }
-  
+
   .site-header {
     height:auto;
   }
@@ -318,7 +318,7 @@ $toggle_font: 35px;
     width:100%;
     height:auto;
     margin:0 0 20px 0;
-    
+
     img {
       width:70%;
     }

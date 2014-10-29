@@ -6,7 +6,7 @@
 //medium
 @include susy-breakpoint($medium-only, $col-medium) {
   .og-grid {
-    
+
     li {
       @include gallery(4 of 12);
     }
@@ -15,7 +15,7 @@
 //large
 @include susy-breakpoint($large, $large-gr) {
   .og-grid {
-    
+
     li {
       @include gallery(3 of 12);
     }
@@ -58,7 +58,7 @@
 .og-expander-inner {
   padding: 20px 0 10px 0;
   height: 100%;
-  
+
   h3 {
     @include trailer();
     @include bold;
@@ -160,5 +160,5 @@
 
   .og-fullimg { display: none; }
   .og-details { float: none; width: 100%; }
-  
+
 }

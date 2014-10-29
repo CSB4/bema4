@@ -99,15 +99,15 @@ img {
         color:$dark-blue;
         @include light;
         margin-left:10px;
-        display:none;    
+        display:none;
       }
       .tooltip > span:hover .tooltip-content {
         height:auto;
         width:auto;
-        padding: 3px 6px;        
+        padding: 3px 6px;
         opacity:1;
-        position:absolute; 
-        display:inline;       
+        position:absolute;
+        display:inline;
       }
       .tooltip > span {
         @include bold;
@@ -157,9 +157,9 @@ img {
       bottom:0;
       right:0;
       background:rgba($light-blue,0.8);
-      z-index:110;   
+      z-index:110;
       @include span(12 of $col-large);
-      position:absolute;         
+      position:absolute;
   }
   .slide-kontakt {
     background:transparent;
@@ -171,7 +171,7 @@ img {
         padding:10% 8.3% 0 0;
         margin-left:8.3%;
         position:relative;
-        z-index:111;        
+        z-index:111;
       }
     }
   }
@@ -372,6 +372,9 @@ img {
       @include large;
       @include bold;
       bottom:0;
+    }
+    img {
+      width:100%;
     }
     h3,p {
       display:none;
