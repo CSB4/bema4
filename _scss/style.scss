@@ -220,7 +220,7 @@ img {
         }
       }
     }
-// cennik needs brekpoint 800px
+// cennik breakpoint do 800px (ratujemy kropeczki)
     @include breakpoint(800px) {
 
       h1 {
@@ -228,6 +228,7 @@ img {
         color:$dark-blue;
         @include xlarge;
         @include trailer(3/2*$lil);
+        @include large;
 
         &:before {
           content: "|";
@@ -279,13 +280,14 @@ img {
       }
     }
   }
-}
 
-@include breakpoint($medium-up) {
-  .slide-cennik h1 {
-    @include large;
+  @include breakpoint($large) {
+    .content {
+      @include span($l-cols-content + 2 of $col-large);
+    }
   }
 }
+
 //uslugi
 .slide-uslugi {
     background:$dark-blue;
