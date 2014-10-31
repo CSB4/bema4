@@ -24,7 +24,7 @@
         display: inline-block;
         vertical-align: middle;
         height:300px;
-        height:70vh;
+        height:60vh;
       }
     }
   }
@@ -33,7 +33,7 @@
 
   .initiated.site-header {
     @include transition-property(height);
-    @include transition-duration($transition-time*2);
+    @include transition-duration($transition-time);
     position: fixed;
     z-index: 3;
     width: 100%;
@@ -52,12 +52,12 @@
       float: left;
       overflow: hidden;
       @include transition-property(height);
-      @include transition-duration($transition-time*2);    
+      @include transition-duration($transition-time);    
 
 
       img {
         @include transition-property(height);
-        @include transition-duration($transition-time*2);   
+        @include transition-duration($transition-time);   
         transform: translate3d(0,0,0);
         -webkit-transform: translate3d(0,0,0);           
         height:48px;
