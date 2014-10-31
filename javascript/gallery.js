@@ -175,7 +175,7 @@ var Grid = (function() {
 		// extra amount of pixels to scroll the window
 		scrollExtra = 0,
 		// extra margin when expanded (between preview overlay and the next items)
-		marginExpanded = 10,
+		marginExpanded = 0,
 		$window = $( window ), winsize,
 		$body = $( 'html, body' ),
 		// transitionend events
@@ -462,7 +462,7 @@ var Grid = (function() {
 				itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
 			}
 
-			this.height = 1200px; //heightPreview;
+			this.height = heightPreview;
 			this.itemHeight = itemHeight;
 
 		},
@@ -477,8 +477,8 @@ var Grid = (function() {
 				};
 
 			this.calcHeight();
-//			this.$previewEl.css( 'height', this.height );
-//			this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
+			this.$previewEl.css( 'height', this.height );
+			this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
 
 			if( !support ) {
 				onEndFn.call();

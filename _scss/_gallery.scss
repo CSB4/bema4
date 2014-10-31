@@ -49,19 +49,25 @@
   top: auto;
   left: 0;
   width: 100%;
-  margin-top: 10px;
   text-align: left;
   height: 0;
   overflow: hidden;
+  background: $light-blue;
 }
 
 .og-expander-inner {
   padding: 20px 0 10px 0;
   height: 100%;
+  text-align:center;
+
 
   h3 {
     @include trailer();
     @include bold;
+    text-align:left;
+  }
+  p {
+    text-align:left;
   }
 }
 
@@ -69,8 +75,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  top: -3px;
-  right: 15px;
+  top: 9px;
+  right: 10px;
   cursor: pointer;
 }
 

@@ -1,11 +1,35 @@
 // nav mobile
 
+//full screen initial
+.initial {
+  height:100vh;
 
-/* ------------------------------------------
-  FIXED HEADER
---------------------------------------------- */
+  .logo {
+    border-style:solid;  
+    text-align: center;
+    font-size: 0;
+    height:100vh;
+    display:block;
 
-.site-header {
+    &:before {
+      content: ' ';
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      height:300px;
+    }
+  }
+}
+
+
+.initiated.site-header {
+  @include transition-property(height);
+  @include transition-duration($transition-time);
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -13,24 +37,27 @@
   top: 0;
   background:$white;
   height:50px;
-}
 
-.logo {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  text-decoration: none;
-  font-weight: bold;
-  width: 35px;
-  margin: 7px 10px 0 10px;
-  color: #fff;
-  height: 35px;
-  float: left;
-  overflow: hidden;
 
-  img {
-    width:35px;
+  .logo {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 7px 10px 0 10px;
+    color: #fff;
+    height: 35px;
+    float: left;
+    overflow: hidden;
+  @include transition-property(height);
+  @include transition-duration($transition-time);    
+
+
+    img {
+  @include transition-property(height);
+  @include transition-duration($transition-time);      
+      height:48px;
+    }
   }
 }
-
 
 //  MASK
 
@@ -38,7 +65,7 @@
 .mask {
   @include transition-property(opacity);
   @include transition-duration($transition-time);
-  background: rgba($dark-blue, .5);
+  background: rgba($dark-blue, .8);
   visibility: hidden;
   position: fixed;
   opacity: 0;
@@ -297,11 +324,7 @@ $toggle_font: 35px;
   .nav-toggle {
     display: none;
   }
-}
 
-
-
-@include breakpoint($medium-up) {
   .nav-collapse {
     width: 100%;
 
@@ -323,27 +346,11 @@ $toggle_font: 35px;
       width:70%;
     }
   }
-}
 
-.nav-collapse li {
-
-}
-
-@include breakpoint($bp_1) {
   .nav-collapse li {
     width: 100%;
   }
-}
-
-
-
-.nav-collapse ul ul a {
-    padding-left: 2em;
-}
-
-@include breakpoint($bp_1) {
   .nav-collapse ul ul a {
     display: none;
   }
 }
-

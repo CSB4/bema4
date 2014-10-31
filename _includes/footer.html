@@ -1,5 +1,19 @@
 <script type="text/javascript">
 
+	
+var header = document.getElementById("header");
+
+onscroll = function() {
+	
+	var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+  
+  	if (scrollTop > 30) {
+
+		header.className = header.className.replace(/\b initial\b/,' initiated')
+ 		onscroll = undefined;
+	}
+}
+
 function addImg(imgUrl, divId) {
 		var img = document.createElement("img");
 		var src = document.getElementById(divId);
@@ -25,8 +39,9 @@ enquire.register("screen and (min-width: 1080px)", [{
           		'{{site.baseurl}}/javascript/scroll.js',
                 '{{site.baseurl}}/javascript/fixed-responsive-nav.js',
                 '{{site.baseurl}}/javascript/gallery.js',
-                '{{site.baseurl}}/javascript/imagesloaded.js',
-                '{{site.baseurl}}/javascript/imgfill.js'],
+                 '{{site.baseurl}}/javascript/imagesloaded.js',
+                 '{{site.baseurl}}/javascript/imgfill.js'],
+                 
           complete : function() {
 
 
