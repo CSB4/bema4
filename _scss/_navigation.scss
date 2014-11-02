@@ -150,7 +150,6 @@
 
 
 @font-face {
-
   font-weight: normal;
   font-style: normal;
 }
@@ -249,26 +248,26 @@ $toggle_font: 35px;
         @include transition-duration($transition-time);
         border:none;
 
+        &:before {
+          height:$menu-line-height;
+          width:0;
+          content:"";
+
+          display:block;
+          background:$menu-tab-background-hover;
+          position:relative;
+          top:0.8em;
+          left:0;
+        }
+
         &:hover {
           color:$menu-tab-text-hover;
           padding-left:$menu-line-gap;
-
-
-          &:before {
-            height:$menu-line-height;
-            width:0;
-            content:"";
-            background:$menu-line;
-            display:block;
-            background:$menu-tab-background-hover;
-            position:relative;
-            top:0.8em;
-            left:0;
-          }
         }
         &:hover:before {
           width:$menu-line-wd;
           left:-$menu-line-gap;
+          background:$menu-line;
         }
       }
 
