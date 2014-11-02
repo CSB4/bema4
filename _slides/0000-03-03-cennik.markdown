@@ -60,7 +60,7 @@ fullscreen: true
 * <span>korona bezmetalowa ZIRKONIA</span><span>1500­1800 pln</span>
 * <span>korona bezmetalowa e.max</span><span>1500 pln</span>
 * <span>korona porcelanowa na metalu</span><span>920 pln</span>
-* <span>proteza akrylowa całkowita</span><span>1200 pln</span>
+* <span>proteza akrylowa całkowita</span><span>1600 pln</span>
 * <span>proteza akrylowa częściowa</span><span>350-1000 pln</span>
-* <span>proteza szkieletowa od</span><span>1700 pln</span>
+* <span>proteza szkieletowa</span><span>od 1800 pln</span>
 * <span>naprawa protezy (1 punkt)</span><span>100 pln</span>

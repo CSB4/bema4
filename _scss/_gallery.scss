@@ -1,8 +1,8 @@
 .slide-galeria {
   position:relative;
+  background:$light-blue;
 }
 
-//small
 //medium
 @include susy-breakpoint($medium-only, $col-medium) {
   .og-grid {
@@ -52,7 +52,6 @@
   text-align: left;
   height: 0;
   overflow: hidden;
-  background: $light-blue;
 }
 
 .og-expander-inner {
@@ -73,10 +72,10 @@
 
 .og-close {
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   top: 9px;
-  right: 10px;
+  right: 25px;
   cursor: pointer;
 }
 

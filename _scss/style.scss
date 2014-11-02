@@ -63,7 +63,6 @@ img {
 //kontakt
 .slide-kontakt {
   background:$light-blue;
-  @include large;
 
   .header {
       color:$white;
@@ -168,18 +167,12 @@ img {
       @include span(12 of $col-large);
 
       .kontakt-content{
-        padding:10% 8.3% 0 0;
         margin-left:8.3%;
         position:relative;
         z-index:111;
       }
     }
   }
-}
-/////////
-//galeria
-.slide-galeria {
-  background:$white;
 }
 
 //cennik
@@ -292,10 +285,9 @@ img {
 .slide-uslugi {
     background:$dark-blue;
     color:$white;
-    @include large;
 
     p {
-      @include regular;
+
     }
 
     ul {

@@ -7,7 +7,7 @@ fullscreen: true
 Wstępem 2-3 zdania o tym że jest nowoczesny, kompleksowe leczenie, każdy gabinet wyposażony w radiowizjografię, kamery wewnątrzustne, dwa mikroskopy. Lorem ipsum daj.
 
 * Stomatologia zachowawcza i estetyczna
-* Stomatologia dziecięca
+* Endodencja
 * Protetyka
 * Chirurgia stomatologiczna
 * Implantologia
