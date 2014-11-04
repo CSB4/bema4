@@ -1,12 +1,12 @@
 <script type="text/javascript">
 
-	
+
 var header = document.getElementById("header");
 
 onscroll = function() {
-	
+
 	var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
-  
+
   	if (scrollTop > 30) {
 
 		header.className = header.className.replace(/\b initial\b/,' initiated')
@@ -24,7 +24,7 @@ function addImg(imgUrl, divId) {
 		src.appendChild(img);
 }
 
-enquire.register("screen and (min-width: 1080px)", [{
+enquire.register("screen and (min-width: 640px)", [{
 
     deferSetup : true,
 
@@ -41,7 +41,7 @@ enquire.register("screen and (min-width: 1080px)", [{
                 '{{site.baseurl}}/javascript/gallery.js',
                  '{{site.baseurl}}/javascript/imagesloaded.js',
                  '{{site.baseurl}}/javascript/imgfill.js'],
-                 
+
           complete : function() {
 
 
@@ -154,10 +154,6 @@ enquire.register("screen and (max-width: 640px)", [{
 
   }]);
 /*
-  poprawic galerie na srednie i wielkosc obrazkow
-  logo na mobilnym
-  kolory p[ersonel]
-*/
 enquire.register("screen and (min-width: 640px) and (max-width: 1080px)", [{
 
     deferSetup : true,
@@ -186,5 +182,5 @@ enquire.register("screen and (min-width: 640px) and (max-width: 1080px)", [{
       ]);
     }
 
-  }]);
+  }]); */
 </script>

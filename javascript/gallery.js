@@ -190,8 +190,22 @@ var Grid = (function() {
 		// support for csstransitions
 		support = Modernizr.csstransitions,
 		// default settings
+
+
+		winsize = { width : $window.width(), height : $window.height() };
+
+		var updatedMinHeight = 350;
+
+		if (winsize.width > 800) {
+			updatedMinHeight : 450;
+			if (winsize.width > 1100) {
+				updatedMinHeight : 550;
+			}
+		}
+
+
 		settings = {
-			minHeight : 500,
+			minHeight : updatedMinHeight,
 			speed : 350,
 			easing : 'ease'
 		};
@@ -511,5 +525,4 @@ var Grid = (function() {
 		init : init,
 		addItems : addItems
 	};
-
 })();

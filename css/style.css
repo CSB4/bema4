@@ -386,22 +386,22 @@ table {
         -webkit-transition-duration: 0.6s;
         transition-duration: 0.6s;
         border: none; }
+        .nav-collapse ul li a:before {
+          height: 1px;
+          width: 0;
+          content: "";
+          display: block;
+          background: #fff;
+          position: relative;
+          top: 0.8em;
+          left: 0; }
         .nav-collapse ul li a:hover {
           color: #a4bbc6;
           padding-left: 65px; }
-          .nav-collapse ul li a:hover:before {
-            height: 1px;
-            width: 0;
-            content: "";
-            background: #85a3b2;
-            display: block;
-            background: #fff;
-            position: relative;
-            top: 0.8em;
-            left: 0; }
         .nav-collapse ul li a:hover:before {
           width: 55px;
-          left: -65px; }
+          left: -65px;
+          background: #85a3b2; }
       .nav-collapse ul li.active a, .nav-collapse ul li a:active {
         color: #a4bbc6;
         background: #fff;
@@ -539,7 +539,7 @@ table {
   overflow: hidden; }
 
 .og-expander-inner {
-  padding: 20px 0 10px 0;
+  padding: 10px 0 10px 0;
   height: 100%;
   text-align: center; }
   .og-expander-inner h3 {
@@ -554,13 +554,15 @@ table {
   width: 20px;
   height: 20px;
   top: 9px;
-  right: 25px;
-  cursor: pointer; }
+  right: 15px;
+  cursor: pointer;
+  overflow: hidden; }
 
 .og-close::before,
 .og-close::after {
   content: '';
   position: absolute;
+  left: 0;
   width: 100%;
   top: 50%;
   height: 1px;
