@@ -24,6 +24,21 @@ function addImg(imgUrl, divId) {
 		src.appendChild(img);
 }
 
+function disableLinksByElement(el) {
+  if (document.getElementById && document.getElementsByTagName) {
+    if (typeof(el) == 'string') {
+      el = document.getElementById(el);
+    }
+    var anchors = el.getElementsByTagName('a');
+    for (var i=0, end=anchors.length; i<end; i++) {
+      anchors[i].onclick = function() {
+        return false;
+      };
+    }
+  }
+}
+disableLinksByElement('galeria');
+
 enquire.register("screen and (min-width: 640px)", [{
 
     deferSetup : true,
@@ -153,34 +168,4 @@ enquire.register("screen and (max-width: 640px)", [{
     }
 
   }]);
-/*
-enquire.register("screen and (min-width: 640px) and (max-width: 1080px)", [{
-
-    deferSetup : true,
-
-    setup : function () {
-
-   	Modernizr.load([
-        {
-          load: ['https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
-                '{{site.baseurl}}/javascript/fastclick.js',
-                '{{site.baseurl}}/javascript/scroll.js',
-                '{{site.baseurl}}/javascript/responsive-nav.js',
-                '{{site.baseurl}}/javascript/fixed-responsive-nav.js',
-                '{{site.baseurl}}/javascript/gallery.js',],
-
-          complete : function() {
-
-                smoothScroll.init();
-
-				$(function() {
-					Grid.init();
-				});
-
-          }
-        },
-      ]);
-    }
-
-  }]); */
 </script>

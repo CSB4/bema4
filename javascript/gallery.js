@@ -272,14 +272,18 @@ var Grid = (function() {
 
 			scrollExtra = 0;
 			previewPos = -1;
-			// save item´s offset
-			saveItemInfo();
-			getWinSize();
+
 			var preview = $.data( this, 'preview' );
 			if( typeof preview != 'undefined' ) {
 				hidePreview();
 			}
 
+			$('#og-grid li').each(function() {
+				$( this ).removeAttr( 'style' );
+			});
+
+			saveItemInfo();
+			getWinSize();
 		} );
 
 	}
