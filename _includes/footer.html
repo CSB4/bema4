@@ -1,58 +1,60 @@
 <script type="text/javascript">
 
+function headerAnimate() {
 
-var header = document.getElementById("header");
-	winHeight = window.innerHeight;
-	winWidth = window.innerWidth;
-	headerImg = header.getElementsByTagName("img")[0];
-	aspectRatio = 274/375;
-	imgFinalHeight = 48;
-	imgFinalMarginLeft = 10;
+	var header = document.getElementById("header");
+		winHeight = window.innerHeight;
+		winWidth = window.innerWidth;
+		headerImg = header.getElementsByTagName("img")[0];
+		aspectRatio = 274/375;
+		imgFinalHeight = 48;
+		imgFinalMarginLeft = 10;
 
-	imgHeight = winHeight * 0.6
-	imgMarginLeftInitial = (winWidth - (imgHeight * aspectRatio)) / 2;
+		imgHeight = winHeight * 0.6;
+		imgMarginLeftInitial = (winWidth - (imgHeight * aspectRatio)) / 2;
 
-	x = winHeight/imgMarginLeftInitial;
+		x = winHeight/imgMarginLeftInitial;
 
-	headerImg.style.marginLeft = imgMarginLeftInitial + "px"	;
+		headerImg.style.marginLeft = imgMarginLeftInitial + "px";
+		headerImg.style.height = imgHeight + "px";
 
-onscroll = function() {
+	onscroll = function() {
 
-	var scrollTop = document.body.scrollTop
-		threshold = scrollTop > (winHeight - 50);
+		var scrollTop = document.body.scrollTop;
+			threshold = scrollTop > (winHeight - 50);
 
-		imgHeight = (winHeight - scrollTop) * 0.6
-		imgMarginLeft = (winHeight - scrollTop) / x;
+			imgHeight = (winHeight - scrollTop) * 0.6;
+			imgMarginLeft = (winHeight - scrollTop) / x;
 
-		if (imgHeight > imgFinalHeight) {
-			headerImg.style.height = imgHeight + "px";
-			headerImg.style.webkitTransition = "";
+			if (imgHeight > imgFinalHeight) {
+				headerImg.style.height = imgHeight + "px";
+				headerImg.style.webkitTransition = "";
+			} else {
+				headerImg.style.height = imgFinalHeight + "px";
+				headerImg.style.webkitTransition = 'height .4s';
+
+
+			}
+
+			if (imgMarginLeft > imgFinalMarginLeft) {
+				headerImg.style.marginLeft = imgMarginLeft + "px";
+				headerImg.style.webkitTransition = "";
+			} else {
+				headerImg.style.marginLeft = imgFinalMarginLeft + "px";
+				headerImg.style.webkitTransition = 'margin-left .4s';
+			}
+
+			headerImg.style.marginTop = (winHeight * 0.2 + scrollTop * 0.8) + "px";
+
+
+	  	if (threshold) {
+			 header.className = header.className.replace(/\b initial\b/,' initiated');
+			 headerImg.style.marginTop = "";
 		} else {
-			headerImg.style.height = imgFinalHeight + "px";
-			headerImg.style.webkitTransition = 'height .4s';
-
-
+			 header.className = header.className.replace(/\b initiated\b/,' initial');
 		}
-
-		if (imgMarginLeft > imgFinalMarginLeft) {
-			headerImg.style.marginLeft = imgMarginLeft + "px";
-			headerImg.style.webkitTransition = "";
-		} else {
-			headerImg.style.marginLeft = imgFinalMarginLeft + "px";
-			headerImg.style.webkitTransition = 'margin-left .4s';
-		}
-
-		headerImg.style.marginTop = (winHeight * 0.2 + scrollTop * 0.8) + "px";
-
-
-  	if (threshold) {
-		 header.className = header.className.replace(/\b initial\b/,' initiated')
-		 headerImg.style.marginTop = "";
-	} else {
-		 header.className = header.className.replace(/\b initiated\b/,' initial')
 	}
 }
-
 
 
 
@@ -200,11 +202,19 @@ enquire.register("screen and (max-width: 640px)", [{
           complete : function() {
 
                     smoothScroll.init();
+                    headerAnimate();
 
           }
         },
       ]);
 
+    },
+    unmatch : function () {
+    	document.getElementById("header").getElementsByTagName("img")[0].style.height = "";
+    	document.getElementById("header").getElementsByTagName("img")[0].style.marginLeft = "";
+    },
+    match : function () {
+    	headerAnimate();
     }
 
   }]);

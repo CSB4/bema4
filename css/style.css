@@ -367,6 +367,9 @@ table {
     .nav-col .title-area {
       margin-bottom: 25px; }
 
+  #js-mobile-current {
+    display: none; }
+
   .nav-collapse ul {
     margin: 0;
     padding: 0;
