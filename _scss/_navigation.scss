@@ -3,65 +3,74 @@
 //full screen initial
 @include breakpoint($small-only) {
 
+  .site-header {
+    position:relative;
+    z-index:111;
+  }
+
   .initial {
     height:100vh;
 
+    .nav-collapse-0.nav-collapse.opened {
+      display:none;
+    }
+
     .logo {
-      border-style:solid;  
-      text-align: center;
-      font-size: 0;
-      height:100vh;
       display:block;
 
-      &:before {
-        content: ' ';
-        display: inline-block;
-        vertical-align: middle;
-        height: 100%;
-      }
-
       img {
-        display: inline-block;
-        vertical-align: middle;
+        display:block;
         height:300px;
+        margin-top:20vh;
         height:60vh;
       }
+      .site-nav {
+        position:static;
+        background:$white;
+      }
+    }
+    .nav-toggle {
+      opacity:0;
     }
   }
 
 
-
   .initiated.site-header {
-    @include transition-property(height);
-    @include transition-duration($transition-time);
-    position: fixed;
     z-index: 3;
     width: 100%;
     left: 0;
     top: 0;
+      height:100vh;
     background:$white;
-    height:50px;
+   // height:50px;
+   // position:fixed;
 
-
+   .site-nav {
+    position:fixed;
+    background:$white;
+    width:100%;
+   }
     .logo {
       text-decoration: none;
       font-weight: bold;
-      margin: 7px 10px 0 10px;
+      margin: 7px 10px 0 0;
       color: #fff;
       height: 35px;
       float: left;
       overflow: hidden;
-      @include transition-property(height);
-      @include transition-duration($transition-time);    
-
 
       img {
-        @include transition-property(height);
-        @include transition-duration($transition-time);   
-        transform: translate3d(0,0,0);
-        -webkit-transform: translate3d(0,0,0);           
         height:48px;
       }
+      .nav-toggle {
+        @include transition-property(opacity);
+        @include transition-duration($transition-time/2);
+        opacity:1;
+      }
+    }
+    .title-area {
+      overflow:hidden;
+      padding-bottom:7px;
     }
   }
 
@@ -81,6 +90,7 @@
   right: 0;
   left: 0;
   top: 0;
+  display:none;
 }
 
 .android .mask {
@@ -125,7 +135,7 @@
   list-style: none;
   width: 100%;
   float: left;
-  border-bottom: 1px solid $dark-blue;
+  border-bottom: 1px solid $white;
 
   li {
     width: 100%;
@@ -135,7 +145,7 @@
     a {
       padding:10px 0;
       width:100%;
-      border-bottom: 1px solid $dark-blue;
+      border-bottom: 1px solid $white;
       display:block;
 
     }
@@ -162,7 +172,8 @@ $toggle_font: 35px;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
   text-indent: -300px;
-  position: relative;
+  position: fixed;
+  top:0;
   overflow: hidden;
   width: $toggle_w;
   height: $toggle_h;

@@ -1,7 +1,7 @@
 <header class="site-header initial" id="header">
   <div class="nav-col">
 
-    
+
 
     <nav class="site-nav">
       <div class="title-area">
@@ -10,19 +10,19 @@
 
       <div class="nav-collapse">
       	<ul>
-     	
+
 	 		{% for slide in site.slides %}
-			
+
 				<li>
 	    			<a href="#{{ slide.type }}" data-scroll>{{ slide.title }}</a>
 	   		</li>
-	   		 	
+
 			{% endfor %}
-		     		
+
       	</ul>
       </div>
 
-      
+
     </nav>
   </div>
 </header>

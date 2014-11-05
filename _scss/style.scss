@@ -204,13 +204,8 @@ img {
 
       span + span {
         @include bold;
-
-        &:before {
-          content: ' (';
-        }
-        &:after {
-          content: ')';
-        }
+        display:block;
+        clear:both;
       }
     }
 // cennik breakpoint do 800px (ratujemy kropeczki)
@@ -254,6 +249,7 @@ img {
           float: right;
           padding: 0 0 0 .4em;
           margin: 0;
+          display:inline;
           @include regular;
 
           &:before,&:after {

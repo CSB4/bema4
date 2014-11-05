@@ -2,17 +2,59 @@
 
 
 var header = document.getElementById("header");
+	winHeight = window.innerHeight;
+	winWidth = window.innerWidth;
+	headerImg = header.getElementsByTagName("img")[0];
+	aspectRatio = 274/375;
+	imgFinalHeight = 48;
+	imgFinalMarginLeft = 10;
+
+	imgHeight = winHeight * 0.6
+	imgMarginLeftInitial = (winWidth - (imgHeight * aspectRatio)) / 2;
+
+	x = winHeight/imgMarginLeftInitial;
+
+	headerImg.style.marginLeft = imgMarginLeftInitial + "px"	;
 
 onscroll = function() {
 
-	var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
+	var scrollTop = document.body.scrollTop
+		threshold = scrollTop > (winHeight - 50);
 
-  	if (scrollTop > 30) {
+		imgHeight = (winHeight - scrollTop) * 0.6
+		imgMarginLeft = (winHeight - scrollTop) / x;
 
-		header.className = header.className.replace(/\b initial\b/,' initiated')
- 		onscroll = undefined;
+		if (imgHeight > imgFinalHeight) {
+			headerImg.style.height = imgHeight + "px";
+			headerImg.style.webkitTransition = "";
+		} else {
+			headerImg.style.height = imgFinalHeight + "px";
+			headerImg.style.webkitTransition = 'height .4s';
+
+
+		}
+
+		if (imgMarginLeft > imgFinalMarginLeft) {
+			headerImg.style.marginLeft = imgMarginLeft + "px";
+			headerImg.style.webkitTransition = "";
+		} else {
+			headerImg.style.marginLeft = imgFinalMarginLeft + "px";
+			headerImg.style.webkitTransition = 'margin-left .4s';
+		}
+
+		headerImg.style.marginTop = (winHeight * 0.2 + scrollTop * 0.8) + "px";
+
+
+  	if (threshold) {
+		 header.className = header.className.replace(/\b initial\b/,' initiated')
+		 headerImg.style.marginTop = "";
+	} else {
+		 header.className = header.className.replace(/\b initiated\b/,' initial')
 	}
 }
+
+
+
 
 function addImg(imgUrl, divId) {
 		var img = document.createElement("img");
@@ -157,9 +199,7 @@ enquire.register("screen and (max-width: 640px)", [{
 
           complete : function() {
 
-                    smoothScroll.init({
-                    	offset: 0
-                    });
+                    smoothScroll.init();
 
           }
         },
