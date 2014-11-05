@@ -200,6 +200,8 @@ table {
         background: #fff; }
     .initial .nav-toggle {
       opacity: 0; }
+    .initial #js-mobile-current {
+      display: none; }
 
   .initiated.site-header {
     z-index: 3;
@@ -208,6 +210,13 @@ table {
     top: 0;
     height: 100vh;
     background: #fff; }
+    .initiated.site-header #js-mobile-current {
+      float: right;
+      position: relative;
+      top: 16px;
+      right: 40px;
+      color: #85a3b2;
+      display: block; }
     .initiated.site-header .site-nav {
       position: fixed;
       background: #fff;
@@ -296,6 +305,8 @@ table {
       width: 100%;
       border-bottom: 1px solid #fff;
       display: block; }
+    .nav-collapse ul li.active a {
+      color: #fff; }
     .nav-collapse ul li:last-child a {
       border-bottom: 0; }
 

@@ -74,11 +74,15 @@
     }, false);
 
     // Highlight active link on the navigation
+    var navTitle = document.getElementById("js-mobile-current");
+
     var selectActiveMenuItem = function (i) {
       forEach(links, function (i, el) {
         links[i].parentNode.className = "";
       });
       links[i].parentNode.className = "active";
+
+      navTitle.innerHTML = links[i].innerHTML;
     };
 
     // Highlight active link when scrolling
