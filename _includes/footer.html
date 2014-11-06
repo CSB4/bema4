@@ -1,5 +1,6 @@
 <script type="text/javascript">
 
+/*
 function headerAnimate() {
 
 	var header = document.getElementById("header");
@@ -14,11 +15,14 @@ function headerAnimate() {
 		imgMarginLeftInitial = (winWidth - (imgHeight * aspectRatio)) / 2;
 
 		x = winHeight/imgMarginLeftInitial;
+		console.log(header.offsetHeight);
 
 		headerImg.style.marginLeft = imgMarginLeftInitial + "px";
 		headerImg.style.height = imgHeight + "px";
 
 	onscroll = function() {
+
+		console.log(header.offsetHeight);
 
 		var scrollTop = document.body.scrollTop;
 			threshold = scrollTop > (winHeight - 50);
@@ -56,6 +60,35 @@ function headerAnimate() {
 	}
 }
 
+*/
+/*
+var setSkrollr = function(el, data) {
+    for (var i = 0, l = data.length; i < l; i++) { // loop all data entries (scroll positions + css property & value)
+        var d = data[i], // the current data entry
+            px = d[0]; // the scroll position (in pixels)
+            css = d[1]; // the css property + value to set
+        el.data = ""
+       	el.attr('data-' + px, css);
+    }
+}
+*/
+/*
+function headerAnimate () {
+
+	var header = document.getElementById("header");
+		winHeight = window.innerHeight;
+		winWidth = window.innerWidth;
+		headerImg = header.getElementsByTagName("img")[0];
+		aspectRatio = 274/375;
+		imgFinalHeight = 48;
+		imgFinalMarginLeft = 10;
+
+		//setSkrollr(headerImg, [[0, 'height:200px'], [winHeight, imgFinalHeight]]);
+		headerImg.data = "data-0: 'width:" + winWidth * 0.8 + ";', "data-0: 'width:" + winWidth * 0.8 + ";';
+	//	setSkrollr($('#example2'), [[0, 'transform:translateY(-100%)'], [1500, 'transform:translateY(100%)']]);
+
+}
+*/
 
 
 function addImg(imgUrl, divId) {
@@ -85,6 +118,7 @@ disableLinksByElement('galeria');
 
 enquire.register("screen and (min-width: 640px)", [{
 
+
     deferSetup : true,
 
     setup : function () {
@@ -111,7 +145,10 @@ enquire.register("screen and (min-width: 640px)", [{
 					    $('.mh-100, #historia').css('min-height', windowHeight);
 					};
 
+
+
 					setHeight();
+
 
 				  	$(window).resize(function() {
 				    	setHeight();
@@ -123,6 +160,38 @@ enquire.register("screen and (min-width: 640px)", [{
 					$(function() {
 						Grid.init();
 					});
+
+					function mapContainer() {
+						windowHeight = $(window).innerHeight();
+						containerWidth = $( '#top' ).width();
+						wrapperHeight = $( '#kontakt .wrapper' ).height();
+						mapContainerHeight = windowHeight - wrapperHeight - containerWidth * 0.1;
+						$( '#map' ).css('height', mapContainerHeight);
+					}
+
+					function ifPortrait() {
+						var aspectRatio = $(window).innerWidth()/$(window).innerHeight();
+						console.log(aspectRatio)
+						if (aspectRatio < 1) {
+							return true;
+						} else {
+							return false;
+						}
+					}
+
+					if ( ifPortrait() ) {
+		    			mapContainer();
+		    		}
+
+		    		$(window).resize(function() {
+
+						if ( ifPortrait() ) {
+			    			mapContainer();
+			    		} else {
+			    			$( '#map' ).css('height', 'auto');
+			    		}
+
+				  	});
 
 
 			$(function() {
@@ -162,7 +231,16 @@ enquire.register("screen and (min-width: 640px)", [{
 	              if (map_loaded) {
 	                map.setCenter(lat_lng);
 	                var map_div = $("#map");
-	                var x = map_div.width() - $(".slide-kontakt .wrapper").width();
+
+						var aspectRatio = $(window).innerWidth()/$(window).innerHeight();
+
+						if (aspectRatio < 1) {
+							var x = $(".slide-kontakt .wrapper").width();
+						} else {
+							var x = map_div.width() - $(".slide-kontakt .wrapper").width();
+						}
+
+
 	                var latlng = overlay.getProjection().fromContainerPixelToLatLng(new google.maps.Point(x/2, map_div.height()/2));
 	                map.panTo(latlng);
 	              }
@@ -185,6 +263,11 @@ enquire.register("screen and (min-width: 640px)", [{
     }
 
   }]);
+
+
+
+
+
 enquire.register("screen and (max-width: 640px)", [{
 
     deferSetup : true,
@@ -202,19 +285,11 @@ enquire.register("screen and (max-width: 640px)", [{
           complete : function() {
 
                     smoothScroll.init();
-                    headerAnimate();
 
           }
         },
       ]);
 
-    },
-    unmatch : function () {
-    	document.getElementById("header").getElementsByTagName("img")[0].style.height = "";
-    	document.getElementById("header").getElementsByTagName("img")[0].style.marginLeft = "";
-    },
-    match : function () {
-    	headerAnimate();
     }
 
   }]);

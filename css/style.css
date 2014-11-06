@@ -90,7 +90,7 @@ body {
       position: fixed;
       top: 0;
       bottom: 0; } }
-  @media (min-width: 67.5em) {
+  @media (min-width: 55em) {
     .nav-col {
       width: 20.83333%;
       float: left; } }
@@ -107,7 +107,7 @@ body {
         width: 83.33333%;
         float: left;
         margin-left: 8.33333%; } }
-  @media (min-width: 67.5em) {
+  @media (min-width: 55em) {
     .main-container {
       width: 79.16667%;
       float: right;
@@ -125,7 +125,7 @@ html {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.55556em; }
-  @media (min-width: 40em) and (max-width: 67.5em) {
+  @media (min-width: 40em) and (max-width: 55em) {
     html {
       font-size: 0.9em;
       line-height: 1.7284em; } }
@@ -208,8 +208,9 @@ table {
     width: 100%;
     left: 0;
     top: 0;
-    height: 100vh;
-    background: #fff; }
+    background: #fff;
+    height: 50px;
+    position: fixed; }
     .initiated.site-header #js-mobile-current {
       float: right;
       position: relative;
@@ -224,7 +225,7 @@ table {
     .initiated.site-header .logo {
       text-decoration: none;
       font-weight: bold;
-      margin: 7px 10px 0 0;
+      margin: 7px 10px 0 10px;
       color: #fff;
       height: 35px;
       float: left;
@@ -261,8 +262,7 @@ table {
   bottom: 0;
   right: 0;
   left: 0;
-  top: 0;
-  display: none; }
+  top: 0; }
 
 .android .mask {
   -webkit-transition: none;
@@ -481,7 +481,7 @@ table {
   position: relative;
   background: #b5e0e8; }
 
-@media (min-width: 40em) and (max-width: 67.5em) {
+@media (min-width: 40em) and (max-width: 55em) {
   .og-grid li {
     width: 33.33333%;
     float: left; }
@@ -497,7 +497,7 @@ table {
       margin-left: 66.66667%;
       margin-right: -100%;
       clear: none; } }
-@media (min-width: 67.5em) {
+@media (min-width: 55em) {
   .og-grid li {
     width: 25%;
     float: left; }
@@ -659,6 +659,16 @@ table {
 img {
   max-width: 100%; }
 
+.show-for-small-logo img {
+  background: #b5e0e8;
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  padding-top: 20px; }
+
+@media (min-width: 40em) {
+  .show-for-small-logo {
+    display: none; } }
 .slide {
   clear: both;
   overflow: hidden;
@@ -670,7 +680,7 @@ img {
 .bg-image {
   display: none; }
 
-@media (min-width: 67.5em) {
+@media (min-width: 55em) {
   .mh-100 {
     min-height: 100vh;
     position: relative; }
@@ -681,7 +691,8 @@ img {
       z-index: -1;
       display: block; } }
 .slide-kontakt {
-  background: #b5e0e8; }
+  background: #b5e0e8;
+  padding-bottom: 0; }
   .slide-kontakt .header {
     color: #fff;
     font-weight: 500;
@@ -691,6 +702,10 @@ img {
     padding-top: 40px; }
     .slide-kontakt .header p {
       margin: 0; }
+  .slide-kontakt .wrapper {
+    overflow: hidden; }
+  .slide-kontakt #map {
+    width: 100%; }
   .slide-kontakt ul {
     color: black; }
     .slide-kontakt ul li {
@@ -744,7 +759,7 @@ img {
 @media (min-width: 40em) {
   .slide-kontakt .header {
     padding-top: 0; } }
-@media (min-width: 67.5em) {
+@media (min-width: 55em) {
   .full {
     position: absolute;
     top: 0;
@@ -843,7 +858,7 @@ img {
           color: #b5e0e8;
           position: relative;
           top: -0.22em; } }
-  @media (min-width: 67.5em) {
+  @media (min-width: 55em) {
     .slide-cennik .content {
       width: 75%;
       float: left; } }
@@ -886,7 +901,7 @@ img {
       margin-left: 50%;
       margin-right: -100%;
       clear: none; } }
-@media (min-width: 67.5em) {
+@media (min-width: 55em) {
   .personel-list li {
     width: 33.33333%;
     float: left;

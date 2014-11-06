@@ -38,16 +38,16 @@
     });
 
     // Create a Mask
-//    var mask = document.createElement("div");
-//    mask.className = "mask";
+    var mask = document.createElement("div");
+    mask.className = "mask";
 
     // Append the mask inside <body>
-//    document.body.appendChild(mask);
+    document.body.appendChild(mask);
 
     // Disable mask transitions on Android to boost performance
-//    if (navigator.userAgent.match(/Android/i) !== null) {
-//     document.documentElement.className += " android";
-//    }
+    if (navigator.userAgent.match(/Android/i) !== null) {
+     document.documentElement.className += " android";
+    }
 
     // Find navigation links and save a reference to them
     var nav = document.querySelector(".nav-collapse ul"),
