@@ -70,6 +70,9 @@ img {
     }
   }
 }
+.mh-100 {
+  min-height:100vh;
+}
 
 
 /////////////
@@ -84,7 +87,6 @@ img {
       padding-bottom:30px;
       margin-bottom:30px;
       border-bottom:3px solid $white;
-      padding-top:40px;
 
       p {
         margin:0;
@@ -264,12 +266,14 @@ img {
           float: left;
           padding: 0 .4em 0 0;
           margin: 0;
+          display:inline;
         }
         span + span {
           float: right;
           padding: 0 0 0 .4em;
           margin: 0;
           display:inline;
+          clear:none;
           @include regular;
 
           &:before,&:after {

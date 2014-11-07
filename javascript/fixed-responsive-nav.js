@@ -27,15 +27,16 @@
     // Attach FastClick to remove the 300ms tap delay
     FastClick.attach(document.body);
 
-    var offset = 0;
     var winWidth = window.innerWidth;
-
     if ( winWidth < 640) {
-      offset = 50;
+      smoothScroll.init({ offset: 50 });
+    } else {
+      smoothScroll.init();
     }
 
+
     // Init smooth scrolling
-    smoothScroll.init({ offset: offset });
+
 
     // Init Responsive Nav
     var navigation = responsiveNav(".nav-collapse", {
