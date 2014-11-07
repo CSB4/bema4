@@ -27,8 +27,15 @@
     // Attach FastClick to remove the 300ms tap delay
     FastClick.attach(document.body);
 
+    var offset = 0;
+    var winWidth = window.innerWidth;
+
+    if ( winWidth < 640) {
+      offset = 50;
+    }
+
     // Init smooth scrolling
-    smoothScroll.init();
+    smoothScroll.init({ offset: offset });
 
     // Init Responsive Nav
     var navigation = responsiveNav(".nav-collapse", {
@@ -58,8 +65,10 @@
 
     // Set up an array of locations which we store in "content"
     var setupLocations = function () {
+
       content = [];
       forEach(links, function (i, el) {
+
         var href = links[i].getAttribute("href").replace("#", "");
         content.push(document.getElementById(href).offsetTop);
       });

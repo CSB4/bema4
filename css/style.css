@@ -690,6 +690,9 @@ img {
       z-index: 0;
       z-index: -1;
       display: block; } }
+.mh-100 {
+  min-height: 100vh; }
+
 .slide-kontakt {
   background: #b5e0e8;
   padding-bottom: 0; }
@@ -698,8 +701,7 @@ img {
     font-weight: 500;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 3px solid #fff;
-    padding-top: 40px; }
+    border-bottom: 3px solid #fff; }
     .slide-kontakt .header p {
       margin: 0; }
   .slide-kontakt .wrapper {
@@ -840,12 +842,14 @@ img {
         .slide-cennik ul li span:first-child {
           float: left;
           padding: 0 .4em 0 0;
-          margin: 0; }
+          margin: 0;
+          display: inline; }
         .slide-cennik ul li span + span {
           float: right;
           padding: 0 0 0 .4em;
           margin: 0;
           display: inline;
+          clear: none;
           font-weight: 400; }
           .slide-cennik ul li span + span:before, .slide-cennik ul li span + span:after {
             content: ""; }
