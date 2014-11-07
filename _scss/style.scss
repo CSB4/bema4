@@ -28,6 +28,19 @@ img {
   max-width:100%;
 }
 
+.show-for-small-logo img {
+  background:$light-blue;
+  width:100%;
+  display:block;
+  margin-top:50px;
+  padding-top:20px;
+}
+@include breakpoint($medium-up) {
+  .show-for-small-logo {
+    display:none;
+  }
+}
+
 //slides
 .slide {
   clear:both;
@@ -63,6 +76,7 @@ img {
 //kontakt
 .slide-kontakt {
   background:$light-blue;
+  padding-bottom:0;
 
   .header {
       color:$white;
@@ -75,6 +89,12 @@ img {
       p {
         margin:0;
       }
+    }
+    .wrapper {
+      overflow:hidden;
+    }
+    #map {
+      width:100%;
     }
 
     ul {

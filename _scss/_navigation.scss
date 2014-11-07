@@ -32,6 +32,9 @@
     .nav-toggle {
       opacity:0;
     }
+    #js-mobile-current {
+      display:none;
+    }
   }
 
 
@@ -40,10 +43,19 @@
     width: 100%;
     left: 0;
     top: 0;
-      height:100vh;
+ //     height:100vh;
     background:$white;
-   // height:50px;
-   // position:fixed;
+    height:50px;
+    position:fixed;
+
+   #js-mobile-current {
+      float: right;
+      position: relative;
+      top: 16px;
+      right: 40px;
+      color:$dark-blue;
+      display:block;
+  }
 
    .site-nav {
     position:fixed;
@@ -53,7 +65,7 @@
     .logo {
       text-decoration: none;
       font-weight: bold;
-      margin: 7px 10px 0 0;
+      margin: 7px 10px 0 10px;
       color: #fff;
       height: 35px;
       float: left;
@@ -90,7 +102,6 @@
   right: 0;
   left: 0;
   top: 0;
-  display:none;
 }
 
 .android .mask {
@@ -148,6 +159,9 @@
       border-bottom: 1px solid $white;
       display:block;
 
+    }
+    &.active a {
+      color:$white;
     }
     &:last-child a {
       border-bottom:0;
@@ -232,6 +246,10 @@ $toggle_font: 35px;
     .title-area {
       margin-bottom:25px;
     }
+  }
+
+  #js-mobile-current {
+    display:none;
   }
 
   .nav-collapse ul {

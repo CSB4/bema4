@@ -2,7 +2,7 @@
 //typography
 $base-font-size: 18px;
 $line-height:28px;
-$lil:2; //line divider 
+$lil:2; //line divider
 $base-line-height: $line-height/$lil;
 
 $font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
@@ -52,28 +52,28 @@ $medium: (
   gutters: 0,
   math: fluid,
   output: float,
-  gutter-position: inside,  
+  gutter-position: inside,
 );
 $large-gr: (
   columns: 24,
   gutters: 0,
   math: fluid,
   output: float,
-  gutter-position: inside,  
+  gutter-position: inside,
 );
 $content: (
   columns: 12,
   gutters: 1/4,
   math: fluid,
   output: float,
-  gutter-position: inside,  
+  gutter-position: inside,
 );
 
 //break points
 $breakpoint-to-ems:true;
 
   $bp_1:640px;
-  $bp_2:1080px;
+  $bp_2:880px;
 
 $medium-only: $bp_1 $bp_2;
 $large:$bp_2;
