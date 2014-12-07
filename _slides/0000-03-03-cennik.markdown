@@ -36,6 +36,7 @@ published: true
 * <span>wypełnienie ostateczne kanału - ząb 4-kanałowy</span><span>620 pln</span>
 * <span>wypełnienie ostateczne kanału - ząb 5-kanałowy</span><span>700 pln</span>
 * <span>usunięcie złamanego narzędzia</span><span>150 pln</span>
+* <span>usunięcie wkładu koronowo-korzeniowego</span><span>wycena w gabinecie</span>
 
 ##Profilaktyka
 
@@ -43,7 +44,7 @@ published: true
 * <span>fluoryzacja pianką</span><span>20 pln</span>
 * <span>piaskowanie</span><span>100 pln</span>
 * <span>usunięcie kamienia + piaskowanie + fluoryzacja</span><span>200 pln</span>
-* <span>lakierowanie zębów mlecznych / stałych</span><span>60 pln / 120 pln</span>
+* <span>lakierowanie zębów mlecznych/stałych</span><span>60/120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span><span>50 pln</span>
 
 ##Chirurgia stomatologiczna
@@ -53,9 +54,16 @@ published: true
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span><span>260 pln</span>
 * <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460-600 pln</span>
 * <span>usuniecie zęba mlecznego lub rozchwianego</span><span>100 pln</span>
-* <span>resekcja zęba 1-korzeniowego / wielokorzeniowego</span><span>360 / 420 pln</span>
+* <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span><span>360/420 pln</span>
 * <span>hemisekcja 250 pln</span>
-* <span>szycie / chirurgiczne zaopatrzenie rany</span><span>50 / 70 pln</span>
+* <span>szycie/chirurgiczne zaopatrzenie rany</span><span>50/70 pln</span>
+* <span>odbudowa kości (z biomateriałem)</span><span>wycena w gabinecie</span>
+
+##Implantologia
+
+* <span>wszczepienie implantu</span><span>2500 pln</span>
+* <span>korona porcelanowa na implancie (bez kosztu łącznika)</span><span>2050-2950 pln</span>
+* <span>proteza oparta na implantach</span><span>wycena w gabinecie</span>
 
 ##Protetyka
 
@@ -65,4 +73,10 @@ published: true
 * <span>proteza akrylowa całkowita</span><span>1600 pln</span>
 * <span>proteza akrylowa częściowa</span><span>350-1000 pln</span>
 * <span>proteza szkieletowa</span><span>od 1800 pln</span>
-* <span>naprawa protezy (1 punkt)</span><span>100 pln</span>
+* <span>naprawa protezy (1 punkt)</span><span>150 pln</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span><span>gratis</span>
+* <span>korona tymczasowa (wykonana w laboratorium)</span><span>wycena w gabinecie</span>
+* <span>proteza na zatrzaskach, zasuwach, teleskopach</span><span>wycena w gabinecie</span>
+* <span>wkład koronowo-korzeniowy</span><span>340-640 pln</span>
+* <span>wkłąd z włókna szklanego (3M)</span><span>250 pln</span>
+* <span>szyna relaksacyjna</span><span>350 pln</span>
