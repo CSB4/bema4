@@ -125,6 +125,10 @@ html {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.55556em; }
+  @media (min-width: 55em) and (max-width: 80em) {
+    html {
+      font-size: 0.95em;
+      line-height: 1.63743em; } }
   @media (min-width: 40em) and (max-width: 55em) {
     html {
       font-size: 0.9em;
@@ -363,9 +367,9 @@ table {
   .nav-col {
     position: fixed;
     background: #fff;
-    padding: 25px 25px 0 25px; }
+    padding: 1.38889rem 1.38889rem 0 1.38889rem; }
     .nav-col .title-area {
-      margin-bottom: 25px; }
+      margin-bottom: 1.38889rem; }
 
   #js-mobile-current {
     display: none; }
@@ -393,7 +397,8 @@ table {
         -o-transition-duration: 0.6s;
         -webkit-transition-duration: 0.6s;
         transition-duration: 0.6s;
-        border: none; }
+        border: none; } }
+      @media (min-width: 40em) and (min-width: 55em) {
         .nav-collapse ul li a:before {
           height: 1px;
           width: 0;
@@ -405,24 +410,25 @@ table {
           left: 0; }
         .nav-collapse ul li a:hover {
           color: #a4bbc6;
-          padding-left: 65px; }
+          padding-left: 3.61111rem; }
         .nav-collapse ul li a:hover:before {
-          width: 55px;
-          left: -65px;
-          background: #85a3b2; }
-      .nav-collapse ul li.active a, .nav-collapse ul li a:active {
-        color: #a4bbc6;
-        background: #fff;
-        padding-left: 65px; }
-        .nav-collapse ul li.active a:before, .nav-collapse ul li a:active:before {
-          height: 1px;
-          width: 55px;
-          content: "";
-          background: #85a3b2;
-          display: block;
-          position: relative;
-          top: 14px;
-          left: -65px; } }
+          width: 3.05556rem;
+          left: -3.61111rem;
+          background: #85a3b2; } }
+@media (min-width: 40em) {
+        .nav-collapse ul li a.active a, .nav-collapse ul li a a:active {
+          color: #a4bbc6;
+          background: #fff;
+          padding-left: 3.61111rem; }
+          .nav-collapse ul li a.active a:before, .nav-collapse ul li a a:active:before {
+            height: 1px;
+            width: 3.05556rem;
+            content: "";
+            background: #85a3b2;
+            display: block;
+            position: relative;
+            top: 14px;
+            left: -3.61111rem; } }
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
@@ -470,8 +476,12 @@ table {
     height: auto;
     margin: 0 0 20px 0; }
     .logo img {
-      width: 70%; }
+      width: 70%; } }
+    @media (min-width: 40em) and (min-width: 80em) {
+      .logo img {
+        width: 50%; } }
 
+@media (min-width: 40em) {
   .nav-collapse li {
     width: 100%; }
 
@@ -709,7 +719,8 @@ img {
   .slide-kontakt #map {
     width: 100%; }
   .slide-kontakt ul {
-    color: black; }
+    color: black;
+    padding-bottom: 1.55556em; }
     .slide-kontakt ul li {
       padding: 6px 0; }
       .slide-kontakt ul li b {
@@ -813,7 +824,7 @@ img {
         font-weight: 500;
         display: block;
         clear: both; }
-    @media (min-width: 50em) {
+    @media (min-width: 55em) {
       .slide-cennik ul h1 {
         text-transform: uppercase;
         color: #85a3b2;
@@ -870,6 +881,8 @@ img {
 .slide-uslugi {
   background: #85a3b2;
   color: #fff; }
+  .slide-uslugi p {
+    font-weight: 500; }
   .slide-uslugi ul {
     margin-top: 40px; }
     .slide-uslugi ul li {
@@ -969,7 +982,9 @@ img {
         left: -17px;
         display: block; }
     .personel-list li p {
-      display: block; }
+      display: block;
+      font-size: 0.88889em;
+      line-height: 1.75em; }
     .personel-list li .full-wrapper {
       position: relative;
       width: 100%;
@@ -978,10 +993,10 @@ img {
       padding-bottom: 150%;
       z-index: 34; }
       .personel-list li .full-wrapper .full-content {
-        top: 10%;
-        left: 10%;
-        bottom: 10%;
-        right: 10%;
+        top: 4%;
+        left: 7%;
+        bottom: 7%;
+        right: 7%;
         position: absolute;
         opacity: 0;
         -moz-transition-property: opacity;
@@ -1012,6 +1027,15 @@ img {
       background: #85a3b2; }
     .personel-list li.asisstants .full-wrapper {
       background: #fff; } }
+@inlude breakpoint($xlarge-up) {
+  .personel-list p {
+    font-size: 1em;
+    line-height: 1.55556em; }
+    .personel-list p .full-content {
+      top: 10%;
+      left: 10%;
+      right: 10%;
+      bottom: 10%; } }
 .slide-historia h1 {
   font-size: 1.88889em;
   line-height: 1.23529em;

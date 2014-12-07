@@ -1,6 +1,3 @@
-// Screen
-// ======
-
 // normalize
 //@import "normalize";
 
@@ -101,6 +98,7 @@ img {
 
     ul {
      color:black;
+     padding-bottom: rhythm($lil);
 
       li {
         padding:6px 0;
@@ -162,7 +160,6 @@ img {
     }
   }
 }
-
 
 @include breakpoint($large) {
   .full {
@@ -231,7 +228,7 @@ img {
       }
     }
 // cennik breakpoint do 800px (ratujemy kropeczki)
-    @include breakpoint(800px) {
+    @include breakpoint($large) {
 
       h1 {
         text-transform:uppercase;
@@ -307,7 +304,7 @@ img {
     color:$white;
 
     p {
-
+      @include bold;
     }
 
     ul {
@@ -427,6 +424,7 @@ img {
       }
       p {
         display:block;
+        @include smaller;
       }
       .full-wrapper {
         position: relative;
@@ -437,10 +435,10 @@ img {
         z-index:34;
 
         .full-content {
-          top:10%;
-          left:10%;
-          bottom:10%;
-          right:10%;
+          top:4%;
+          left:7%;
+          bottom:7%;
+          right:7%;
           position:absolute;
           opacity:0;
           @include transition-property(opacity);
@@ -470,6 +468,20 @@ img {
     }
   }
 }
+@inlude breakpoint($xlarge-up) {
+  .personel-list p {
+    @include base-font-size;
+
+    .full-content {
+      top:10%;
+      left:10%;
+      right:10%;
+      bottom:10%;
+    }
+  }
+}
+
+// slide historia
 .slide-historia {
   h1 {
     @include xlarge;
