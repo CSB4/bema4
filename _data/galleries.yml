@@ -35,12 +35,6 @@
   imagefolder: /images/personel
   images:
 
-  - name: malgorzata.jpg
-    title: lek. med. Małgorzata Komorowska
-    position: Założyciel
-    group: founders
-    description: Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.
-
   - name: maciej.jpg
     title: lek. stom. Maciej Jarząbek
     position: Lekarz
