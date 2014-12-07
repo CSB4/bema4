@@ -574,6 +574,7 @@ table {
   top: 9px;
   right: 15px;
   cursor: pointer;
+  z-index: 10;
   overflow: hidden; }
 
 .og-close::before,
@@ -600,7 +601,7 @@ table {
 
 .og-fullimg,
 .og-details {
-  width: 70%;
+  width: 100%;
   float: left;
   height: 100%;
   overflow: hidden;
@@ -608,7 +609,8 @@ table {
 
 .og-details {
   padding: 0 40px 0 20px;
-  width: 30%; }
+  width: 30%;
+  display: none; }
 
 .og-fullimg img {
   display: inline-block;

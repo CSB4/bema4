@@ -77,6 +77,7 @@
   top: 9px;
   right: 15px;
   cursor: pointer;
+  z-index:10;
   overflow:hidden;
 }
 
@@ -107,7 +108,7 @@
 
 .og-fullimg,
 .og-details {
-  width: 70%;
+  width: 100%;
   float: left;
   height: 100%;
   overflow: hidden;
@@ -117,6 +118,7 @@
 .og-details {
   padding: 0 40px 0 20px;
   width:30%;
+  display:none;
 }
 
 .og-fullimg img {
