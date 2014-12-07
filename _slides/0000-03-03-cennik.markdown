@@ -55,7 +55,7 @@ published: true
 * <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460-600 pln</span>
 * <span>usuniecie zęba mlecznego lub rozchwianego</span><span>100 pln</span>
 * <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span><span>360/420 pln</span>
-* <span>hemisekcja 250 pln</span>
+* <span>hemisekcja</span><span>250 pln</span>
 * <span>szycie/chirurgiczne zaopatrzenie rany</span><span>50/70 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span><span>wycena w gabinecie</span>
 
