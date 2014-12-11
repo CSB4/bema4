@@ -837,55 +837,55 @@ img {
         font-weight: 500;
         display: block;
         clear: both; }
-    @media (min-width: 55em) {
-      .slide-cennik ul h1 {
-        text-transform: uppercase;
-        color: #85a3b2;
-        font-size: 1.88889em;
-        line-height: 1.23529em;
-        margin-bottom: 2.33333em;
-        font-size: 1.22222em;
-        line-height: 1.27273em; }
-        .slide-cennik ul h1:before {
-          content: "|";
-          display: block;
-          padding-right: 12px;
-          float: left;
-          font-size: 1.3em; }
-        .slide-cennik ul h1:after {
-          content: "|";
-          display: block;
-          padding-left: 12px;
-          float: left;
-          font-size: 1.3em; }
-      .slide-cennik ul .bg-image {
-        opacity: 0.15; }
-      .slide-cennik ul li {
-        clear: both;
-        padding: 0; }
-        .slide-cennik ul li span:first-child {
-          float: left;
-          padding: 0 .4em 0 0;
-          margin: 0;
-          display: inline; }
-        .slide-cennik ul li span + span {
-          float: right;
-          padding: 0 0 0 .4em;
-          margin: 0;
-          display: inline;
-          clear: none;
-          font-weight: 400; }
-          .slide-cennik ul li span + span:before, .slide-cennik ul li span + span:after {
-            content: ""; }
-        .slide-cennik ul li:after {
-          content: "";
-          display: block;
-          overflow: hidden;
-          height: 1em;
-          border-bottom: 1px dotted;
-          color: #b5e0e8;
-          position: relative;
-          top: -0.22em; } }
+  @media (min-width: 55em) {
+    .slide-cennik h1 {
+      text-transform: uppercase;
+      color: #85a3b2;
+      font-size: 1.88889em;
+      line-height: 1.23529em;
+      margin-bottom: 2.33333em;
+      font-size: 1.22222em;
+      line-height: 1.27273em; }
+      .slide-cennik h1:before {
+        content: "|";
+        display: block;
+        padding-right: 12px;
+        float: left;
+        font-size: 1.3em; }
+      .slide-cennik h1:after {
+        content: "|";
+        display: block;
+        padding-left: 12px;
+        float: left;
+        font-size: 1.3em; }
+    .slide-cennik .bg-image {
+      opacity: 0.15; }
+    .slide-cennik ul li {
+      clear: both;
+      padding: 0; }
+      .slide-cennik ul li span:first-child {
+        float: left;
+        padding: 0 .4em 0 0;
+        margin: 0;
+        display: inline; }
+      .slide-cennik ul li span + span {
+        float: right;
+        padding: 0 0 0 .4em;
+        margin: 0;
+        display: inline;
+        clear: none;
+        font-weight: 400; }
+        .slide-cennik ul li span + span:before, .slide-cennik ul li span + span:after {
+          content: ""; }
+      .slide-cennik ul li:after {
+        content: "";
+        display: block;
+        overflow: hidden;
+        height: 1em;
+        border-bottom: 1px dotted;
+        color: #b5e0e8;
+        position: relative;
+        top: -0.22em; } }
   @media (min-width: 55em) {
     .slide-cennik .content {
       width: 75%;
@@ -894,10 +894,9 @@ img {
 .slide-uslugi {
   background: #85a3b2;
   color: #fff; }
-  .slide-uslugi p {
-    font-weight: 500; }
   .slide-uslugi ul {
-    margin-top: 40px; }
+    margin-top: 40px;
+    font-weight: 500; }
     .slide-uslugi ul li {
       clear: both; }
       .slide-uslugi ul li:before {
@@ -914,7 +913,6 @@ img {
       .slide-uslugi ul li:after {
         content: "/";
         padding: 0 5px;
-        font-weight: 500;
         color: #b5e0e8; }
       .slide-uslugi ul li:last-child:after {
         content: ""; } }
@@ -1057,3 +1055,14 @@ img {
   font-weight: 400; }
 .slide-historia p {
   margin-bottom: 1.55556em; }
+.slide-historia img {
+  width: 50%;
+  float: left; }
+  .slide-historia img:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both; }
+  .slide-historia img:nth-child(2n + 2) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none; }

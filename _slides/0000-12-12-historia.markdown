@@ -3,6 +3,8 @@ label: slide
 title: Historia
 type: historia
 published: true
+img_1: "1.jpg"
+img_2: "2.jpg"
 ---
 
 #Centrum Stomatologiczne Bema 4

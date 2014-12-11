@@ -227,6 +227,7 @@ img {
         clear:both;
       }
     }
+  }
 // cennik breakpoint do 800px (ratujemy kropeczki)
     @include breakpoint($large) {
 
@@ -255,6 +256,7 @@ img {
       .bg-image {
         opacity:0.15;
       }
+      ul {
       li {
         clear: both;
         padding:0;
@@ -303,12 +305,9 @@ img {
     background:$dark-blue;
     color:$white;
 
-    p {
-      @include bold;
-    }
-
     ul {
       margin-top:40px;
+      @include bold;
 
       li {
         clear:both;
@@ -334,7 +333,6 @@ img {
           &:after {
             content:"/";
             padding:0 5px;
-            @include bold;
             color:$light-blue;
           }
           &:last-child:after {
@@ -492,5 +490,8 @@ img {
   }
   p {
     @include trailer($lil);
+  }
+  img {
+    @include gallery(2);
   }
 }
