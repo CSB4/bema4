@@ -289,7 +289,7 @@ var Grid = (function() {
 	}
 
 	function initItemsEvents( $items ) {
-		$items.on( 'click', 'span.og-close', function() {
+		$items.on( 'click', function() {
 			hidePreview();
 			return false;
 		} ).children( 'a' ).on( 'click', function(e) {

@@ -610,18 +610,14 @@ table {
 .og-close:hover::after {
   background: #333; }
 
-.og-fullimg,
-.og-details {
+.og-fullimg {
   width: 100%;
   float: left;
   height: 100%;
   overflow: hidden;
   position: relative; }
-
-.og-details {
-  padding: 0 40px 0 20px;
-  width: 30%;
-  display: none; }
+  .og-fullimg:hover {
+    cursor: pointer; }
 
 .og-fullimg img {
   display: inline-block;
