@@ -6,15 +6,11 @@ fullscreen: true
 published: true
 ---
 
-Zastaną Państwo nowoczesne, a jednocześnie przyjazne wnętrze, wysokiej jakości sprzęt i materiały, a przede wszystkim doświadczony personel.
-
-Proponujemy Państwu leczenie w komfortowych warunkach i miłej atmosferze przy zastosowaniu najnowszych zdobyczy technik i technologii w dziedzinie stomatologii zachowawczej i estetycznej, endodoncji, protetyki, chirurgii stomatologicznej, implantologii, wybielania zębów oraz profilaktyki.
-
 * Stomatologia estetyczna
-* Endodencja mikroskopowa
 * Stomatologia zachowawcza
-* Protetyka
-* Profilaktyka
+* Endodencja mikroskopowa
 * Chirurgia stomatologiczna
 * Implantologia
+* Protetyka
 * Wybielanie zębów
+* Profilaktyka
