@@ -41,12 +41,12 @@
     group: doctors
     description: 
   - name: iza.jpg
-    title: lek. dent. Izabela Marszałek
+    title: lek. stom. Izabela Marszałek
     position: Lekarz
     group: doctors
     description: 
   - name: tomasz.jpg
-    title: lek. dent. Tomasz Minor
+    title: lek. stom. Tomasz Minor
     position: Lekarz
     group: doctors
     description: 
