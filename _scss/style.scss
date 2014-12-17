@@ -71,7 +71,6 @@ img {
   min-height:100vh;
 }
 
-
 /////////////
 //kontakt
 .slide-kontakt {
@@ -79,11 +78,11 @@ img {
   padding-bottom:0;
 
   .header {
-      color:$white;
       @include bold;
+      color: darken($dark-blue, 10%);
       padding-bottom:30px;
       margin-bottom:30px;
-      border-bottom:3px solid $white;
+      border-bottom:3px solid $dark-blue;
 
       p {
         margin:0;
@@ -115,7 +114,7 @@ img {
         @include transition-duration($transition-time);
         opacity:0;
         background:$white;
-        color:$dark-blue;
+        color: darken($dark-blue, 10%);;
         @include light;
         margin-left:10px;
         display:none;
@@ -174,7 +173,7 @@ img {
       left:0;
       bottom:0;
       right:0;
-      background:rgba($light-blue,0.8);
+      background:rgba($light-blue,0.9);
       z-index:110;
       @include span(12 of $col-large);
       position:absolute;
@@ -305,8 +304,9 @@ img {
     color:$white;
 
     ul {
-      margin-top:40px;
       @include bold;
+      margin-bottom:40px;
+      overflow:hidden;
 
       li {
         clear:both;
@@ -324,18 +324,26 @@ img {
       ul {
 
         li {
-          float:left;
-          clear:none;
+          @include regular;
+          @include xlarge;
+font-weight: 400;
+
+float: left;
+line-height: 1.6em;
+/* clear: both; */
+padding-right: 90px;
+position: relative;
+/* padding-left: 10px; */
+clear: none;
           &:before {
-            content:"";
-          }
-          &:after {
-            content:"/";
-            padding:0 5px;
-            color:$light-blue;
-          }
-          &:last-child:after {
-            content:"";
+content: "";
+height: 3px;
+position: absolute;
+bottom: 0.6em;
+right: 15px;
+display: block;
+width: 60px;
+background: #b5e0e8;
           }
         }
      }

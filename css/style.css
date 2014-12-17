@@ -113,7 +113,7 @@ body {
       float: right;
       margin-left: 20.83333%; }
       .main-container .content {
-        width: 66.66667%;
+        width: 83.33333%;
         float: left;
         margin-left: 8.33333%; } }
 
@@ -618,11 +618,13 @@ table {
   position: relative; }
   .og-fullimg:hover {
     cursor: pointer; }
+  .og-fullimg img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%; }
 
-.og-fullimg img {
-  display: inline-block;
-  max-height: 100%;
-  max-width: 100%; }
+.og-details {
+  display: none; }
 
 .og-loading {
   width: 20px;
@@ -675,9 +677,6 @@ table {
   .og-details {
     float: none;
     width: 100%; } }
-.og-details {
-  display: none; }
-
 img {
   max-width: 100%; }
 
@@ -719,11 +718,11 @@ img {
   background: #b5e0e8;
   padding-bottom: 0; }
   .slide-kontakt .header {
-    color: #fff;
     font-weight: 500;
+    color: #668b9e;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 3px solid #fff; }
+    border-bottom: 3px solid #85a3b2; }
     .slide-kontakt .header p {
       margin: 0; }
   .slide-kontakt .wrapper {
@@ -750,7 +749,7 @@ img {
       transition-duration: 0.6s;
       opacity: 0;
       background: #fff;
-      color: #85a3b2;
+      color: #668b9e;
       font-weight: 300;
       margin-left: 10px;
       display: none; }
@@ -797,7 +796,7 @@ img {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(181, 224, 232, 0.8);
+    background: rgba(181, 224, 232, 0.9);
     z-index: 110;
     width: 50%;
     float: left;
@@ -885,15 +884,16 @@ img {
         top: -0.22em; } }
   @media (min-width: 55em) and (max-width: 80em) {
     .slide-cennik .content {
-      width: 75%;
+      width: 91.66667%;
       float: left; } }
 
 .slide-uslugi {
   background: #85a3b2;
   color: #fff; }
   .slide-uslugi ul {
-    margin-top: 40px;
-    font-weight: 500; }
+    font-weight: 500;
+    margin-bottom: 40px;
+    overflow: hidden; }
     .slide-uslugi ul li {
       clear: both; }
       .slide-uslugi ul li:before {
@@ -903,16 +903,26 @@ img {
   .slide-uslugi {
     background: rgba(133, 163, 178, 0.85); }
     .slide-uslugi ul li {
+      font-weight: 400;
+      font-size: 1.88889em;
+      line-height: 1.23529em;
+      font-weight: 400;
       float: left;
+      line-height: 1.6em;
+      /* clear: both; */
+      padding-right: 90px;
+      position: relative;
+      /* padding-left: 10px; */
       clear: none; }
       .slide-uslugi ul li:before {
-        content: ""; }
-      .slide-uslugi ul li:after {
-        content: "/";
-        padding: 0 5px;
-        color: #b5e0e8; }
-      .slide-uslugi ul li:last-child:after {
-        content: ""; } }
+        content: "";
+        height: 3px;
+        position: absolute;
+        bottom: 0.6em;
+        right: 15px;
+        display: block;
+        width: 60px;
+        background: #b5e0e8; } }
 @media (min-width: 40em) {
   .personel-list li {
     width: 50%;
