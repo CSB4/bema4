@@ -115,12 +115,15 @@
   &:hover {
     cursor:pointer;
   }
+  img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 
-.og-fullimg img {
-  display: inline-block;
-  max-height: 100%;
-  max-width: 100%;
+.og-details {
+  display:none;
 }
 
 .og-loading {

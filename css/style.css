@@ -675,6 +675,9 @@ table {
   .og-details {
     float: none;
     width: 100%; } }
+.og-details {
+  display: none; }
+
 img {
   max-width: 100%; }
 
@@ -814,8 +817,8 @@ img {
   .slide-cennik h1 {
     text-transform: uppercase;
     color: #85a3b2;
-    font-size: 1.88889em;
-    line-height: 1.23529em;
+    font-size: 1.22222em;
+    line-height: 1.27273em;
     margin-bottom: 2.33333em;
     overflow: hidden; }
     .slide-cennik h1 span {
