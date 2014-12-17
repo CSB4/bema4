@@ -228,15 +228,14 @@ img {
       }
     }
   }
-// cennik breakpoint do 800px (ratujemy kropeczki)
+
     @include breakpoint($large) {
 
       h1 {
         text-transform:uppercase;
         color:$dark-blue;
-        @include xlarge;
         @include trailer(3/2*$lil);
-        @include large;
+        @include xlarge;
 
         &:before {
           content: "|";
@@ -293,7 +292,7 @@ img {
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($large-only) {
     .content {
       @include span($l-cols-content + 2 of $col-large);
     }

@@ -814,8 +814,8 @@ img {
   .slide-cennik h1 {
     text-transform: uppercase;
     color: #85a3b2;
-    font-size: 1.22222em;
-    line-height: 1.27273em;
+    font-size: 1.88889em;
+    line-height: 1.23529em;
     margin-bottom: 2.33333em;
     overflow: hidden; }
     .slide-cennik h1 span {
@@ -837,11 +837,9 @@ img {
     .slide-cennik h1 {
       text-transform: uppercase;
       color: #85a3b2;
-      font-size: 1.88889em;
-      line-height: 1.23529em;
       margin-bottom: 2.33333em;
-      font-size: 1.22222em;
-      line-height: 1.27273em; }
+      font-size: 1.88889em;
+      line-height: 1.23529em; }
       .slide-cennik h1:before {
         content: "|";
         display: block;
@@ -882,7 +880,7 @@ img {
         color: #b5e0e8;
         position: relative;
         top: -0.22em; } }
-  @media (min-width: 55em) {
+  @media (min-width: 55em) and (max-width: 80em) {
     .slide-cennik .content {
       width: 75%;
       float: left; } }
