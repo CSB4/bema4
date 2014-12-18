@@ -1,95 +1,5 @@
 <script type="text/javascript">
 
-/*
-function headerAnimate() {
-
-	var header = document.getElementById("header");
-		winHeight = window.innerHeight;
-		winWidth = window.innerWidth;
-		headerImg = header.getElementsByTagName("img")[0];
-		aspectRatio = 274/375;
-		imgFinalHeight = 48;
-		imgFinalMarginLeft = 10;
-
-		imgHeight = winHeight * 0.6;
-		imgMarginLeftInitial = (winWidth - (imgHeight * aspectRatio)) / 2;
-
-		x = winHeight/imgMarginLeftInitial;
-		console.log(header.offsetHeight);
-
-		headerImg.style.marginLeft = imgMarginLeftInitial + "px";
-		headerImg.style.height = imgHeight + "px";
-
-	onscroll = function() {
-
-		console.log(header.offsetHeight);
-
-		var scrollTop = document.body.scrollTop;
-			threshold = scrollTop > (winHeight - 50);
-
-			imgHeight = (winHeight - scrollTop) * 0.6;
-			imgMarginLeft = (winHeight - scrollTop) / x;
-
-			if (imgHeight > imgFinalHeight) {
-				headerImg.style.height = imgHeight + "px";
-				headerImg.style.webkitTransition = "";
-			} else {
-				headerImg.style.height = imgFinalHeight + "px";
-				headerImg.style.webkitTransition = 'height .4s';
-
-
-			}
-
-			if (imgMarginLeft > imgFinalMarginLeft) {
-				headerImg.style.marginLeft = imgMarginLeft + "px";
-				headerImg.style.webkitTransition = "";
-			} else {
-				headerImg.style.marginLeft = imgFinalMarginLeft + "px";
-				headerImg.style.webkitTransition = 'margin-left .4s';
-			}
-
-			headerImg.style.marginTop = (winHeight * 0.2 + scrollTop * 0.8) + "px";
-
-
-	  	if (threshold) {
-			 header.className = header.className.replace(/\b initial\b/,' initiated');
-			 headerImg.style.marginTop = "";
-		} else {
-			 header.className = header.className.replace(/\b initiated\b/,' initial');
-		}
-	}
-}
-
-*/
-/*
-var setSkrollr = function(el, data) {
-    for (var i = 0, l = data.length; i < l; i++) { // loop all data entries (scroll positions + css property & value)
-        var d = data[i], // the current data entry
-            px = d[0]; // the scroll position (in pixels)
-            css = d[1]; // the css property + value to set
-        el.data = ""
-       	el.attr('data-' + px, css);
-    }
-}
-*/
-/*
-function headerAnimate () {
-
-	var header = document.getElementById("header");
-		winHeight = window.innerHeight;
-		winWidth = window.innerWidth;
-		headerImg = header.getElementsByTagName("img")[0];
-		aspectRatio = 274/375;
-		imgFinalHeight = 48;
-		imgFinalMarginLeft = 10;
-
-		//setSkrollr(headerImg, [[0, 'height:200px'], [winHeight, imgFinalHeight]]);
-		headerImg.data = "data-0: 'width:" + winWidth * 0.8 + ";', "data-0: 'width:" + winWidth * 0.8 + ";';
-	//	setSkrollr($('#example2'), [[0, 'transform:translateY(-100%)'], [1500, 'transform:translateY(100%)']]);
-
-}
-*/
-
 
 function addImg(imgUrl, divId) {
 		var img = document.createElement("img");
@@ -138,7 +48,7 @@ enquire.register("screen and (min-width: 640px)", [{
           complete : function() {
 
 
-                    smoothScroll.init();
+                    //smoothScroll.init();
 
           	  		function setHeight() {
 					  	windowHeight = $(window).innerHeight();

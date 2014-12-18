@@ -52,6 +52,7 @@ img {
 //full screen background
 .bg-image {
   display:none;
+  position:absolute;
 }
 @include breakpoint($large-up) {
   .mh-100 {
@@ -60,7 +61,7 @@ img {
 
     .bg-image {
       max-width:4000px;
-      position:relative;
+      position:absolute;
       z-index:0;
       z-index:-1;
       display:block;

@@ -714,7 +714,8 @@ img {
   padding: 0; }
 
 .bg-image {
-  display: none; }
+  display: none;
+  position: absolute; }
 
 @media (min-width: 55em) {
   .mh-100 {
@@ -722,7 +723,7 @@ img {
     position: relative; }
     .mh-100 .bg-image {
       max-width: 4000px;
-      position: relative;
+      position: absolute;
       z-index: 0;
       z-index: -1;
       display: block; } }
