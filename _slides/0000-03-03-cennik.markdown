@@ -11,7 +11,7 @@ published: true
 ##Stomatologia zachowawcza
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0–50 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>100 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>140 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 1-powierzchniowe</span><span>120-150 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 2-powierzchniowe</span><span>150-170 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 3-powierzchniowe</span><span>180-220 pln</span>
