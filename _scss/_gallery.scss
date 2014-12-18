@@ -13,7 +13,7 @@
   }
 }
 //large
-@include susy-breakpoint($large, $large-gr) {
+@include susy-breakpoint($large-up, $large-gr) {
   .og-grid {
 
     li {

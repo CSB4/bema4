@@ -3,20 +3,25 @@
 @include establish-baseline;
 
 html {
+  @include adjust-font-size-to($base-font-size*$mobile-font-scale);
+  @include adjust-leading-to($lil);
   font-family:$font-family;
   font-weight:$def-font-weight;
-  @include adjust-leading-to($lil);
-
-  @include breakpoint($large-only) {
-    @include adjust-font-size-to($base-font-size*$netbook-font-scale);
-  }
 
   @include breakpoint($medium-only) {
     @include adjust-font-size-to($base-font-size*$tablet-font-scale);
   }
 
-  @include breakpoint($small-only) {
-    @include adjust-font-size-to($base-font-size*$mobile-font-scale);
+   @include breakpoint($large-only) {
+    @include adjust-font-size-to($base-font-size*$netbook-font-scale);
+  }
+
+  @include breakpoint($xlarge-up) {
+    @include adjust-font-size-to($base-font-size);
+  }
+
+  @include breakpoint($xxlarge-up) {
+    @include adjust-font-size-to($base-font-size*$xxlarge-font-scale);
   }
 }
 

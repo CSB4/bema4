@@ -317,7 +317,7 @@ $toggle_font: 35px;
       }
     }
 }
-@include breakpoint($large) {
+@include breakpoint($large-up) {
 
   .nav-collapse ul {
   $menu-line-wd:rem-calc(55px);
