@@ -78,6 +78,7 @@ $breakpoint-to-ems:true;
   $bp_2:880px;
   $bp_3:1280px;
   $bp_4:1440px;
+  $bp_5:1680px;
 
 $medium-only: $bp_1 $bp_2;
 $large-up:$bp_2;
@@ -87,6 +88,7 @@ $medium-down: max-width $bp_2;
 $small-only: max-width $bp_1;
 $xlarge-up: $bp_3;
 $xxlarge-up: $bp_4;
+$xxxlarge-up: $bp_5;
 
 
 $col-large:24;

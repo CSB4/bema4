@@ -4,13 +4,13 @@
     <ul class="personel-list">
     {% for image in gallery.images %}
       <li class="{{image.group}}">
-      	<div class="full-wrapper">
-      		<div class="full-content">
-		      	<h2>{{ image.title }}</h2>
-		      	<h3>{{ image.position }}</h3>
-		        <p>{{ image.description }}</p>
+      	<div class="personel-wrapper">
+      		<div class="personel-wrapper-content">
+		      	<h2 class="personel-name">{{ image.title }}</h2>
+		      	<h3 class="personel-position">{{ image.position }}</h3>
+		        <p class="personel-desc">{{ image.description }}</p>
 	        </div>
-	        <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}">
+	        <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img">
      	</div>
       </li>
     {% endfor %}

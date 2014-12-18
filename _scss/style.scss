@@ -324,167 +324,39 @@ img {
       ul {
 
         li {
-          @include regular;
-          @include xlarge;
-font-weight: 400;
-
-float: left;
-line-height: 1.6em;
-/* clear: both; */
-padding-right: 90px;
-position: relative;
-/* padding-left: 10px; */
-clear: none;
+          @include light;
+          @include large;
+          float: left;
+          line-height: 1.6em;
+          padding-right: rem-calc(90px);
+          position: relative;
+          clear: none;
           &:before {
-content: "";
-height: 3px;
-position: absolute;
-bottom: 0.6em;
-right: 15px;
-display: block;
-width: 60px;
-background: #b5e0e8;
+            content: "";
+            height: 3px;
+            position: absolute;
+            bottom: 0.6em;
+            right: rem-calc(15px);
+            display: block;
+            width: rem-calc(60px);
+            background: #b5e0e8;
           }
         }
      }
   }
 }
-
-//personel
-@include breakpoint($medium-up){
-  .personel-list {
-    li {
-      @include gallery(6 of 12);
-      position:relative;
-    }
+@include breakpoint($xxlarge-up) {
+  .slide-uslugi ul li {
+    @include adjust-font-size-to(($f-xlarge + $f-large)/2*0.8);
   }
 }
-@include breakpoint($large-up){
-  .personel-list {
-    li {
-      @include gallery(4 of 12);
-      position:relative;
-    }
+@include breakpoint($xxxlarge-up) {
+  .slide-uslugi ul li {
+    @include adjust-font-size-to(($f-xlarge + $f-large)/2);
   }
 }
 
-.personel-list {
-
-  .full-wrapper {
-    position: relative;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 150%;
-  }
-
-    h2 {
-      position:absolute;
-      background:rgba($light-blue,0.75);
-      color:$white;
-      width:100%;
-      padding:24px 0 15px 0;
-      text-align:center;
-      @include large;
-      @include bold;
-      bottom:0;
-    }
-    img {
-      width:100%;
-    }
-    h3,p {
-      display:none;
-    }
-}
-
-@include breakpoint($medium-up) {
-
-  .personel-list {
-    color:$black;
-    li {
-      h2 {
-        position:static;
-        background:transparent;
-        color:$black;
-        padding:0;
-        @include light;
-        text-align:left;
-      }
-      h3 {
-        @include trailer;
-        padding-left:17px;
-        display:block;
-
-        &:before {
-          height:1px;
-          width:12px;
-          content:"";
-          background:$black;
-          display:block;
-          position:relative;
-          top:0.8em;
-          left:-17px;
-          display:block;
-        }
-      }
-      p {
-        display:block;
-        @include smaller;
-      }
-      .full-wrapper {
-        position: relative;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-        padding-bottom: 150%;
-        z-index:34;
-
-        .full-content {
-          top:4%;
-          left:7%;
-          bottom:7%;
-          right:7%;
-          position:absolute;
-          opacity:0;
-          @include transition-property(opacity);
-          @include transition-duration($transition-time);
-        }
-        img {
-          margin:0 auto;
-        }
-        &:hover img {
-          opacity:0.1;
-          @include transition-property(opacity);
-          @include transition-duration($transition-time);
-        }
-        &:hover .full-content {
-          opacity:1;
-        }
-      }
-      &.founders .full-wrapper {
-        background:$light-blue;
-      }
-      &.doctors .full-wrapper {
-        background:$dark-blue;
-      }
-      &.asisstants .full-wrapper {
-        background:$white;
-      }
-    }
-  }
-}
-@inlude breakpoint($xlarge-up) {
-  .personel-list p {
-    @include base-font-size;
-
-    .full-content {
-      top:10%;
-      left:10%;
-      right:10%;
-      bottom:10%;
-    }
-  }
-}
+@import "slides/personel";
 
 // slide historia
 .slide-historia {
