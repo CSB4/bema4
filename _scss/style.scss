@@ -290,12 +290,6 @@ img {
       }
     }
   }
-
-  @include breakpoint($large-only) {
-    .content {
-      @include span($l-cols-content + 2 of $col-large);
-    }
-  }
 }
 
 //uslugi

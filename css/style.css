@@ -897,10 +897,6 @@ img {
         color: #b5e0e8;
         position: relative;
         top: -0.22em; } }
-  @media (min-width: 55em) and (max-width: 80em) {
-    .slide-cennik .content {
-      width: 91.66667%;
-      float: left; } }
 
 .slide-uslugi {
   background: #85a3b2;
