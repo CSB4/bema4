@@ -35,7 +35,8 @@
     }
 
 
-    // Init smooth scrolling
+    //last top - do we go down or up
+    var lastTop = 0;
 
 
     // Init Responsive Nav
@@ -86,12 +87,17 @@
     // Highlight active link on the navigation
     var navTitle = document.getElementById("js-mobile-current");
 
-    var selectActiveMenuItem = function (i) {
+    var selectActiveMenuItem = function (i, top) {
       forEach(links, function (i, el) {
         links[i].parentNode.className = "";
       });
-      links[i].parentNode.className = "active";
 
+      if (top < lastTop && top + 300 > lastTop && i > 0) {
+        i--;
+      }
+      lastTop = top;
+
+      links[i].parentNode.className = "active";
       navTitle.innerHTML = links[i].innerHTML;
     };
 
@@ -116,7 +122,7 @@
       if (!wasNavigationTapped) {
         forEach(content, function (i, loc) {
           if ((loc > top && (loc < top + 300 || (top + viewport) >= bodyheight))) {
-            selectActiveMenuItem(i);
+            selectActiveMenuItem(i, top);
           }
         });
       }
