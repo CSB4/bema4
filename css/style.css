@@ -1119,3 +1119,15 @@ img {
     margin-left: 50%;
     margin-right: -100%;
     clear: none; }
+
+.slide-gwarancja {
+  background: #eee;
+  color: #999; }
+  .slide-gwarancja h1 {
+    font-size: 1.88889em;
+    line-height: 1.23529em;
+    margin-bottom: 0.77778em; }
+  .slide-gwarancja a {
+    color: #85a3b2; }
+    .slide-gwarancja a:hover {
+      text-decoration: underline; }
