@@ -78,5 +78,5 @@ published: true
 * <span>korona tymczasowa (wykonana w laboratorium)</span><span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach, teleskopach</span><span>wycena w gabinecie</span>
 * <span>wkład koronowo-korzeniowy</span><span>340-640 pln</span>
-* <span>wkłąd z włókna szklanego (3M)</span><span>250 pln</span>
+* <span>wkład z włókna szklanego (3M)</span><span>250 pln</span>
 * <span>szyna relaksacyjna</span><span>350 pln</span>
