@@ -355,12 +355,10 @@ img {
 
 // slide historia
 .slide-historia {
+
   h1 {
     @include xlarge;
     @include trailer();
-  }
-  p:first-child {
-    @include regular;
   }
   p {
     @include trailer($lil);

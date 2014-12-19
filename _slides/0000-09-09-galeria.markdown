@@ -3,6 +3,3 @@ label: slide
 title:  "Galeria"
 type: galeria
 ---
-a
-Galeria zdjęć gabinetów i rejestracji -- weź foty od Soni, raczej nie będziemy ich organizować chyba że masz pomysł. Jeśli tak, to ogólnie jest Gabinet 1 - obraz ze skorpionem, Gabinet 2 - obraz z lwami, Gabinet 3 - obraz z bykami, Rejestracja. Obrazy są od znaków zodiaku naszej rodziny.
-

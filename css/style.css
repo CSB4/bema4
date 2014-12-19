@@ -514,8 +514,7 @@ table {
   .nav-collapse ul ul a {
     display: none; } }
 .slide-galeria {
-  position: relative;
-  background: #b5e0e8; }
+  position: relative; }
 
 @media (min-width: 40em) and (max-width: 55em) {
   .og-grid li {
@@ -1104,8 +1103,6 @@ img {
   font-size: 1.88889em;
   line-height: 1.23529em;
   margin-bottom: 0.77778em; }
-.slide-historia p:first-child {
-  font-weight: 400; }
 .slide-historia p {
   margin-bottom: 1.55556em; }
 .slide-historia img {
