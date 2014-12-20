@@ -44,10 +44,12 @@ img {
   overflow:hidden;
   padding:10% 0;
 }
-.slide-galeria, .slide-personel {
+.slide-personel {
   padding:0;
 }
-
+.slide-galeria {
+  padding:10% 0 0 0;
+}
 ////////////////////////
 //full screen background
 .bg-image {

@@ -557,8 +557,21 @@ table {
   display: block;
   position: relative; }
 
-.og-grid li > a img {
-  width: 100%; }
+.og-grid li > a {
+  background: #85a3b2; }
+  .og-grid li > a img {
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    width: 100%;
+    opacity: 0.25; }
+    .og-grid li > a img:hover {
+      opacity: 1; }
 
 .og-grid li.og-expanded > a::after {
   top: auto;
@@ -709,8 +722,11 @@ img {
   overflow: hidden;
   padding: 10% 0; }
 
-.slide-galeria, .slide-personel {
+.slide-personel {
   padding: 0; }
+
+.slide-galeria {
+  padding: 10% 0 0 0; }
 
 .bg-image {
   display: none;
