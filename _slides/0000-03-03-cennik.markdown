@@ -10,12 +10,12 @@ published: true
 
 ##Stomatologia zachowawcza i estetyczna
 
-* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0–50 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0&ndash;50 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>140 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 1-powierzchniowe</span><span>120-150 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 2-powierzchniowe</span><span>150-170 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 3-powierzchniowe</span><span>180-220 pln</span>
-* <span>rekonstrukcja zachowawcza</span><span>230-280 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 1-powierzchniowe</span><span>120&ndash;150 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 2-powierzchniowe</span><span>150&ndash;170 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 3-powierzchniowe</span><span>180&ndash;220 pln</span>
+* <span>rekonstrukcja zachowawcza</span><span>230&ndash;280 pln</span>
 * <span>założenie opatrunku leczniczego</span><span>60 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span><span>10/20 pln</span>
 * <span>wypełnienie kompozytowe w zębie mlecznym 1-powierzchniowym</span><span>100 pln</span>
@@ -25,20 +25,20 @@ published: true
 ##Endodoncja mikroskopowa (leczenie kanałowe)
 
 * <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
-* <span>wypełnienie ostateczne kanału - ząb 1-kanałowy</span><span>210 pln</span>
-* <span>wypełnienie ostateczne kanału - ząb 2-kanałowy</span><span>360 pln</span>
-* <span>wypełnienie ostateczne kanału - ząb 3-kanałowy</span><span>520 pln</span>
-* <span>wypełnienie ostateczne kanału - ząb 4-kanałowy</span><span>620 pln</span>
-* <span>wypełnienie ostateczne kanału - ząb 5-kanałowy</span><span>700 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1-kanałowy</span><span>210 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2-kanałowy</span><span>360 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3-kanałowy</span><span>520 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4-kanałowy</span><span>620 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5-kanałowy</span><span>700 pln</span>
 * <span>usunięcie złamanego narzędzia</span><span>150 pln</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span><span>wycena w gabinecie</span>
 
 ##Chirurgia stomatologiczna i szczękowa
 
-* <span>usunięcie zęba stałego</span><span>120-150 pln</span>
+* <span>usunięcie zęba stałego</span><span>120&ndash;150 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span><span>220 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span><span>260 pln</span>
-* <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460-600 pln</span>
+* <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460&ndash;600 pln</span>
 * <span>usuniecie zęba mlecznego lub rozchwianego</span><span>100 pln</span>
 * <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span><span>360/420 pln</span>
 * <span>hemisekcja</span><span>250 pln</span>
@@ -48,19 +48,19 @@ published: true
 ##Implantologia
 
 * <span>wszczepienie implantu</span><span>2500 pln</span>
-* <span>korona porcelanowa na implancie (bez kosztu łącznika)</span><span>2050-2950 pln</span>
+* <span>korona porcelanowa na implancie (bez kosztu łącznika)</span><span>2050&ndash;2950 pln</span>
 * <span>proteza oparta na implantach</span><span>wycena w gabinecie</span>
 
 ##Protetyka
 
-* <span>korona bezmetalowa ZIRKONIA</span><span>1500-1800 pln</span>
+* <span>korona bezmetalowa ZIRKONIA</span><span>1500&ndash;1800 pln</span>
 * <span>korona bezmetalowa e.max</span><span>1500 pln</span>
 * <span>korona porcelanowa na metalu</span><span>920 pln</span>
 * <span>proteza akrylowa całkowita</span><span>1600 pln</span>
-* <span>proteza akrylowa częściowa</span><span>350-1000 pln</span>
+* <span>proteza akrylowa częściowa</span><span>350&ndash;1000 pln</span>
 * <span>proteza szkieletowa</span><span>od 1800 pln</span>
 * <span>naprawa protezy (1 punkt)</span><span>150 pln</span>
-* <span>wkład koronowo-korzeniowy</span><span>340-640 pln</span>
+* <span>wkład koronowo-korzeniowy</span><span>340&ndash;640 pln</span>
 * <span>wkład z włókna szklanego (3M)</span><span>250 pln</span>
 * <span>szyna relaksacyjna</span><span>350 pln</span>
 * <span>korona tymczasowa (wykonana w gabinecie)</span><span>gratis</span>
@@ -78,6 +78,6 @@ published: true
 ##Wybielanie:
 
 * <span>wybielanie metodą domową</span><span>800 pln</span>
-* <span>wybielanie zębów w gabinecie + nakładki</span><span>1000-1300 pln</span>
+* <span>wybielanie zębów w gabinecie + nakładki</span><span>1000&ndash;1300 pln</span>
 
 <div class="cennik-aktualizacja">Cennik z dnia 20.12.2014</div>
