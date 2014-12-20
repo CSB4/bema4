@@ -6,8 +6,8 @@ fullscreen: true
 published: true
 ---
 
-* Stomatologia estetyczna
 * Stomatologia zachowawcza
+* Stomatologia estetyczna
 * Endodencja mikroskopowa
 * Chirurgia stomatologiczna
 * Chirurgia szczękowa
