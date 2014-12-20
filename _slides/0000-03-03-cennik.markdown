@@ -60,12 +60,12 @@ published: true
 * <span>proteza akrylowa częściowa</span><span>350-1000 pln</span>
 * <span>proteza szkieletowa</span><span>od 1800 pln</span>
 * <span>naprawa protezy (1 punkt)</span><span>150 pln</span>
-* <span>korona tymczasowa (wykonana w gabinecie)</span><span>gratis</span>
-* <span>korona tymczasowa (wykonana w laboratorium)</span><span>wycena w gabinecie</span>
-* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span><span>wycena w gabinecie</span>
 * <span>wkład koronowo-korzeniowy</span><span>340-640 pln</span>
 * <span>wkład z włókna szklanego (3M)</span><span>250 pln</span>
 * <span>szyna relaksacyjna</span><span>350 pln</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span><span>gratis</span>
+* <span>korona tymczasowa (wykonana w laboratorium)</span><span>wycena w gabinecie</span>
+* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span><span>wycena w gabinecie</span>
 
 ##Profilaktyka
 
