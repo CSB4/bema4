@@ -524,6 +524,11 @@ table {
     overflow: hidden; }
     .slide-cennik h1 span {
       float: left; }
+  .slide-cennik .cennik-aktualizacja {
+    margin-bottom: 1.55556em;
+    font-size: 0.77778em;
+    line-height: 2em;
+    font-weight: 500; }
   .slide-cennik h2 {
     margin-bottom: 0.38889em;
     font-weight: 500;
@@ -541,7 +546,6 @@ table {
     .slide-cennik h1 {
       text-transform: uppercase;
       color: #85a3b2;
-      margin-bottom: 2.33333em;
       font-size: 1.88889em;
       line-height: 1.23529em; }
       .slide-cennik h1:before {
@@ -641,21 +645,12 @@ table {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     width: 100%;
-    opacity: 0.4; }
+    opacity: 0.5; }
     .og-grid li > a img:hover {
       opacity: 1; }
 
-.og-grid li.og-expanded > a::after {
-  top: auto;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-bottom-color: #fff;
-  left: 50%;
-  margin: -20px 0 0 -15px; }
+.og-grid li.og-expanded > a > img {
+  opacity: 1; }
 
 .og-expander {
   position: absolute;
@@ -694,8 +689,8 @@ table {
   left: 0;
   width: 100%;
   top: 50%;
-  height: 1px;
-  background: #888;
+  height: 2px;
+  background: #b5e0e8;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   transform: rotate(45deg); }
@@ -707,7 +702,7 @@ table {
 
 .og-close:hover::before,
 .og-close:hover::after {
-  background: #333; }
+  background: #85a3b2; }
 
 .og-fullimg {
   width: 100%;

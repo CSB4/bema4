@@ -79,3 +79,5 @@ published: true
 
 * <span>wybielanie metodą domową</span><span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span><span>1000-1300 pln</span>
+
+<div class="cennik-aktualizacja">*Ostatnia aktualizacja cennika: 12.20.2014</div>

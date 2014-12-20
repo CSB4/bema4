@@ -13,6 +13,11 @@
       float:left;
     }
   }
+  .cennik-aktualizacja {
+    @include trailer($lil);
+    @include small;
+    @include bold;
+  }
   h2 {
     @include trailer(0.5);
     @include bold;
@@ -38,7 +43,6 @@
       h1 {
         text-transform:uppercase;
         color:$dark-blue;
-        @include trailer(3/2*$lil);
         @include xlarge;
 
         &:before {
