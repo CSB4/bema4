@@ -8,7 +8,7 @@ published: true
 
 #<span>Cennik usług podstawowych</span>
 
-##Stomatologia zachowawcza
+##Stomatologia zachowawcza i estetyczna
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0–50 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>140 pln</span>
@@ -22,12 +22,7 @@ published: true
 * <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span><span>120 pln</span>
 * <span>RVG</span><span>20 pln</span>
 
-##Wybielanie:
-
-* <span>wybielanie metodą domową</span><span>800 pln</span>
-* <span>wybielanie zębów w gabinecie + nakładki</span><span>1000-1300 pln</span>
-
-##Endodoncja (leczenie kanałowe)
+##Endodoncja mikroskopowa (leczenie kanałowe)
 
 * <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
 * <span>wypełnienie ostateczne kanału - ząb 1-kanałowy</span><span>210 pln</span>
@@ -38,16 +33,7 @@ published: true
 * <span>usunięcie złamanego narzędzia</span><span>150 pln</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span><span>wycena w gabinecie</span>
 
-##Profilaktyka
-
-* <span>usunięcie kamienia (2 łuki)</span><span>180 pln</span>
-* <span>fluoryzacja pianką</span><span>20 pln</span>
-* <span>piaskowanie</span><span>100 pln</span>
-* <span>usunięcie kamienia + piaskowanie + fluoryzacja</span><span>200 pln</span>
-* <span>lakierowanie zębów mlecznych/stałych</span><span>60/120 pln</span>
-* <span>lakowanie zębów stałych (1 ząb)</span><span>50 pln</span>
-
-##Chirurgia stomatologiczna
+##Chirurgia stomatologiczna i szczękowa
 
 * <span>usunięcie zęba stałego</span><span>120-150 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span><span>220 pln</span>
@@ -76,7 +62,20 @@ published: true
 * <span>naprawa protezy (1 punkt)</span><span>150 pln</span>
 * <span>korona tymczasowa (wykonana w gabinecie)</span><span>gratis</span>
 * <span>korona tymczasowa (wykonana w laboratorium)</span><span>wycena w gabinecie</span>
-* <span>proteza na zatrzaskach, zasuwach, teleskopach</span><span>wycena w gabinecie</span>
+* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span><span>wycena w gabinecie</span>
 * <span>wkład koronowo-korzeniowy</span><span>340-640 pln</span>
 * <span>wkład z włókna szklanego (3M)</span><span>250 pln</span>
 * <span>szyna relaksacyjna</span><span>350 pln</span>
+
+##Profilaktyka
+
+* <span>usunięcie kamienia (2 łuki)</span><span>180 pln</span>
+* <span>fluoryzacja pianką</span><span>20 pln</span>
+* <span>piaskowanie</span><span>100 pln</span>
+* <span>lakierowanie zębów mlecznych/stałych</span><span>60/120 pln</span>
+* <span>lakowanie zębów stałych (1 ząb)</span><span>50 pln</span>
+
+##Wybielanie:
+
+* <span>wybielanie metodą domową</span><span>800 pln</span>
+* <span>wybielanie zębów w gabinecie + nakładki</span><span>1000-1300 pln</span>
