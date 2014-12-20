@@ -1,0 +1,14 @@
+// slide historia
+.slide-historia {
+
+  h1 {
+    @include xlarge;
+    @include trailer();
+  }
+  p {
+    @include trailer($lil);
+  }
+  img {
+    @include gallery(2);
+  }
+}

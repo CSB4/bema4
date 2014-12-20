@@ -513,6 +513,78 @@ table {
 
   .nav-collapse ul ul a {
     display: none; } }
+.slide-cennik {
+  overflow: hidden; }
+  .slide-cennik h1 {
+    text-transform: uppercase;
+    color: #85a3b2;
+    font-size: 1.22222em;
+    line-height: 1.27273em;
+    margin-bottom: 2.33333em;
+    overflow: hidden; }
+    .slide-cennik h1 span {
+      float: left; }
+  .slide-cennik h2 {
+    margin-bottom: 0.38889em;
+    font-weight: 500;
+    clear: both; }
+  .slide-cennik ul {
+    margin-bottom: 2.33333em; }
+    .slide-cennik ul li {
+      clear: both;
+      padding: 0 0 5px 0; }
+      .slide-cennik ul li span + span {
+        font-weight: 500;
+        display: block;
+        clear: both; }
+  @media (min-width: 55em) {
+    .slide-cennik h1 {
+      text-transform: uppercase;
+      color: #85a3b2;
+      margin-bottom: 2.33333em;
+      font-size: 1.88889em;
+      line-height: 1.23529em; }
+      .slide-cennik h1:before {
+        content: "|";
+        display: block;
+        padding-right: 12px;
+        float: left;
+        font-size: 1.3em; }
+      .slide-cennik h1:after {
+        content: "|";
+        display: block;
+        padding-left: 12px;
+        float: left;
+        font-size: 1.3em; }
+    .slide-cennik .bg-image {
+      opacity: 0.15; }
+    .slide-cennik ul li {
+      clear: both;
+      padding: 0; }
+      .slide-cennik ul li span:first-child {
+        float: left;
+        padding: 0 .4em 0 0;
+        margin: 0;
+        display: inline; }
+      .slide-cennik ul li span + span {
+        float: right;
+        padding: 0 0 0 .4em;
+        margin: 0;
+        display: inline;
+        clear: none;
+        font-weight: 400; }
+        .slide-cennik ul li span + span:before, .slide-cennik ul li span + span:after {
+          content: ""; }
+      .slide-cennik ul li:after {
+        content: "";
+        display: block;
+        overflow: hidden;
+        height: 1em;
+        border-bottom: 1px dotted;
+        color: #b5e0e8;
+        position: relative;
+        top: -0.22em; } }
+
 .slide-galeria {
   position: relative; }
 
@@ -704,46 +776,35 @@ table {
   .og-details {
     float: none;
     width: 100%; } }
-img {
-  max-width: 100%; }
+.slide-gwarancja {
+  background: #eee;
+  color: #999; }
+  .slide-gwarancja h1 {
+    font-size: 1.88889em;
+    line-height: 1.23529em;
+    margin-bottom: 0.77778em; }
+  .slide-gwarancja a {
+    color: #85a3b2; }
+    .slide-gwarancja a:hover {
+      text-decoration: underline; }
 
-.show-for-small-logo img {
-  background: #b5e0e8;
-  width: 100%;
-  display: block;
-  margin-top: 50px;
-  padding-top: 20px; }
-
-@media (min-width: 40em) {
-  .show-for-small-logo {
-    display: none; } }
-.slide {
-  clear: both;
-  overflow: hidden;
-  padding: 10% 0; }
-
-.slide-personel {
-  padding: 0; }
-
-.slide-galeria {
-  padding: 10% 0 0 0; }
-
-.bg-image {
-  display: none;
-  position: absolute; }
-
-@media (min-width: 55em) {
-  .mh-100 {
-    min-height: 100vh;
-    position: relative; }
-    .mh-100 .bg-image {
-      max-width: 4000px;
-      position: absolute;
-      z-index: 0;
-      z-index: -1;
-      display: block; } }
-.mh-100 {
-  min-height: 100vh; }
+.slide-historia h1 {
+  font-size: 1.88889em;
+  line-height: 1.23529em;
+  margin-bottom: 0.77778em; }
+.slide-historia p {
+  margin-bottom: 1.55556em; }
+.slide-historia img {
+  width: 50%;
+  float: left; }
+  .slide-historia img:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both; }
+  .slide-historia img:nth-child(2n + 2) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none; }
 
 .slide-kontakt {
   background: #b5e0e8;
@@ -842,119 +903,6 @@ img {
         margin-left: 8.3%;
         position: relative;
         z-index: 111; } }
-.slide-cennik {
-  overflow: hidden; }
-  .slide-cennik h1 {
-    text-transform: uppercase;
-    color: #85a3b2;
-    font-size: 1.22222em;
-    line-height: 1.27273em;
-    margin-bottom: 2.33333em;
-    overflow: hidden; }
-    .slide-cennik h1 span {
-      float: left; }
-  .slide-cennik h2 {
-    margin-bottom: 0.38889em;
-    font-weight: 500;
-    clear: both; }
-  .slide-cennik ul {
-    margin-bottom: 2.33333em; }
-    .slide-cennik ul li {
-      clear: both;
-      padding: 0 0 5px 0; }
-      .slide-cennik ul li span + span {
-        font-weight: 500;
-        display: block;
-        clear: both; }
-  @media (min-width: 55em) {
-    .slide-cennik h1 {
-      text-transform: uppercase;
-      color: #85a3b2;
-      margin-bottom: 2.33333em;
-      font-size: 1.88889em;
-      line-height: 1.23529em; }
-      .slide-cennik h1:before {
-        content: "|";
-        display: block;
-        padding-right: 12px;
-        float: left;
-        font-size: 1.3em; }
-      .slide-cennik h1:after {
-        content: "|";
-        display: block;
-        padding-left: 12px;
-        float: left;
-        font-size: 1.3em; }
-    .slide-cennik .bg-image {
-      opacity: 0.15; }
-    .slide-cennik ul li {
-      clear: both;
-      padding: 0; }
-      .slide-cennik ul li span:first-child {
-        float: left;
-        padding: 0 .4em 0 0;
-        margin: 0;
-        display: inline; }
-      .slide-cennik ul li span + span {
-        float: right;
-        padding: 0 0 0 .4em;
-        margin: 0;
-        display: inline;
-        clear: none;
-        font-weight: 400; }
-        .slide-cennik ul li span + span:before, .slide-cennik ul li span + span:after {
-          content: ""; }
-      .slide-cennik ul li:after {
-        content: "";
-        display: block;
-        overflow: hidden;
-        height: 1em;
-        border-bottom: 1px dotted;
-        color: #b5e0e8;
-        position: relative;
-        top: -0.22em; } }
-
-.slide-uslugi {
-  background: #85a3b2;
-  color: #fff; }
-  .slide-uslugi ul {
-    font-weight: 500;
-    margin-bottom: 40px;
-    overflow: hidden; }
-    .slide-uslugi ul li {
-      clear: both; }
-      .slide-uslugi ul li:before {
-        content: "- "; }
-
-@media (min-width: 40em) {
-  .slide-uslugi {
-    background: rgba(133, 163, 178, 0.85); }
-    .slide-uslugi ul li {
-      font-weight: 300;
-      font-size: 1.22222em;
-      line-height: 1.27273em;
-      float: left;
-      line-height: 1.6em;
-      padding-right: 5rem;
-      position: relative;
-      clear: none; }
-      .slide-uslugi ul li:before {
-        content: "";
-        height: 3px;
-        position: absolute;
-        bottom: 0.6em;
-        right: 0.83333rem;
-        display: block;
-        width: 3.33333rem;
-        background: #b5e0e8; } }
-@media (min-width: 90em) {
-  .slide-uslugi ul li {
-    font-size: 1.24444em;
-    line-height: 1.25em; } }
-@media (min-width: 105em) {
-  .slide-uslugi ul li {
-    font-size: 1.55556em;
-    line-height: 1.5em; } }
 @media (min-width: 40em) {
   .personel-list li {
     width: 50%;
@@ -1115,32 +1063,81 @@ img {
     left: 10%;
     right: 10%;
     bottom: 10%; } }
-.slide-historia h1 {
-  font-size: 1.88889em;
-  line-height: 1.23529em;
-  margin-bottom: 0.77778em; }
-.slide-historia p {
-  margin-bottom: 1.55556em; }
-.slide-historia img {
-  width: 50%;
-  float: left; }
-  .slide-historia img:nth-child(2n + 1) {
-    margin-left: 0;
-    margin-right: -100%;
-    clear: both; }
-  .slide-historia img:nth-child(2n + 2) {
-    margin-left: 50%;
-    margin-right: -100%;
-    clear: none; }
+.slide-uslugi {
+  background: #85a3b2;
+  color: #fff; }
+  .slide-uslugi ul {
+    font-weight: 500;
+    margin-bottom: 40px;
+    overflow: hidden; }
+    .slide-uslugi ul li {
+      clear: both; }
+      .slide-uslugi ul li:before {
+        content: "- "; }
 
-.slide-gwarancja {
-  background: #eee;
-  color: #999; }
-  .slide-gwarancja h1 {
-    font-size: 1.88889em;
-    line-height: 1.23529em;
-    margin-bottom: 0.77778em; }
-  .slide-gwarancja a {
-    color: #85a3b2; }
-    .slide-gwarancja a:hover {
-      text-decoration: underline; }
+@media (min-width: 40em) {
+  .slide-uslugi {
+    background: rgba(133, 163, 178, 0.85); }
+    .slide-uslugi ul li {
+      font-weight: 300;
+      font-size: 1.22222em;
+      line-height: 1.27273em;
+      float: left;
+      line-height: 1.6em;
+      padding-right: 5rem;
+      position: relative;
+      clear: none; }
+      .slide-uslugi ul li:before {
+        content: "";
+        height: 3px;
+        position: absolute;
+        bottom: 0.6em;
+        right: 0.83333rem;
+        display: block;
+        width: 3.33333rem;
+        background: #b5e0e8; } }
+@media (min-width: 90em) {
+  .slide-uslugi ul li {
+    font-size: 1.24444em;
+    line-height: 1.25em; } }
+@media (min-width: 105em) {
+  .slide-uslugi ul li {
+    font-size: 1.55556em;
+    line-height: 1.5em; } }
+img {
+  max-width: 100%; }
+
+.show-for-small-logo img {
+  background: #b5e0e8;
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  padding-top: 20px; }
+
+@media (min-width: 40em) {
+  .show-for-small-logo {
+    display: none; } }
+.slide {
+  clear: both;
+  overflow: hidden;
+  padding: 10% 0; }
+
+.slide-personel, .slide-galeria {
+  padding: 0; }
+
+.bg-image {
+  display: none;
+  position: absolute; }
+
+@media (min-width: 55em) {
+  .mh-100 {
+    min-height: 100vh;
+    position: relative; }
+    .mh-100 .bg-image {
+      max-width: 4000px;
+      position: absolute;
+      z-index: 0;
+      z-index: -1;
+      display: block; } }
+.mh-100 {
+  min-height: 100vh; }

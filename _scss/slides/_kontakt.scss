@@ -1,0 +1,121 @@
+/////////////
+//kontakt
+.slide-kontakt {
+  background:$light-blue;
+  padding-bottom:0;
+
+  .header {
+      @include bold;
+      color: darken($dark-blue, 10%);
+      padding-bottom:30px;
+      margin-bottom:30px;
+      border-bottom:1px solid lighten($dark-blue, 10%);;
+
+      p {
+        margin:0;
+      }
+    }
+    .wrapper {
+      overflow:hidden;
+    }
+    #map {
+      width:100%;
+    }
+
+    ul {
+     color:black;
+     padding-bottom: rhythm($lil);
+
+      li {
+        padding:6px 0;
+
+        b {
+          @include regular;
+        }
+      }
+
+      .tooltip-content {
+        height:0;
+        width:0;
+        @include transition-property(opacity);
+        @include transition-duration($transition-time);
+        opacity:0;
+        background:$white;
+        color: darken($dark-blue, 10%);;
+        @include light;
+        margin-left:10px;
+        display:none;
+      }
+      .tooltip > span:hover .tooltip-content {
+        height:auto;
+        width:auto;
+        padding: 3px 6px;
+        opacity:1;
+        position:absolute;
+        display:inline;
+      }
+      .tooltip > span {
+        @include bold;
+        color:$dark-blue;
+        display:block;
+        width:rem-calc(40px);
+        float:left;
+        height:10px;
+        &:hover {
+          cursor:pointer;
+        }
+      }
+      li:not(.tooltip):before {
+        width:rem-calc(40px);
+        float:left;
+        content:"";
+        height:10px;
+        display:block;
+      }
+    }
+
+    .kontakt-content{
+      @include span($m-cols-content of $col-medium);
+      @include push($m-cols-content-margin of $col-medium);
+    }
+}
+@include breakpoint($medium-up) {
+  .slide-kontakt {
+    .header {
+      padding-top:0;
+    }
+  }
+}
+
+@include breakpoint($large-up) {
+  .full {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+  }
+  .bg-kontakt {
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background:rgba($light-blue,0.9);
+      z-index:110;
+      @include span(12 of $col-large);
+      position:absolute;
+  }
+  .slide-kontakt {
+    background:transparent;
+
+    .wrapper {
+      @include span(12 of $col-large);
+
+      .kontakt-content{
+        margin-left:8.3%;
+        position:relative;
+        z-index:111;
+      }
+    }
+  }
+}
