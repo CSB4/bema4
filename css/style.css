@@ -641,7 +641,7 @@ table {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     width: 100%;
-    opacity: 0.25; }
+    opacity: 0.4; }
     .og-grid li > a img:hover {
       opacity: 1; }
 
