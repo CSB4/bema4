@@ -10,8 +10,10 @@ published: true
 * Stomatologia zachowawcza
 * Endodencja mikroskopowa
 * Chirurgia stomatologiczna
+* Chirurgia szczękowa
 * Implantologia
 * Protetyka
+* Periodontologia
 * Wybielanie zębów
 * Profilaktyka
 
