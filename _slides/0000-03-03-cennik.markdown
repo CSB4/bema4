@@ -12,24 +12,24 @@ published: true
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span><span>0&ndash;50 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span><span>140 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 1-powierzchniowe</span><span>120&ndash;150 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 2-powierzchniowe</span><span>150&ndash;170 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 3-powierzchniowe</span><span>180&ndash;220 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span><span>120&ndash;150 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span><span>150&ndash;170 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span><span>180&ndash;220 pln</span>
 * <span>rekonstrukcja zachowawcza</span><span>230&ndash;280 pln</span>
 * <span>założenie opatrunku leczniczego</span><span>60 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span><span>10/20 pln</span>
-* <span>wypełnienie kompozytowe w zębie mlecznym 1-powierzchniowym</span><span>100 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym 1&#8209;powierzchniowym</span><span>100 pln</span>
 * <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span><span>120 pln</span>
 * <span>RVG</span><span>20 pln</span>
 
 ##Endodoncja mikroskopowa (leczenie kanałowe)
 
 * <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1-kanałowy</span><span>210 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2-kanałowy</span><span>360 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3-kanałowy</span><span>520 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4-kanałowy</span><span>620 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5-kanałowy</span><span>700 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span><span>210 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span><span>360 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span><span>520 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span><span>620 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span><span>700 pln</span>
 * <span>usunięcie złamanego narzędzia</span><span>150 pln</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span><span>wycena w gabinecie</span>
 
@@ -40,7 +40,7 @@ published: true
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span><span>260 pln</span>
 * <span>usunięcie zęba trzonowego dolnego trzeciego</span><span>460&ndash;600 pln</span>
 * <span>usuniecie zęba mlecznego lub rozchwianego</span><span>100 pln</span>
-* <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span><span>360/420 pln</span>
+* <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span><span>360/420 pln</span>
 * <span>hemisekcja</span><span>250 pln</span>
 * <span>szycie/chirurgiczne zaopatrzenie rany</span><span>50/70 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span><span>wycena w gabinecie</span>
