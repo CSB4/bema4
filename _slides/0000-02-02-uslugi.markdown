@@ -8,7 +8,7 @@ published: true
 
 * Stomatologia zachowawcza
 * Stomatologia estetyczna
-* Endodencja mikroskopowa
+* Endodoncja mikroskopowa
 * Protetyka
 * Periodontologia
 * Chirurgia stomatologiczna
