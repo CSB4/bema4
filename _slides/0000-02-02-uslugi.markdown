@@ -6,15 +6,15 @@ fullscreen: true
 published: true
 ---
 
-* Stomatologia zachowawcza
-* Stomatologia estetyczna
-* Endodencja mikroskopowa
-* Chirurgia stomatologiczna
-* Chirurgia szczękowa
-* Implantologia
-* Protetyka
-* Periodontologia
-* Profilaktyka
-* Wybielanie zębów
+* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
+* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia estetyczna</a>
+* <a href="#endodoncja-mikroskopowa-leczenie-kanaowe" title="Przejdź do cennika" data-scroll>Endodencja mikroskopowa</a>
+* <a href="#chirurgia-stomatologiczna-i-szczkowa" title="Przejdź do cennika" data-scroll>Chirurgia stomatologiczna</a>
+* <a href="#chirurgia-stomatologiczna-i-szczkowa" title="Przejdź do cennika" data-scroll>Chirurgia szczękowa</a>
+* <a href="#implantologia" title="Przejdź do cennika" data-scroll>Implantologia</a>
+* <a href="#protetyka" title="Przejdź do cennika" data-scroll>Protetyka</a>
+* <a href="#periodontologia" title="Przejdź do cennika" data-scroll>Periodontologia</a>
+* <a href="#profilaktyka" title="Przejdź do cennika" data-scroll>Profilaktyka</a>
+* <a href="#wybielanie" title="Przejdź do cennika" data-scroll>Wybielanie zębów</a>
 
 Proponujemy Państwu leczenie w&nbsp;komfortowych warunkach i&nbsp;miłej atmosferze przy zastosowaniu najnowszych zdobyczy technik i&nbsp;technologii w&nbsp;dziedzinie stomatologii zachowawczej i&nbsp;estetycznej, endodoncji, protetyki, chirurgii stomatologicznej, implantologii, wybielania zębów oraz profilaktyki.
