@@ -92,7 +92,7 @@
       navTitle.innerHTML = links[i].innerHTML;
     };
 
-
+      var top = window.pageYOffset;
       var n = 1;
       while (top >= content[n]) {
         n++;
@@ -106,17 +106,7 @@
     window.addEventListener("scroll", function () {
 
       // Determine viewport and body size
-      var top = window.pageYOffset,
-        body = document.body,
-        html = document.documentElement,
-        viewport = window.innerHeight,
-        bodyheight = Math.max(
-          body.scrollHeight,
-          body.offsetHeight,
-          html.clientHeight,
-          html.scrollHeight,
-          html.offsetHeight
-        );
+      var top = window.pageYOffset
 
       if (!wasNavigationTapped) {
         var n = 1;
