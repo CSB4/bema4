@@ -92,7 +92,7 @@ published: true
 * <span>lakierowanie zębów mlecznych/stałych</span><span>60/120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span><span>50 pln</span>
 
-##Wybielanie:
+##Wybielanie
 
 * <span>wybielanie metodą domową</span><span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span><span>1000&ndash;1300 pln</span>
