@@ -22,7 +22,7 @@ published: true
 * <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span><span>120 pln</span>
 * <span>RVG</span><span>20 pln</span>
 
-##Endodoncja mikroskopowa (leczenie kanałowe)
+<h1 id="endodoncja">Endodoncja mikroskopowa (leczenie kanałowe)</h1>
 
 * <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span><span>210 pln</span>
