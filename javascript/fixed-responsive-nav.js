@@ -34,11 +34,6 @@
       smoothScroll.init();
     }
 
-
-    //last top - do we go down or up
-    var lastTop = 0;
-
-
     // Init Responsive Nav
     var navigation = responsiveNav(".nav-collapse", {
 
@@ -70,7 +65,6 @@
 
       content = [];
       forEach(links, function (i, el) {
-
         var href = links[i].getAttribute("href").replace("#", "");
         content.push(document.getElementById(href).offsetTop);
       });
@@ -85,21 +79,27 @@
     }, false);
 
     // Highlight active link on the navigation
+    ////////////////////////////////////////////
+
+
     var navTitle = document.getElementById("js-mobile-current");
 
-    var selectActiveMenuItem = function (i, top) {
+    var selectActiveMenuItem = function (i) {
       forEach(links, function (i, el) {
         links[i].parentNode.className = "";
       });
-
-      if (top < lastTop && top + 300 > lastTop && i > 0) {
-        i--;
-      }
-      lastTop = top;
-
       links[i].parentNode.className = "active";
       navTitle.innerHTML = links[i].innerHTML;
     };
+
+
+      var n = 1;
+      while (top >= content[n]) {
+        n++;
+      }
+      n--;
+      selectActiveMenuItem(n);
+
 
     // Highlight active link when scrolling
     var wasNavigationTapped = false;
@@ -118,13 +118,13 @@
           html.offsetHeight
         );
 
-      // For each content link, when it's in viewport, highlight it
       if (!wasNavigationTapped) {
-        forEach(content, function (i, loc) {
-          if ((loc > top && (loc < top + 300 || (top + viewport) >= bodyheight))) {
-            selectActiveMenuItem(i, top);
-          }
-        });
+        var n = 1;
+        while (top >= content[n]) {
+          n++;
+        }
+        n--;
+        selectActiveMenuItem(n);
       }
     }, false);
 
@@ -138,7 +138,7 @@
     var clearTapCheck = function () {
       setTimeout(function () {
         wasNavigationTapped = false;
-      }, 500);
+      }, 800);
     };
 
     // Select the right navigation item when tapping the logo

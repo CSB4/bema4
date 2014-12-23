@@ -429,11 +429,11 @@ table {
           width: 3.05556rem;
           left: -3.61111rem;
           background: #85a3b2; }
-      .nav-collapse ul li.active a, .nav-collapse ul li a:active {
+      .nav-collapse ul li.active a {
         color: #a4bbc6;
         background: #fff;
         padding-left: 3.61111rem; }
-        .nav-collapse ul li.active a:before, .nav-collapse ul li a:active:before {
+        .nav-collapse ul li.active a:before {
           height: 1px;
           width: 3.05556rem;
           content: "";
@@ -441,7 +441,14 @@ table {
           display: block;
           position: relative;
           top: 0.8em;
-          left: -3.61111rem; } }
+          left: -3.61111rem; }
+
+  .touch .nav-collapse ul > li:not(.active) > a:hover {
+    color: #85a3b2;
+    padding-left: 0; }
+  .touch .nav-collapse ul > li:not(.active) > a:hover:before {
+    width: 0;
+    left: 0; } }
 @media (min-width: 55em) {
   .nav-collapse ul li a:hover {
     color: #a4bbc6;

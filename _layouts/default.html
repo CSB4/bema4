@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js no-touch">
 
   {% include head.html %}
 
@@ -8,15 +8,15 @@
     {% include header.html %}
 
     <div class="main-container" id="top">
-   	
+
 		{% for slide in site.slides %}
-		
+
 			<div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
-		
+
     			{% include slides/{{slide.type}}.html %}
-   		 	
+
    		 	</div>
-   		 	
+
 		{% endfor %}
 
     </div>
