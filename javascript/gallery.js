@@ -278,7 +278,14 @@ var Grid = (function() {
 				hidePreview();
 			}
 
-			saveItemInfo();
+
+			$( ".og-grid li" ).each(function() {
+			  $( this ).removeAttr( 'style' );
+			  console.log("chuj");
+			});
+
+
+			saveItemInfo(true);
 			getWinSize();
 		} );
 
@@ -445,10 +452,6 @@ var Grid = (function() {
 					}
 					self.$item.removeClass( 'og-expanded' );
 					self.$previewEl.remove();
-
-					$( ".og-grid li" ).delay( 800 ).each(function() {
-					  $( this ).removeAttr( 'style' );
-					});
 				};
 
 			setTimeout( $.proxy( function() {
