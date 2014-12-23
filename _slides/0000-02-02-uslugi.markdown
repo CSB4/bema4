@@ -5,13 +5,13 @@ type: uslugi
 fullscreen: true
 published: true
 ---
+
 * <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
 * <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia estetyczna</a>
 * <a href="#endodoncja-mikroskopowa-leczenie-kanaowe" title="Przejdź do cennika" data-scroll>Endodencja mikroskopowa</a>
 * <a href="#protetyka" title="Przejdź do cennika" data-scroll>Protetyka</a>
 * <a href="#periodontologia" title="Przejdź do cennika" data-scroll>Periodontologia</a>
-* <a href="#chirurgia-stomatologiczna-i-szczkowa" title="Przejdź do cennika" data-scroll>Chirurgia stomatologiczna</a>
-* <a href="#chirurgia-stomatologiczna-i-szczkowa" title="Przejdź do cennika" data-scroll>Chirurgia szczękowa</a>
+* <a href="#chirurgia-stomatologiczna" title="Przejdź do cennika" data-scroll>Chirurgia stomatologiczna</a>
 * <a href="#implantologia" title="Przejdź do cennika" data-scroll>Implantologia</a>
 * <a href="#profilaktyka" title="Przejdź do cennika" data-scroll>Profilaktyka</a>
 * <a href="#wybielanie" title="Przejdź do cennika" data-scroll>Wybielanie zębów</a>
