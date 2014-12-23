@@ -278,10 +278,6 @@ var Grid = (function() {
 				hidePreview();
 			}
 
-			$('#og-grid li').each(function() {
-				$( this ).removeAttr( 'style' );
-			});
-
 			saveItemInfo();
 			getWinSize();
 		} );
@@ -449,6 +445,10 @@ var Grid = (function() {
 					}
 					self.$item.removeClass( 'og-expanded' );
 					self.$previewEl.remove();
+
+					$( ".og-grid li" ).delay( 800 ).each(function() {
+					  $( this ).removeAttr( 'style' );
+					});
 				};
 
 			setTimeout( $.proxy( function() {
