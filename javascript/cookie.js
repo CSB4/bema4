@@ -1,26 +1,3 @@
-/////////////////////////////////////////////////////////////
-//
-// Author Scott Herbert (www.scott-herbert.com)
-//        Dimitri Kourkoulis (http://dimitros.net/en/home)
-//
-// Version History
-// 1 (10-Feb-2013) Inital release on to GitHub.
-//
-// 2 (12-Mar-2013) Small modification by Dimitri Kourkoulis.
-//    This version of the script, keeps visitors on the web site
-//    if they decline the use of cookies. However, in that event,
-//    the cookie stored in their browser is named 'jsNoCookieCheck'
-//    instead of 'jsCookieCheck'. This can be used by the software
-//    and/or CMS of the web site to disable cookie producing content.
-//    An example of how this has been used in one case on the Umbraco
-//    CMS can be found here:
-//    http://dimitros.net/en/blog/complyingwiththecookielaw
-//
-// 3 (03-April-2013) SAH - Added a variable that allows the developer to
-//    select if the script redirects (as it originally did) or carry’s
-//    on (as per Dimitri’s great addition).
-//
-// Download from http://adf.ly/IvElY
 
 function getCookie(c_name) {
     var i, x, y, ARRcookies = document.cookie.split(";");
@@ -37,19 +14,14 @@ function getCookie(c_name) {
 
 function displayNotification(c_action) {
 
-    // this sets the page background to semi-transparent black should work with all browsers
     var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
-
-    // this is the message displayed to the user.
-    message = message + "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej."
-    // Displays the I agree/disagree buttons.
-    // Feel free to change the address of the I disagree redirection to either a non-cookie site or a Google or the ICO web site
+    message = message + "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej.";
     message = message + " <a href=\"#\" /></a>";
-
-    // and this closes everything off.
     message = message + "</div>";
 
-    document.body.innerHTML = document.body.innerHTML + message;
+    setTimeout(function(){
+        document.body.innerHTML += message;
+     }, 100);
 }
 
 function doAccept() {
