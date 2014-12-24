@@ -38,13 +38,13 @@ function getCookie(c_name) {
 function displayNotification(c_action) {
 
     // this sets the page background to semi-transparent black should work with all browsers
-    var message = "<div class='cookiewarning' >";
+    var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
 
     // this is the message displayed to the user.
     message = message + "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej."
     // Displays the I agree/disagree buttons.
     // Feel free to change the address of the I disagree redirection to either a non-cookie site or a Google or the ICO web site
-    message = message + " <a href=\"\" onClick='JavaScript:doAccept();'/>Zamknij</a>";
+    message = message + " <a href=\"#\" /></a>";
 
     // and this closes everything off.
     message = message + "</div>";
@@ -54,7 +54,13 @@ function displayNotification(c_action) {
 
 function doAccept() {
     setCookie("jsCookieCheck", null, 365);
-    document.querySelector(".cookiewarning").className = document.querySelector(".cookiewarning").className + " closed";
+    var warning = document.querySelector(".cookiewarning");
+    warning.className = warning.className + " closed";
+
+    setTimeout(function(){
+        warning.outerHTML = "";
+        delete warning;
+     }, 1000);
 }
 
 

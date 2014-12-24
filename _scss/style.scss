@@ -80,19 +80,60 @@ img {
 //cookie warrning
 
 .cookiewarning {
-  @include small;
   @include transition-property(opacity);
   @include transition-duration($transition-time/2);
+  font-size:14px;
+  line-height:21px;
   position:fixed;
   z-index:999999;
   bottom:0;
   width:100%;
-  padding:3px 5% 3px 5%;
+  padding: 8px 30px 8px 5%;
   background:$light-blue;
+
   a {
-    @include bold;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left:0;
+      width: 100%;
+      top: 50%;
+      height: 2px;
+      background: $dark-blue;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      background: darken($dark-blue,10%);
+    }
   }
 }
 .cookiewarning.closed {
   opacity:0;
+}
+@include breakpoint($xxlarge-up) {
+  .cookiewarning {
+    font-size:14px;
+    line-height:18px;
+  }
 }

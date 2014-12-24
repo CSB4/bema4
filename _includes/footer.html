@@ -106,7 +106,6 @@ enquire.register("screen and (min-width: 640px)", [{
 		    		//cookie alert
 				  	checkCookie(1);
 
-
 			$(function() {
 
 	            var content = $('.content');
@@ -193,11 +192,13 @@ enquire.register("screen and (max-width: 640px)", [{
           load: ['{{site.baseurl}}/javascript/fastclick.js',
           		'{{site.baseurl}}/javascript/responsive-nav.js',
           		'{{site.baseurl}}/javascript/scroll.js',
+          		'{{site.baseurl}}/javascript/cookie.js',
                 '{{site.baseurl}}/javascript/fixed-responsive-nav.js'],
 
           complete : function() {
 
-
+		    		//cookie alert
+				  	checkCookie(1);
           }
         },
       ]);
