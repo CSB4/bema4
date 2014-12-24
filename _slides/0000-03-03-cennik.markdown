@@ -22,7 +22,7 @@ published: true
 * <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span><span>120 pln</span>
 * <span>RVG</span><span>20 pln</span>
 
-<h2 id="endodoncja">Endodoncja mikroskopowa (leczenie kanałowe)</h2>
+<h2 id="endodoncja">Endodoncja (leczenie kanałowe)</h2>
 
 * <span>dewitalizacja miazgi (zatrucie)</span><span>50 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span><span>210 pln</span>
@@ -97,4 +97,4 @@ published: true
 * <span>wybielanie metodą domową</span><span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span><span>1000&ndash;1300 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 23.12.2014</div>
+<div class="cennik-aktualizacja">Cennik z dnia 24.12.2014</div>
