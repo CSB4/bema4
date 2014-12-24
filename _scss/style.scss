@@ -76,3 +76,23 @@ img {
 .mh-100 {
   min-height:100vh;
 }
+
+//cookie warrning
+
+.cookiewarning {
+  @include small;
+  @include transition-property(opacity);
+  @include transition-duration($transition-time/2);
+  position:fixed;
+  z-index:999999;
+  bottom:0;
+  width:100%;
+  padding:3px 5% 3px 5%;
+  background:$light-blue;
+  a {
+    @include bold;
+  }
+}
+.cookiewarning.closed {
+  opacity:0;
+}
