@@ -1,3 +1,9 @@
+// Wyedytuj tresc Tutaj:
+    var cookieMessage = "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej.";
+
+// ######################
+// ###########
+// ###
 
 function getCookie(c_name) {
     var i, x, y, ARRcookies = document.cookie.split(";");
@@ -11,13 +17,12 @@ function getCookie(c_name) {
     }
 }
 
-
 function displayNotification(c_action) {
 
     var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
-    message = message + "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej.";
-    message = message + " <a href=\"#\" /></a>";
-    message = message + "</div>";
+    message += cookieMessage ;
+    message += " <a href=\"#\" /></a>";
+    message += "</div>";
 
     setTimeout(function(){
         document.body.innerHTML += message;
@@ -50,19 +55,14 @@ function checkCookie(c_action) {
     var cookieChk = getCookie(cookieName);
     var cookieChkNo = getCookie(cookieNameNo);
     if (cookieChk != null && cookieChk != "") {
-        // the jsCookieCheck cookie exists so we can assume the person has read the notification
-        // within the last year and has accepted the use of cookies
 
-        setCookie(cookieName, cookieChk, 365); // set the cookie to expire in a year.
+        setCookie(cookieName, cookieChk, 365);
     }
     else if (cookieChkNo != null && cookieChkNo != "") {
-        // the jsNoCookieCheck cookie exists so we can assume the person has read the notification
-        // within the last year and has declined the use of cookies
 
-        setCookie(cookieNameNo, cookieChkNo, 365); // set the cookie to expire in a year.
+        setCookie(cookieNameNo, cookieChkNo, 365);
     }
     else {
-        // No cookie exists, so display the lightbox effect notification.
         displayNotification(c_action);
     }
 }
