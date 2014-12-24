@@ -26,7 +26,7 @@ function displayNotification(c_action) {
 
     setTimeout(function(){
         document.body.innerHTML += message;
-     }, 100);
+     }, 300);
 }
 
 function doAccept() {
