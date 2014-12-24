@@ -21,7 +21,7 @@ function displayNotification(c_action) {
 
     var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
     message += cookieMessage ;
-    message += " <a href=\"#\" /></a>";
+    message += " <span></span>";
     message += "</div>";
 
     setTimeout(function(){

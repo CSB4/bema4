@@ -1163,7 +1163,7 @@ img {
   border-top: 1px solid #b5e0e8;
   background: #fff;
   border-top: #85a3b2; }
-  .cookiewarning a {
+  .cookiewarning span {
     width: 21px;
     height: 21px;
     cursor: pointer;
@@ -1173,7 +1173,7 @@ img {
     z-index: 10;
     display: inline-block;
     overflow: hidden; }
-    .cookiewarning a::before, .cookiewarning a::after {
+    .cookiewarning span::before, .cookiewarning span::after {
       content: '';
       position: absolute;
       left: 0;
@@ -1184,11 +1184,11 @@ img {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
       transform: rotate(45deg); }
-    .cookiewarning a::after {
+    .cookiewarning span::after {
       -webkit-transform: rotate(-45deg);
       -moz-transform: rotate(-45deg);
       transform: rotate(-45deg); }
-    .cookiewarning a:hover::before, .cookiewarning a:hover::after {
+    .cookiewarning span:hover::before, .cookiewarning span:hover::after {
       background: #668b9e; }
 
 .cookiewarning.closed {
