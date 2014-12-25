@@ -82,16 +82,15 @@ img {
 .cookiewarning {
   @include transition-property(opacity);
   @include transition-duration($transition-time/2);
-  font-size:rem-cacl(14px);
+  font-size:rem-calc(14px);
   line-height:rem-calc(21px);
   position:fixed;
   z-index:999999;
   bottom:0;
   width:100%;
-  padding: 8px 30px 8px 5%;
-  border-top:1px solid $light-blue;
+  padding: 8px 30px 8px 3%;
+  border-top:1px solid $dark-blue;
   background:$white;
-  border-top:$dark-blue;
 
   span {
     width: 21px;

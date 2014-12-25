@@ -17,16 +17,21 @@ function getCookie(c_name) {
     }
 }
 
-function displayNotification(c_action) {
+function displayNotification(c_action, cookieMessage) {
 
-    var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
-    message += cookieMessage ;
+    message = cookieMessage;
     message += " <span></span>";
-    message += "</div>";
 
-    setTimeout(function(){
-        document.body.innerHTML += message;
-     }, 300);
+    var cookieWarning = document.createElement("DIV");
+    cookieWarning.className = "cookiewarning";
+    cookieWarning.innerHTML = message;
+
+
+    var currentDiv = document.getElementById("top");
+    document.body.insertBefore(cookieWarning, currentDiv);
+
+    var cookieDiv = document.getElementsByClassName("cookiewarning");
+    cookieDiv.onclick = doAccept;
 }
 
 function doAccept() {
@@ -54,6 +59,7 @@ function checkCookie(c_action) {
     var cookieNameNo = "jsNoCookieCheck";
     var cookieChk = getCookie(cookieName);
     var cookieChkNo = getCookie(cookieNameNo);
+
     if (cookieChk != null && cookieChk != "") {
 
         setCookie(cookieName, cookieChk, 365);
@@ -63,6 +69,6 @@ function checkCookie(c_action) {
         setCookie(cookieNameNo, cookieChkNo, 365);
     }
     else {
-        displayNotification(c_action);
+        displayNotification(c_action, cookieMessage);
     }
 }
