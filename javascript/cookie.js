@@ -17,11 +17,14 @@ function getCookie(c_name) {
     }
 }
 
-function displayNotification(c_action, cookieMessage) {
+function displayNotification(c_action) {
 
-    message = cookieMessage;
+    var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
+    message += cookieMessage ;
     message += " <span></span>";
+    message += "</div>";
 
+<<<<<<< HEAD
     var cookieWarning = document.createElement("DIV");
     cookieWarning.className = "cookiewarning";
     cookieWarning.innerHTML = message;
@@ -32,6 +35,11 @@ function displayNotification(c_action, cookieMessage) {
 
     var cookieDiv = document.querySelector(".cookiewarning");
     cookieDiv.addEventListener('click', doAccept);
+=======
+    setTimeout(function(){
+        document.body.innerHTML += message;
+     }, 300);
+>>>>>>> parent of b8ec13b... cookies poprawione
 }
 
 function doAccept() {
@@ -59,7 +67,6 @@ function checkCookie(c_action) {
     var cookieNameNo = "jsNoCookieCheck";
     var cookieChk = getCookie(cookieName);
     var cookieChkNo = getCookie(cookieNameNo);
-
     if (cookieChk != null && cookieChk != "") {
 
         setCookie(cookieName, cookieChk, 365);
@@ -69,6 +76,6 @@ function checkCookie(c_action) {
         setCookie(cookieNameNo, cookieChkNo, 365);
     }
     else {
-        displayNotification(c_action, cookieMessage);
+        displayNotification(c_action);
     }
 }

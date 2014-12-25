@@ -42,36 +42,23 @@ enquire.register("screen and (min-width: 640px)", [{
           		'{{site.baseurl}}/javascript/scroll.js',
                 '{{site.baseurl}}/javascript/fixed-responsive-nav.js',
                 '{{site.baseurl}}/javascript/gallery.js',
-                '//static.aljtmedia.com/uploads/javascript/jQuery.snow.min.js',
                 '{{site.baseurl}}/javascript/cookie.js',
                  '{{site.baseurl}}/javascript/imagesloaded.js',
                  '{{site.baseurl}}/javascript/imgfill.js'],
 
           complete : function() {
 
-
-                    //smoothScroll.init();
-
           	  		function setHeight() {
 					  	windowHeight = $(window).innerHeight();
 					    $('.mh-100, #historia').css('min-height', windowHeight);
 					};
 
-					$(document).ready(function(){
-						$.fn.snow({
-							minSize: 14, // Minimumsize of the snowflake (px)
-							maxSize: 45, // Maximum size of the snowflake (px)
-							newOn: 50, // Frequency they fall (ms)
-							flakeColor: '#FAF0F3' // Colour of the snowflake
-						});
-					});
-
 					setHeight();
-
 
 				  	$(window).resize(function() {
 				    	setHeight();
 				  	});
+
 
 					jQuery('.mh-100').imagefill();
 
@@ -111,7 +98,6 @@ enquire.register("screen and (min-width: 640px)", [{
 
 				  	});
 
-		    		//cookie alert
 				  	checkCookie(1);
 
 			$(function() {
@@ -205,7 +191,6 @@ enquire.register("screen and (max-width: 640px)", [{
 
           complete : function() {
 
-		    		//cookie alert
 				  	checkCookie(1);
           }
         },
