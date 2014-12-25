@@ -24,7 +24,6 @@ function displayNotification(c_action) {
     message += " <span></span>";
     message += "</div>";
 
-<<<<<<< HEAD
     var cookieWarning = document.createElement("DIV");
     cookieWarning.className = "cookiewarning";
     cookieWarning.innerHTML = message;
@@ -35,11 +34,6 @@ function displayNotification(c_action) {
 
     var cookieDiv = document.querySelector(".cookiewarning");
     cookieDiv.addEventListener('click', doAccept);
-=======
-    setTimeout(function(){
-        document.body.innerHTML += message;
-     }, 300);
->>>>>>> parent of b8ec13b... cookies poprawione
 }
 
 function doAccept() {
