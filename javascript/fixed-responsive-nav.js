@@ -27,9 +27,11 @@
     // Attach FastClick to remove the 300ms tap delay
     FastClick.attach(document.body);
 
+    var whatOffSet = 0;
     var winWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
     if ( winWidth < 640) {
-      smoothScroll.init({ offset: 50 });
+      whatOffSet = 50;
+      smoothScroll.init({ offset: whatOffSet });
     } else {
       smoothScroll.init();
     }
@@ -110,7 +112,7 @@
 
       if (!wasNavigationTapped) {
         var n = 1;
-        while (top >= content[n]) {
+        while (top >= content[n] + whatOffSet) {
           n++;
         }
         n--;

@@ -1,20 +1,27 @@
-<div class="wrapper">
+<div class="kontakt-wrapper">
 		<div class="kontakt-content">
-			<div class="header">
+			<div class="kontakt-header">
 				{{ 	slide.content }}
 			</div>
-			<ul>
+			<ul class="kontakt-lista">
 				<li class="adres tooltip"><span>A:<span class="tooltip-content">Adres</span></span><a href="{{ slide.adres_url}}" >{{ slide.adres }}</a></li>
 				<li class="mail tooltip"><span>E:<span class="tooltip-content">e-mail</span></span><a href="mailto:{{ slide.mail }}">{{ slide.mail }}</a></li>
-				<li class="telefon tooltip"><span>T:<span class="tooltip-content">Telefon</span></span>{{ slide.telefon }}</li>			<li class="fax tooltip"><span>F:<span class="tooltip-content">Fax</span></span>{{ slide.fax }}</li>
-				<li class="godziny tooltip"><span>G:<span class="tooltip-content">Godziny Otwarcia</span></span>{{ slide.godziny_pn }}</li>
-				<li>{{ slide.godziny_wt }}</li>
-				<li>{{ slide.godziny_sr }}</li>
-				<li>{{ slide.godziny_czw }}</li>
-				<li>{{ slide.godziny_pt }}</li>
+				<li class="telefon tooltip"><span>T:<span class="tooltip-content">Telefon</span></span>{{ slide.telefon }}</li>
+				<li class="fax tooltip"><span>F:<span class="tooltip-content">Fax</span></span>{{ slide.fax }}</li>
+
+				{% for godziny in slide.godziny %}
+					 {% if forloop.index == 1 %}
+						<li class="godziny tooltip"><span>G:<span class="tooltip-content">Godziny Otwarcia</span></span>{{ godziny }}</li>
+					{% else %}
+						<li>{{ godziny }}</li>
+					{% endif %}
+				{% endfor %}
+
 			</ul>
 
-			<div class="karty"></div>
+			{% if slide.ogloszenie != blank %}
+				<div class="kontakt-ogloszenie">{{ slide.ogloszenie }}</div>
+			{% endif %}
 
 		</div>
 		<div class="bg-kontakt"></div>
