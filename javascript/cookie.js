@@ -1,5 +1,5 @@
 // Wyedytuj tresc Tutaj:
-    var cookieMessage = "Centrum Stomatologiczne Bema 4 korzysta z plików cookies w celach statystycznych. Warunki przechowywania plików cookies można określić w ustawieniach przeglądarki internetowej.";
+    var cookieMessage = "Strona www.bema4.pl korzysta z plików cookies w celach statystycznych. Warunki przechowywania tych plików można określić w ustawieniach przeglądarki internetowej.";
 
 // ######################
 // ###########
