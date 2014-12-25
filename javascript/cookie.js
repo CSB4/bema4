@@ -30,8 +30,8 @@ function displayNotification(c_action, cookieMessage) {
     var currentDiv = document.getElementById("top");
     document.body.insertBefore(cookieWarning, currentDiv);
 
-    var cookieDiv = document.getElementsByClassName("cookiewarning");
-    cookieDiv.onclick = doAccept;
+    var cookieDiv = document.querySelector(".cookiewarning");
+    cookieDiv.addEventListener('click', doAccept);
 }
 
 function doAccept() {
