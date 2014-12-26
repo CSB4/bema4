@@ -281,7 +281,6 @@ var Grid = (function() {
 
 			$( ".og-grid li" ).each(function() {
 			  $( this ).removeAttr( 'style' );
-			  console.log("chuj");
 			});
 
 

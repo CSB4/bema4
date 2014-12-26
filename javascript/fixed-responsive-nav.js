@@ -112,7 +112,7 @@
 
       if (!wasNavigationTapped) {
         var n = 1;
-        while (top >= content[n] + whatOffSet) {
+        while (top + whatOffSet >= content[n]) {
           n++;
         }
         n--;

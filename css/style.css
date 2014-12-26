@@ -817,7 +817,7 @@ table {
   color: #668b9e;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #a4bbc6; }
+  border-bottom: 1px solid #85a3b2; }
   .kontakt-header p {
     margin: 0; }
 
@@ -835,8 +835,12 @@ table {
     .kontakt-lista > li > b {
       font-weight: 400; }
 
-.kontakt-ogloszenie b {
-  font-weight: 400; }
+.kontakt-ogloszenie {
+  margin-top: 1.55556em;
+  border-left: 0.44444rem solid #85a3b2;
+  padding-left: 1.77778rem; }
+  .kontakt-ogloszenie > b {
+    font-weight: 400; }
 
 .tooltip-content {
   height: 0;
@@ -851,7 +855,7 @@ table {
   transition-duration: 0.6s;
   opacity: 0;
   background: #fff;
-  color: #668b9e;
+  color: #85a3b2;
   font-weight: 300;
   margin-left: 10px;
   display: none; }
