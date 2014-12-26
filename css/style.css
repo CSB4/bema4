@@ -1176,11 +1176,11 @@ img {
   position: fixed;
   z-index: 999999;
   bottom: 0;
+  left: 0;
   width: 100%;
   padding: 8px 30px 8px 3%;
   border-top: 1px solid #85a3b2;
-  background: #fff;
-  border-top: #85a3b2; }
+  background: #fff; }
   .cookiewarning > span {
     width: 21px;
     height: 21px;
