@@ -3,7 +3,7 @@ label: slide
 title: Kontakt
 type: kontakt
 adres: "Gdynia, ul. Bema 4/2"
-adres_url: "https://www.google.pl/maps/place/Bema+4.+Centrum+stomatologiczne/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572"
+adres_url: "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572"
 telefon: +48 58 620 21 82
 fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
