@@ -10,7 +10,7 @@ mail: "stomatologia@bema4.pl"
 godziny: 
   - "<b>pn-czw:</b> 08:00&ndash;20:00"
   - "<b>pt:</b> 08:00&ndash;16:00"
-ogloszenie: "Informujemy że centrum będzie nieczynne w dniach <b>24&ndash;26.12.2014</b> oraz <b>31.12.2014&ndash;02.01.2015</b> w związku ze Świętami Bożego Narodzenia oraz Nowym Rokiem."
+ogloszenie: "Informujemy że centrum będzie nieczynne w dniach <b>24.12.2014&ndash;26.12.2014</b> oraz <b>31.12.2014&ndash;02.01.2015</b> w związku ze Świętami Bożego Narodzenia oraz Nowym Rokiem."
 fullscreen: true
 published: true
 ---
