@@ -71,7 +71,7 @@ enquire.register("screen and (min-width: 640px)", [{
 					function mapContainer() {
 						windowHeight = $(window).innerHeight();
 						containerWidth = $( '#top' ).width();
-						wrapperHeight = $( '#kontakt .wrapper' ).height();
+						wrapperHeight = $( '.kontakt-wrapper' ).height();
 						mapContainerHeight = windowHeight - wrapperHeight - containerWidth * 0.1;
 						$( '#map' ).css('height', mapContainerHeight);
 					}
