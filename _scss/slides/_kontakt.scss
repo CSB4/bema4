@@ -36,12 +36,17 @@
     }
 
     .kontakt-ogloszenie {
-      @include leader($lil);
+      @include trailer($lil);
       border-left:rem-calc(8px) solid $dark-blue;
       padding-left:rem-calc(32px);
 
       > b {
         @include regular;
+      }
+    }
+    @include breakpoint($xlarge-up) {
+      .kontakt-ogloszenie {
+        @include leader();
       }
     }
 

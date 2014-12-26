@@ -836,12 +836,15 @@ table {
       font-weight: 400; }
 
 .kontakt-ogloszenie {
-  margin-top: 1.55556em;
+  margin-bottom: 1.55556em;
   border-left: 0.44444rem solid #85a3b2;
   padding-left: 1.77778rem; }
   .kontakt-ogloszenie > b {
     font-weight: 400; }
 
+@media (min-width: 80em) {
+  .kontakt-ogloszenie {
+    margin-top: 0.77778em; } }
 .tooltip-content {
   height: 0;
   width: 0;
