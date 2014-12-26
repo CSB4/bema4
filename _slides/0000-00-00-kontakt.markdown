@@ -3,13 +3,16 @@ label: slide
 title: Kontakt
 type: kontakt
 adres: "Gdynia, ul. Bema 4/2"
-adres_url: "https://www.google.pl/maps/place/Bema+4.+Centrum+stomatologiczne/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572"
+adres_url: "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572"
 telefon: +48 58 620 21 82
 fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
-godziny: ["<b>pn-czw:</b> 08:00&ndash;20:00" , "<b>pt:</b> 08:00&ndash;16:00"]
-ogloszenie: "Informacja o czymś i <b>data</b> i <b>12.12.1002</b>. Przepraszamy za niedogodnosci raz jeszcze. Bla Bla."
+godziny: 
+  - "<b>pn-czw:</b> 08:00&ndash;20:00"
+  - "<b>pt:</b> 08:00&ndash;16:00"
+ogloszenie: "Informujemy, że w związku ze Świętami Bożego Narodzenia oraz Nowym Rokiem centrum będzie nieczynne w dniach <b>24.12.2014&ndash;26.12.2014</b> oraz <b>31.12.2014&ndash;02.01.2015</b>."
 fullscreen: true
+published: true
 ---
 
 Starannie dobrany zespół lekarzy przy współpracy z&nbsp;dyplomowanymi higienistkami zapewni państwu opiekę stomatologiczną na najwyższym poziomie.
