@@ -49,18 +49,6 @@ enquire.register("screen and (min-width: 640px)", [{
 
           complete : function() {
 
-          	  		function setHeight() {
-					  	windowHeight = $(window).innerHeight();
-					    $('.mh-100, #historia').css('min-height', windowHeight);
-					};
-
-					setHeight();
-
-				  	$(window).resize(function() {
-				    	setHeight();
-				  	});
-
-
 					jQuery('.mh-100').imagefill();
 
 
