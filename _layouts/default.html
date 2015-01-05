@@ -3,26 +3,22 @@
 
   {% include head.html %}
 
-  <body>
+  <body itemscope itemtype="http://schema.org/Organization">
 
     {% include header.html %}
 
     <div class="main-container" id="top">
 
-		{% for slide in site.slides %}
+      {% for slide in site.slides %}
 
-			<div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
+        <div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
+          {% include slides/{{slide.type}}.html %}
+        </div>
 
-    			{% include slides/{{slide.type}}.html %}
-
-   		 	</div>
-
-		{% endfor %}
-
+      {% endfor %}
     </div>
 
     {% include footer.html %}
 
   </body>
-
 </html>

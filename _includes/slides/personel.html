@@ -4,13 +4,13 @@
     <ul class="personel-list">
     {% for image in gallery.images %}
       <li class="{{image.group}}">
-      	<div class="personel-wrapper">
+      	<div class="personel-wrapper" itemscope itemtype="http://schema.org/Person">
       		<div class="personel-wrapper-content">
-		      	<h2 class="personel-name">{{ image.title }}</h2>
-		      	<h3 class="personel-position">{{ image.position }}</h3>
-		        <p class="personel-desc">{{ image.description }}</p>
+		      	<h2 class="personel-name" itemprop="name">{{ image.title }}</h2>
+		      	<h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
+		        <p class="personel-desc" itemprop="description">{{ image.description }}</p>
 	        </div>
-	        <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img">
+	        <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img" itemprop="image">
      	</div>
       </li>
     {% endfor %}
