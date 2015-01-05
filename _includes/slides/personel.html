@@ -1,10 +1,10 @@
 {% for gallery in site.data.galleries %}
 {% if gallery.id == "personel" %}
 
-    <ul class="personel-list">
+    <ul class="personel-list" itemscope itemtype="http://schema.org/Employees">
     {% for image in gallery.images %}
       <li class="{{image.group}}">
-      	<div class="personel-wrapper" itemscope itemtype="http://schema.org/Person">
+      	<div class="personel-wrapper" itemscope itemtype="http://schema.org/Employee">
       		<div class="personel-wrapper-content">
 		      	<h2 class="personel-name" itemprop="name">{{ image.title }}</h2>
 		      	<h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
