@@ -72,7 +72,7 @@ published: true
 * <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400 pln</span>
 * <span>dłutowanie zęba trzonowego dolnego trzeciego</span> <span>600&ndash;1000 pln</span> 
-* <span>usunięcie zęba trzonowego dolnego trzeciego</span> <span>460&ndash;600 pln</span>
+* <span>usunięcie zęba trzonowego dolnego trzeciego</span> <span>300&ndash;500 pln</span>
 * <span>usuniecie zęba mlecznego lub rozchwianego</span> <span>100 pln</span>
 * <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>360/420 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
