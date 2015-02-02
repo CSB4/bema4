@@ -15,4 +15,4 @@ fullscreen: true
 published: true
 ---
 
-Starannie dobrany zespół lekarzy przy współpracy z&nbsp;dyplomowanymi higienistkami zapewni państwu opiekę stomatologiczną na najwyższym poziomie.
+Starannie dobrany zespół lekarzy przy współpracy z&nbsp;dyplomowanymi higienistkami zapewni Państwu opiekę stomatologiczną na najwyższym poziomie.
