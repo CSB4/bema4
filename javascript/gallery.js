@@ -291,9 +291,30 @@ var Grid = (function() {
 	}
 
 	function initItemsEvents( $items ) {
-		$items.on( 'click', function() {
+
+		var timeoutId = 0;
+
+		$items.on('touchstart', function(e) {
+
+	        var imgElement = this;
+
+	        timeoutId = setTimeout(function() {
+
+	            $(imgElement).on('click', function(e) {
+	                e.preventDefault();
+	            });
+
+	        }, 1000);
+
+	    }).on('touchend touchcancel', function(e) {
+
+	        clearTimeout(timeoutId);
+
+	    }).on( 'click', function() {
+
 			hidePreview();
 			return false;
+
 		} ).children( 'a' ).on( 'click', function(e) {
 
 			var $item = $( this ).parent();
