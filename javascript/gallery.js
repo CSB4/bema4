@@ -292,8 +292,6 @@ var Grid = (function() {
 
 	function initItemsEvents( $items ) {
 
-		console.log($items);
-
 		$items.on( 'touchstart click', function(e) {
 
 			e.stopPropagation();
@@ -310,12 +308,25 @@ var Grid = (function() {
 
 		    }
 
-		} ).children( 'a' ).on( 'click', function(e) {
+		} ).children( 'a' ).on( 'touchstart click', function(e) {
 
-			var $item = $( this ).parent();
-			// check if item already opened
-			current === $item.index() ? hidePreview() : showPreview( $item );
-			return false;
+			e.stopPropagation();
+
+  			if(e.type == "touchstart") {
+
+		        console.log('touch child');
+
+		    } else if(e.type == "click") {
+
+				console.log('click child');
+
+
+				var $item = $( this ).parent();
+				// check if item already opened
+				current === $item.index() ? hidePreview() : showPreview( $item );
+				return false;
+
+		    }
 
 		} );
 	}
