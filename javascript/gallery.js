@@ -292,6 +292,8 @@ var Grid = (function() {
 
 	function initItemsEvents( $items ) {
 
+		console.log($items);
+
 		$items.on( 'touchstart click', function(e) {
 
 			e.stopPropagation();
@@ -317,16 +319,6 @@ var Grid = (function() {
 
 		} );
 	}
-
-
-$('.button').on('touchstart click', function(e) {
-    e.stopPropagation(); //stops propagation
-    if(e.type == "touchstart") {
-        // Handle touchstart event.
-    } else if(e.type == "click") {
-        // Handle click event.
-    }
-});
 
 	function getWinSize() {
 		winsize = { width : $window.width(), height : $window.height() };
