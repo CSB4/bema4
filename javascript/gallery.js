@@ -292,9 +292,9 @@ var Grid = (function() {
 
 	function initItemsEvents( $items ) {
 
-		e.stopPropagation();
-
 		$items.on( 'touchstart click', function(e) {
+
+			e.stopPropagation();
 
 		    if(e.type == "touchstart") {
 
