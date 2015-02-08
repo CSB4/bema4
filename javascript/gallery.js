@@ -292,28 +292,21 @@ var Grid = (function() {
 
 	function initItemsEvents( $items ) {
 
-		var timeoutId = 0;
+		e.stopPropagation();
 
-		$items.on('touchstart', function(e) {
+		$items.on( 'touchstart click', function(e) {
 
-	        var imgElement = this;
+		    if(e.type == "touchstart") {
 
-	        timeoutId = setTimeout(function() {
+		        console.log('touch');
 
-	            $(imgElement).on('click', function(e) {
-	                e.preventDefault();
-	            });
+		    } else if(e.type == "click") {
 
-	        }, 1000);
+				console.log('click');
+		        hidePreview();
+				return false;
 
-	    }).on('touchend touchcancel', function(e) {
-
-	        clearTimeout(timeoutId);
-
-	    }).on( 'click', function() {
-
-			hidePreview();
-			return false;
+		    }
 
 		} ).children( 'a' ).on( 'click', function(e) {
 
@@ -324,6 +317,16 @@ var Grid = (function() {
 
 		} );
 	}
+
+
+$('.button').on('touchstart click', function(e) {
+    e.stopPropagation(); //stops propagation
+    if(e.type == "touchstart") {
+        // Handle touchstart event.
+    } else if(e.type == "click") {
+        // Handle click event.
+    }
+});
 
 	function getWinSize() {
 		winsize = { width : $window.width(), height : $window.height() };
