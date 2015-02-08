@@ -376,6 +376,7 @@ var Grid = (function() {
 		var preview = $.data( this, 'preview' );
 		preview.close();
 		$.removeData( this, 'preview' );
+		console.log('hide preview')
 	}
 
 	// the preview obj / overlay
