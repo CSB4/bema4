@@ -275,7 +275,6 @@ var Grid = (function() {
 
 			var preview = $.data( this, 'preview' );
 			if( typeof preview != 'undefined' ) {
-				console.log('resize hidePreview');
 				hidePreview();
 			}
 
@@ -291,81 +290,19 @@ var Grid = (function() {
 
 	}
 
-	// prevent click event on scroll
-	//
-	var clickActionTimeout = null;
-
-	function clearClickActionTimeout() {
-	  if(clickActionTimeout) {
-	    clearTimeout(clickActionTimeout);
-	    clickActionTimeout = null;
-	    console.log('clearClickActionTimeout');
-	  }
-	}
-
 	function initItemsEvents( $items ) {
-
-		$items.on( {
-
-		    click: function(e) {
-
-		    	console.log('click');
-
-				e.preventDefault();
-				clearClickActionTimeout();
-				clickActionTimeout = setTimeout(function() {
-					console.log('click hidePreview')
-					hidePreview();
-
-				  }, 1000);
-
-				return false;
-		    },
-		    stopdrag: function() {
-
-		    	console.log('stopdrag')
-
-				clearClickActionTimeout();
-
-		    }
-
-		} ).children( 'a' ).on( {
-
-	    click: function(e) {
-
-	    	console.log('click child');
-
-			e.preventDefault();
-			clearClickActionTimeout();
+		$items.on( 'click', function() {
+			hidePreview();
+			return false;
+		} ).children( 'a' ).on( 'click', function(e) {
 
 			var $item = $( this ).parent();
-
-			clickActionTimeout = setTimeout(function () {
-
-					console.log('click child inside');
-
-					// check if item already opened
-										console.log('child click hidePreview')
-					current === $item.index() ? hidePreview() : showPreview( $item );
-
-
-			  }, 1000);
-
+			// check if item already opened
+			current === $item.index() ? hidePreview() : showPreview( $item );
 			return false;
 
-	    },
-	    stopdrag: function() {
-
-	    	console.log('stopdrag child')
-
-			clearClickActionTimeout();
-
-	    }
-
 		} );
-
 	}
-
 
 	function getWinSize() {
 		winsize = { width : $window.width(), height : $window.height() };
@@ -388,7 +325,6 @@ var Grid = (function() {
 				if( position > previewPos ) {
 					scrollExtra = preview.height;
 				}
-				console.log('showPreview hidePreview')
 				hidePreview();
 			}
 			// same row
@@ -413,7 +349,6 @@ var Grid = (function() {
 		var preview = $.data( this, 'preview' );
 		preview.close();
 		$.removeData( this, 'preview' );
-		console.log('hide preview')
 	}
 
 	// the preview obj / overlay
