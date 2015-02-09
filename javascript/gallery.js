@@ -275,6 +275,7 @@ var Grid = (function() {
 
 			var preview = $.data( this, 'preview' );
 			if( typeof preview != 'undefined' ) {
+				console.log('resize hidePreview');
 				hidePreview();
 			}
 
@@ -313,7 +314,7 @@ var Grid = (function() {
 				e.preventDefault();
 				clearClickActionTimeout();
 				clickActionTimeout = setTimeout(function() {
-
+					console.log('click hidePreview')
 					hidePreview();
 
 				  }, 1000);
@@ -344,6 +345,7 @@ var Grid = (function() {
 					console.log('click child inside');
 
 					// check if item already opened
+										console.log('child click hidePreview')
 					current === $item.index() ? hidePreview() : showPreview( $item );
 
 
@@ -386,6 +388,7 @@ var Grid = (function() {
 				if( position > previewPos ) {
 					scrollExtra = preview.height;
 				}
+				console.log('showPreview hidePreview')
 				hidePreview();
 			}
 			// same row
