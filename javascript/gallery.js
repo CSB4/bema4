@@ -270,22 +270,27 @@ var Grid = (function() {
 		// reset some values..
 		$window.on( 'debouncedresize', function() {
 
-			scrollExtra = 0;
-			previewPos = -1;
+			// deal with ipad resize on scroll (hidding address bar)
+			if( winsize.width !== $window.width() ) {
 
-			var preview = $.data( this, 'preview' );
-			if( typeof preview != 'undefined' ) {
-				hidePreview();
+				scrollExtra = 0;
+				previewPos = -1;
+
+				var preview = $.data( this, 'preview' );
+				if( typeof preview != 'undefined' ) {
+					hidePreview();
+				}
+
+
+				$( ".og-grid li" ).each(function() {
+				  $( this ).removeAttr( 'style' );
+				});
+
+
+				saveItemInfo(true);
+				getWinSize();
+
 			}
-
-
-			$( ".og-grid li" ).each(function() {
-			  $( this ).removeAttr( 'style' );
-			});
-
-
-			saveItemInfo(true);
-			getWinSize();
 		} );
 
 	}
