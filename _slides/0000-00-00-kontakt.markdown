@@ -10,7 +10,7 @@ mail: "stomatologia@bema4.pl"
 godziny: 
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 08:00-20:00\"><b>pn&ndash;czw:</b> 08:00&ndash;20:00</time>"
   - "<time itemprop=\"openingHours\" datetime=\"Fr 08:00-16:00\"><b>pt:</b> 08:00&ndash;16:00</time>"
-ogloszenie: W środę 11.02 Centrum będzie wyjątkowo czynne w godzinach 15:00&ndash;20:00.
+ogloszenie: W środę 11.02.2015 Centrum będzie wyjątkowo czynne w godzinach 15:00&ndash;20:00.
 fullscreen: true
 published: true
 ---
