@@ -290,46 +290,80 @@ var Grid = (function() {
 
 	}
 
+	// prevent click event on scroll
+	//
+	var clickActionTimeout = null;
+
+	function clearClickActionTimeout() {
+	  if(clickActionTimeout) {
+	    clearTimeout(clickActionTimeout);
+	    clickActionTimeout = null;
+	    console.log('clearClickActionTimeout');
+	  }
+	}
+
 	function initItemsEvents( $items ) {
 
-		$items.on( 'touchstart click', function(e) {
+		$items.on( {
 
-			e.stopPropagation();
+		    click: function(e) {
 
-		    if(e.type == "touchstart") {
+		    	console.log('click');
 
-		        console.log('touch');
+				e.preventDefault();
+				clearClickActionTimeout();
+				clickActionTimeout = setTimeout(function() {
 
-		    } else if(e.type == "click") {
+					hidePreview();
 
-				console.log('click');
-		        hidePreview();
+				  }, 1000);
+
 				return false;
+		    },
+		    stopdrag: function() {
+
+		    	console.log('stopdrag')
+
+				clearClickActionTimeout();
 
 		    }
 
-		} ).children( 'a' ).on( 'touchstart click', function(e) {
+		} ).children( 'a' ).on( {
 
-			e.stopPropagation();
+	    click: function(e) {
 
-  			if(e.type == "touchstart") {
+	    	console.log('click child');
 
-		        console.log('touch child');
+			e.preventDefault();
+			clearClickActionTimeout();
 
-		    } else if(e.type == "click") {
+			var $item = $( this ).parent();
 
-				console.log('click child');
+			clickActionTimeout = setTimeout(function () {
+
+					console.log('click child inside');
+
+					// check if item already opened
+					current === $item.index() ? hidePreview() : showPreview( $item );
 
 
-				var $item = $( this ).parent();
-				// check if item already opened
-				current === $item.index() ? hidePreview() : showPreview( $item );
-				return false;
+			  }, 1000);
 
-		    }
+			return false;
+
+	    },
+	    stopdrag: function() {
+
+	    	console.log('stopdrag child')
+
+			clearClickActionTimeout();
+
+	    }
 
 		} );
+
 	}
+
 
 	function getWinSize() {
 		winsize = { width : $window.width(), height : $window.height() };
