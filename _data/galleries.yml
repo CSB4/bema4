@@ -4,31 +4,31 @@
   images:
   - name: recepcja.jpg
     title: Recepcja
-    description: 
+    description:
   - name: gabinet_1.jpg
     title: Gabinet
-    description: 
+    description:
   - name: gabinet_1_z_tylu.jpg
     title: Gabinet
-    description: 
+    description:
   - name: mikroskop.jpg
     title: Mikroskop
-    description: 
+    description:
   - name: lampa.jpg
     title: Unit
-    description: 
+    description:
   - name: spluwaczka.jpg
     title: Unit
-    description: 
+    description:
   - name: koncowki.jpg
     title: Unit
-    description: 
+    description:
   - name: gabinet_3.jpg
     title: Gabinet
-    description: 
+    description:
   - name: korytarz.jpg
     title: Gabinet
-    description: 
+    description:
 
 
 - id: personel
@@ -39,46 +39,47 @@
     title: lek. stom. Maciej Jarząbek
     position: Lekarz
     group: doctors
-    description: 
+    description: Absolwent Wydziału Lekarskiego II Oddziału Stomatologii Akademii Medycznej im. K. Marcinkowskiego w Poznaniu z 2002 r. Staż podyplomowy w Gdańskim Uniwersytecie Medycznym, do 2005 roku asystent w Katedrze i Zakładzie Stomatologii Zachowawczej GUM, autor, współautor i prelegent referatów prac z zakresu stomatologii zachowawczej. Uczestnik zagranicznych programów badawczych z zakres stomatologii we współpracy z Vrije Universiteit Brussel. Od 2005 roku prowadzi Indywidualną Praktykę Stomatologiczną współpracując z dr Markiem Komorowskim, gdzie głównie zajmuje się leczeniem endodontycznym, chirurgią endodontyczną, implantologią, protetyką oraz stomatologią estetyczną. Posiadając doświadczenie w pracy z mikroskopem zabiegowym. Na bieżąco podnosi swoje kwalifikacje, by sprostać wymaganiom nowoczesnej medycyny i stomatologii. Prywatnie pasjonat sportów strzeleckich, były medalista Mistrzostw Polski i Akademickich Mistrzostw Polski we wioślarstwie, pływaniu, koszykówce oraz lekkiej atletyce podczas studiów na Akademii Wychowania Fizycznego w Poznaniu i AM w Poznaniu.
   - name: iza.jpg
     title: lek. stom. Izabela Marszałek
     position: Lekarz
     group: doctors
-    description: 
+    description: Absolwentka Wydziału Lekarskiego o specjalności Techniki Dentystyczne-Protetyka Stomatologiczna oraz Wydziału Lekarsko-Dentystycznego na Gdańskim Uniwersytecie Medycznym. Zdobyła tytuły technika dentystycznego i lekarza dentysty. Stale podnosi swoje kwalifikacje na licznych kursach i szkoleniach. W 2011 roku dołączyła do zespołu Centrum Bema 4, gdzie wykonuje zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej. Prywatnie miłośniczka tańca i kajakarstwa.
   - name: tomasz.jpg
     title: lek. stom. Tomasz Minor
     position: Lekarz
     group: doctors
-    description: 
+    description: Absolwent kierunku lekarsko-dentystycznego Gdańskiego Uniwersytetu Medycznego. Pasjonat szeroko pojętej nowoczesnej protetyki stomatologicznej oraz leczenia endodontycznego z wykorzystaniem mikroskopu stomatologicznego. Aby móc zapewnić pacjentom w pełni kompleksowe leczenie stomatologiczne nieustannie podnosi swoje kwalifikacje zawodowe, aktywnie uczestnicząc w licznych konferencjach, kursach i szkoleniach z zakresu nowoczesnej stomatologii. W naszym Centrum wykonuje głównie zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki stomatologicznej, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej w pełnym zakresie.
+
 
   - name: asia_d.jpg
     title: Joanna Dawidowska
     position: Specjalistka do spraw administracyjno-finansowych, recepcjonistka
     group: asisstants
-    description: 
+    description:
 
   - name: ania_k.jpg
     title: Anna Konopka
     position: Higienistka stomatologiczna
     group: asisstants
-    description: 
+    description:
   - name: asia_p.jpg
     title: Joanna Pajko
     position: Higienistka stomatologiczna
     group: asisstants
-    description: 
+    description:
   - name: monika.jpg
     title: Monika Białk
     position: Higienistka stomatologiczna
     group: asisstants
-    description: 
+    description:
   - name: agnieszka.jpg
     title: Agnieszka Wasilewska
     position: Asystentka stomatologiczna
     group: asisstants
-    description: 
+    description:
   - name: ola.jpg
     title: Aleksandra Koroś
     position: Higienistka stomatologiczna
     group: asisstants
-    description: 
+    description:

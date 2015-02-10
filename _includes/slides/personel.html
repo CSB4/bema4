@@ -7,8 +7,12 @@
       	<div class="personel-wrapper" itemscope itemtype="http://schema.org/Employee">
       		<div class="personel-wrapper-content">
 		      	<h2 class="personel-name" itemprop="name">{{ image.title }}</h2>
-		      	<h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
-		        <p class="personel-desc" itemprop="description">{{ image.description }}</p>
+
+            {% if image.group != 'doctors' %}
+		      	 <h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
+		        {% endif %}
+
+            <p class="personel-desc" itemprop="description">{{ image.description }}</p>
 	        </div>
 	        <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img" itemprop="image">
      	</div>
