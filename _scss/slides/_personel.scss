@@ -17,10 +17,7 @@
 }
 
 .personel-wrapper {
-  position: relative;
-  width: 100%;
   height: 0;
-  overflow: hidden;
   padding-bottom: 150%;
 }
   .personel-name {
@@ -40,30 +37,24 @@
     display:none;
   }
 
-.doctors .personel-position {
-          display:none;
-}
-
 @include breakpoint($small-only) {
-  .asisstants {
-    .personel-name {
-      bottom:32px;
-      background:$white;
-      color:$light-blue;
-      padding:12px 3% 6px 3%;
-    }
-    .personel-position {
-      line-height:32px;
-      position:absolute;
-      bottom:0;
-      background:$light-blue;
-      color:$white;
-      width:100%;
-      padding:0 3% 0 3%;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow:hidden;
-    }
+  .personel-name {
+    bottom:32px;
+    background:$white;
+    color:$light-blue;
+    padding:12px 3% 6px 3%;
+  }
+  .personel-position {
+    line-height:32px;
+    position:absolute;
+    bottom:0;
+    background:$light-blue;
+    color:$white;
+    width:100%;
+    padding:0 3% 0 3%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
   }
 }
 
@@ -73,11 +64,11 @@
     color:$black;
   }
       .personel-name {
+        @include light;
         position:static;
         background:transparent;
         color:$black;
         padding:0;
-        @include light;
         text-align:left;
       }
       .personel-position {
@@ -98,25 +89,8 @@
         }
       }
       .personel-desc {
-        display:block;
         @include smaller;
-      }
-      .personel-wrapper {
-        position: relative;
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-        padding-bottom: 150%;
-        z-index:34;
-
-        &:hover .personel-img {
-          opacity:0.1;
-          @include transition-property(opacity);
-          @include transition-duration($transition-time);
-        }
-        &:hover .personel-wrapper-content {
-          opacity:1;
-        }
+        display:block;
       }
         .personel-wrapper-content {
           top:4%;
@@ -150,3 +124,44 @@
       bottom:10%;
     }
 }
+
+.doctors {
+  .personel-wrapper {
+    @include transition-property(width);
+    @include transition-duration($transition-time*2);
+    position:relative;
+    z-index:10;
+    width:0;
+
+    &:hover {
+      z-index:20;
+    }
+  }
+
+  &:nth-child(3n) .personel-wrapper {
+    left:-200%;
+  }
+  &:nth-child(3n+2) .personel-wrapper {
+    left:-100%;
+  }
+
+
+    &:hover .personel-img {
+      opacity:.1;
+      @include transition-property(opacity);
+      @include transition-duration($transition-time*2);
+    }
+    &:hover .personel-wrapper-content {
+      opacity:.6;
+    }
+    &:hover .personel-wrapper {
+      width:300%;
+    }
+}
+  .personel-wrapper-img {
+    height:0;
+    padding-bottom:150%;
+    position:absolute;
+    top:0;
+    z-index:9;
+  }
