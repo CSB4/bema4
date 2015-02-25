@@ -1,6 +1,13 @@
 /*
   Grid using Susy
 */
+
+//overwrite compass buggy mixin
+@mixin box-sizing($value) {
+    -moz-box-sizing: $value;
+         box-sizing: $value;
+}
+
 @import "susy";
 @include border-box-sizing;
 @include layout($susy);

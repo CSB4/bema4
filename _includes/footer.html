@@ -88,6 +88,15 @@ enquire.register("screen and (min-width: 640px)", [{
 
 				  	checkCookie(1);
 
+				  	$('.personel-item').on('click', function() {
+				  		if ($(this).hasClass('active')) {
+				  			$(this).removeClass('active');
+				  		} else {
+				  			$('.personel-item.active').removeClass('active');
+				  			$(this).addClass('active');
+				  		}
+				  	});
+
 			$(function() {
 
 	            var content = $('.content');
@@ -140,7 +149,7 @@ enquire.register("screen and (min-width: 640px)", [{
 	              }
 	            }
 	            google.maps.event.addListener(marker, 'click', function() {
-				  window.location.href = "https://www.google.pl/maps/place/Bema+4.+Centrum+stomatologiczne/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572";
+				  window.location.href = "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572";
 				});
 	            google.maps.event.addListenerOnce(map, 'idle', function() {
 	              map_loaded = true;

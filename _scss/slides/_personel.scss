@@ -21,17 +21,17 @@
   padding-bottom: 150%;
 }
   .personel-name {
+    @include large;
+    @include bold;
     position:absolute;
     background:rgba($light-blue,0.75);
     color:$white;
     width:100%;
     padding:16px 3% 12px 3%;
-    @include large;
-    @include bold;
     bottom:0;
   }
   .personel-img {
-    width:101%;
+    width:100%;
   }
   .personel-desc {
     display:none;
@@ -63,8 +63,14 @@
   .personel-list {
     color:$black;
   }
+    .personel-wrapper-content {
+      top:rhythm($lil);
+      left:rhythm($lil);
+      bottom:rhythm($lil);
+      right:rhythm($lil);
+      position:absolute;
+    }
       .personel-name {
-        @include light;
         position:static;
         background:transparent;
         color:$black;
@@ -72,7 +78,6 @@
         text-align:left;
       }
       .personel-position {
-        @include trailer;
         padding-left:17px;
         display:block;
 
@@ -90,74 +95,110 @@
       }
       .personel-desc {
         @include smaller;
+        @include leader;
         display:block;
       }
-        .personel-wrapper-content {
-          top:4%;
-          left:7%;
-          bottom:7%;
-          right:7%;
-          position:absolute;
-          opacity:0;
-          @include transition-property(opacity);
-          @include transition-duration($transition-time);
-        }
-        .personel-img {
-          margin:0 auto;
-        }
+
       }
-      .doctors .personel-wrapper {
-        background:$light-blue;
-      }
-      .asisstants .personel-wrapper {
-        background:$white;
-      }
+
 
 @inlude breakpoint($xlarge-up) {
   .personel-desc {
     @include base-font-size;
   }
     .personel-wrapper-content {
-      top:10%;
-      left:10%;
-      right:10%;
-      bottom:10%;
+      top:rhythm(2*$lil);
+      left:rhythm(2*$lil);
+      bottom:rhythm(2*$lil);
+      right:rhythm(2*$lil);
     }
 }
 
-.doctors {
-  .personel-wrapper {
-    @include transition-property(width);
-    @include transition-duration($transition-time*2);
-    position:relative;
-    z-index:10;
-    width:0;
+
+.doctors .personel-wrapper {
+  background:rgba($light-blue,0.4);
+}
+.asisstants .personel-wrapper {
+  background:rgba($white, 0.4);
+}
+
+// new desc prev
+
+@include breakpoint($medium-up) {
+  .personel-item {
 
     &:hover {
-      z-index:20;
-    }
-  }
+      cursor:pointer;
 
-  &:nth-child(3n) .personel-wrapper {
-    left:-200%;
-  }
-  &:nth-child(3n+2) .personel-wrapper {
-    left:-100%;
-  }
+      & .personel-img {
+        opacity:0.8;
+        @include transition-property(all);
+        @include transition-duration($transition-time);
+      }
+    }
+
+    &.asisstants {
+      overflow:hidden;
+    }
+    .personel-wrapper {
+      @include transition-property(all);
+      @include transition-duration($transition-time);
+      transform: translateX(-100%); //hide doctors
+      position:relative;
+      z-index:10;
+      width:100%;
+    }
+    &.doctors .personel-wrapper {
+      width:200%; // set doctors desc wdth
+    }
 
 
-    &:hover .personel-img {
-      opacity:.1;
-      @include transition-property(opacity);
-      @include transition-duration($transition-time*2);
+    &.doctors:nth-child(2n) .personel-wrapper { // place desc box
+      left:-100%;
+      text-align:right;
+
+      .personel-name {
+        text-align:right;
+      }
     }
-    &:hover .personel-wrapper-content {
-      opacity:.6;
-    }
-    &:hover .personel-wrapper {
+
+      &.active .personel-wrapper {
+        transform: translateX(0);
+        background:rgba(white,0.8);
+      }
+      &.doctors.active .personel-wrapper {
+        background:rgba($light-blue,0.8);
+      }
+  }
+}
+@include breakpoint($large-up) {
+  .personel-item {
+     &.doctors .personel-wrapper {
       width:300%;
     }
+
+    &.doctors:nth-child(3n) .personel-wrapper {
+      left:-200%;
+      text-align:right;
+
+      .personel-name {
+        text-align:right;
+      }
+    }
+
+    &.doctors:nth-child(3n+2) .personel-wrapper {
+      left:-100%;
+      text-align:center;
+
+      .personel-name {
+        text-align:center;
+      }
+    }
+
+  } // !.personel-item
 }
+
+
   .personel-wrapper-img {
     height:0;
     padding-bottom:150%;

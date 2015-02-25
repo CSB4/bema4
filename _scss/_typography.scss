@@ -31,17 +31,6 @@ a {
 }
 
 
-.space-top{
-  @include leader($lil);
-}
-.space-bottom {
-  @include trailer($lil);
-}
-p {
-  @extend .space-bottom;
-}
-
-
 @mixin small {
    @include adjust-font-size-to($f_small);
 }
