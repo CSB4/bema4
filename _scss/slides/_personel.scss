@@ -20,6 +20,13 @@
   height: 0;
   padding-bottom: 150%;
 }
+.personel-wrapper-img {
+  height:0;
+  padding-bottom:150%;
+  position:absolute;
+  top:0;
+  z-index:9;
+}
   .personel-name {
     @include large;
     @include bold;
@@ -114,45 +121,68 @@
     }
 }
 
-
-.doctors .personel-wrapper {
-  background:rgba($light-blue,0.4);
-}
-.asisstants .personel-wrapper {
-  background:rgba($white, 0.4);
-}
-
 // new desc prev
 
 @include breakpoint($medium-up) {
+
+  //overalys
+  .doctors {
+    .personel-wrapper-img {
+      background:$light-blue;
+    }
+   .personel-wrapper {
+      background:rgba($light-blue,.2);
+    }
+  }
+  .asisstants {
+    .personel-wrapper-img {
+      background:$white;
+    }
+    .personel-wrapper {
+      background:rgba($white,.2);
+    }
+  }
+
   .personel-item {
 
+    //hover states
     &:hover {
       cursor:pointer;
 
       & .personel-img {
-        opacity:0.8;
+        opacity:0.2;
         @include transition-property(all);
         @include transition-duration($transition-time);
       }
     }
+    &.active:hover .personel-img {
+        @include transition-property(all);
+        @include transition-duration($transition-time);
+        opacity:1;
+    }
 
+    // constrain assistants to one block
     &.asisstants {
       overflow:hidden;
     }
+
+    //set up overlay block
     .personel-wrapper {
       @include transition-property(all);
-      @include transition-duration($transition-time);
+      @include transition-duration($transition-time/2);
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
       transform: translateX(-100%); //hide doctors
       position:relative;
       z-index:10;
       width:100%;
     }
     &.doctors .personel-wrapper {
+      @include transition-duration($transition-time);
       width:200%; // set doctors desc wdth
     }
 
-
+    //right block tweak
     &.doctors:nth-child(2n) .personel-wrapper { // place desc box
       left:-100%;
       text-align:right;
@@ -162,7 +192,10 @@
       }
     }
 
+      //active state -> show overaly block
       &.active .personel-wrapper {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
         transform: translateX(0);
         background:rgba(white,0.8);
       }
@@ -172,6 +205,8 @@
   }
 }
 @include breakpoint($large-up) {
+
+  //set up to 3 columns grid
   .personel-item {
      &.doctors .personel-wrapper {
       width:300%;
@@ -197,12 +232,3 @@
 
   } // !.personel-item
 }
-
-
-  .personel-wrapper-img {
-    height:0;
-    padding-bottom:150%;
-    position:absolute;
-    top:0;
-    z-index:9;
-  }

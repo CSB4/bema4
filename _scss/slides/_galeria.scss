@@ -35,11 +35,10 @@
     @include transition-duration($transition-time/2);
     width:100%;
     opacity:0.5;
-
-    &:hover {
-      opacity:1;
-    }
   }
+}
+.no-touch .og-grid li > a img:hover {
+  opacity:1;
 }
 
 .og-grid li.og-expanded > a > img {
