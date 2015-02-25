@@ -1,146 +1,109 @@
-//personel
+.personel-item {
+  position:relative;
+  height:0;
+  padding-bottom:150%;
+}
+
 @include breakpoint($medium-up){
-  .personel-list {
-    li {
-      @include gallery(6 of 12);
-      position:relative;
-    }
+  .personel-item {
+    @include gallery(6 of 12);
+    position:relative;
+    padding-bottom:0;
+    height:auto;
   }
 }
 @include breakpoint($large-up){
-  .personel-list {
-    li {
-      @include gallery(4 of 12);
-      position:relative;
-    }
+  .personel-item {
+    @include gallery(4 of 12);
+    position:relative;
   }
 }
 
-.personel-wrapper {
-  height: 0;
-  padding-bottom: 150%;
-}
-.personel-wrapper-img {
-  height:0;
-  padding-bottom:150%;
-  position:absolute;
-  top:0;
-  z-index:9;
-}
-  .personel-name {
-    @include large;
-    @include bold;
-    position:absolute;
-    background:rgba($light-blue,0.75);
-    color:$white;
-    width:100%;
-    padding:16px 3% 12px 3%;
-    bottom:0;
-  }
-  .personel-img {
-    width:100%;
-  }
-  .personel-desc {
-    display:none;
-  }
-
-@include breakpoint($small-only) {
-  .personel-name {
-    bottom:32px;
-    background:$white;
-    color:$light-blue;
-    padding:12px 3% 6px 3%;
-  }
-  .personel-position {
-    line-height:32px;
-    position:absolute;
-    bottom:0;
-    background:$light-blue;
-    color:$white;
-    width:100%;
-    padding:0 3% 0 3%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow:hidden;
-  }
+.personel-list {
+  color:$black;
 }
 
-@include breakpoint($medium-up) {
-
-  .personel-list {
-    color:$black;
-  }
-    .personel-wrapper-content {
-      top:rhythm($lil);
-      left:rhythm($lil);
-      bottom:rhythm($lil);
-      right:rhythm($lil);
+    .personel-wrapper-img {
       position:absolute;
+      top:0;
+      width:100%;
+      padding-bottom:150%;
+      z-index:9;
     }
-      .personel-name {
-        position:static;
-        background:transparent;
-        color:$black;
-        padding:0;
-        text-align:left;
-      }
-      .personel-position {
-        padding-left:17px;
-        display:block;
+    .personel-wrapper {
+      position:absolute;
+      top:0;
+      width:100%;
+      height:0;
+      padding-bottom:150%;
+      z-index:10;
 
-        &:before {
-          height:1px;
-          width:12px;
-          content:"";
-          background:$black;
-          display:block;
-          position:relative;
-          top:0.8em;
-          left:-17px;
+      @include transition-property(opacity);
+      @include transition-duration($transition-time);
+      opacity:0;
+    }
+      .personel-wrapper-content {
+        top:rhythm($lil);
+        left:rhythm($lil);
+        bottom:rhythm($lil);
+        right:rhythm($lil);
+        position:absolute;
+      }
+        .personel-name {
+          @include bold;
+          @include large;
+        }
+        .personel-position {
+          @include large;
+          padding-top:rhythm();
           display:block;
         }
-      }
-      .personel-desc {
-        @include smaller;
-        @include leader;
-        display:block;
-      }
+        .personel-desc {
+          display:none;
+        }
+        .personel-img {
+          @include transition-property(opacity);
+          @include transition-duration($transition-time);
+          opacity:1;
+          width:100%;
+        }
 
-      }
-
-
-@inlude breakpoint($xlarge-up) {
-  .personel-desc {
-    @include base-font-size;
+.personel-item:hover {
+  .personel-wrapper {
+    opacity:1;
   }
-    .personel-wrapper-content {
-      top:rhythm(2*$lil);
-      left:rhythm(2*$lil);
-      bottom:rhythm(2*$lil);
-      right:rhythm(2*$lil);
-    }
+  .personel-img {
+    opacity:0.2;
+  }
+}
+
+//overalys
+.doctors {
+  .personel-wrapper-img {
+    background:$light-blue;
+  }
+ .personel-wrapper {
+    background:rgba($light-blue,.2);
+  }
+}
+.asisstants {
+  .personel-wrapper-img {
+    background:$white;
+  }
+  .personel-wrapper {
+    background:rgba($white,.2);
+  }
 }
 
 // new desc prev
 
 @include breakpoint($medium-up) {
 
-  //overalys
-  .doctors {
-    .personel-wrapper-img {
-      background:$light-blue;
-    }
-   .personel-wrapper {
-      background:rgba($light-blue,.2);
-    }
-  }
-  .asisstants {
-    .personel-wrapper-img {
-      background:$white;
-    }
-    .personel-wrapper {
-      background:rgba($white,.2);
-    }
+  // show description on medium up
+  .personel-desc {
+    display:block;
+    @include smaller;
+    @include leader;
   }
 
   .personel-item {
@@ -168,6 +131,7 @@
 
     //set up overlay block
     .personel-wrapper {
+      opacity:1; //reset from small
       @include transition-property(all);
       @include transition-duration($transition-time/2);
       -webkit-transform: translateX(-100%);
@@ -203,6 +167,11 @@
         background:rgba($light-blue,0.8);
       }
   }
+
+  //reset hover for touch
+  .touch .personel-item:hover .personel-img {
+      opacity:1;
+  }
 }
 @include breakpoint($large-up) {
 
@@ -231,4 +200,17 @@
     }
 
   } // !.personel-item
+}
+
+
+@inlude breakpoint($xlarge-up) {
+  .personel-desc {
+    @include base-font-size;
+  }
+    .personel-wrapper-content {
+      top:rhythm(2*$lil);
+      left:rhythm(2*$lil);
+      bottom:rhythm(2*$lil);
+      right:rhythm(2*$lil);
+    }
 }
