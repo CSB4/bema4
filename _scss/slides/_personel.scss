@@ -173,6 +173,8 @@
       opacity:1;
   }
 }
+
+
 @include breakpoint($large-up) {
 
   //set up to 3 columns grid
@@ -187,6 +189,16 @@
 
       .personel-name {
         text-align:right;
+      }
+    }
+
+    //overwrite 2n (for #4 => 2n == 3n+1)
+    &.doctors:nth-child(3n+1) .personel-wrapper {
+      left:0;
+      text-align:left;
+
+      .personel-name {
+        text-align:left;
       }
     }
 
