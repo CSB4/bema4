@@ -9,7 +9,7 @@ fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
 godziny: 
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Fr 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
-ogloszenie: null
+ogloszenie: W piątek 27 marca 2015 centrum będzie wyjątkowo czynne w godzinach 15:00-20:00. Dodatkowo, centrum będzie nieczynne w Wielki Piątek 3 kwietnia 2015.
 fullscreen: true
 published: true
 ---
