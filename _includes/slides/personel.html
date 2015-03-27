@@ -1,29 +1,27 @@
 {% for gallery in site.data.galleries %}
 {% if gallery.id == "personel" %}
 
-    <ul class="personel-list" itemscope itemtype="http://schema.org/Employees">
-    {% for image in gallery.images %}
-      <li class="{{image.group}} personel-item">
+		<ul class="personel-list" itemscope itemtype="http://schema.org/Employees">
+		{% for image in gallery.images %}
+			<li class="{{image.group}} personel-item">
 
-      	<div class="personel-wrapper" itemscope itemtype="http://schema.org/Employee">
+				<div class="personel-wrapper" itemscope itemtype="http://schema.org/Employee">
 
-          <div class="personel-wrapper-content">
+					<div class="personel-wrapper-content">
 
-            <h2 class="personel-name" itemprop="name">{{ image.title }}</h2>
+						<h2 class="personel-name" itemprop="name">{{ image.title }}</h2>
 
-            {% if image.group != 'doctors' %}
-		      	 <h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
-		        {% endif %}
+						<h3 class="personel-position" itemprop="jobTitle">{{ image.position }}</h3>
 
-            <p class="personel-desc" itemprop="description">{{ image.description }}</p>
-	        </div>
-        </div>
-        <div class="personel-wrapper-img">
-         <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img" itemprop="image">
-        </div>
-      </li>
-    {% endfor %}
-    </ul>
+						<p class="personel-desc" itemprop="description">{{ image.description }}</p>
+					</div>
+				</div>
+				<div class="personel-wrapper-img">
+				 <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.name }}" class="personel-img" itemprop="image">
+				</div>
+			</li>
+		{% endfor %}
+		</ul>
 
 {% endif %}
 {% endfor %}
