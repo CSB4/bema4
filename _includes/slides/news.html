@@ -1,0 +1,19 @@
+<ul class="news">
+
+	{% assign counter = 0 %}
+	{% for news in site.news %}
+
+		{% assign counter = counter | plus: news.scale %}
+
+		{% if counter > 4 %}
+			{% break %}
+		{% endif %}
+
+		<li class="news-item scale-{{ news.scale }}">
+			<h3 class="news-title">{{ news.title }}</h3>
+			<p class="news-content">{{ news.content }}</p>
+		</li>
+
+	{% endfor %}
+
+</ul>

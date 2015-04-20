@@ -7,7 +7,7 @@ adres_url: "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.
 telefon: +48 58 620 21 82
 fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
-godziny: 
+godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Fr 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
 ogloszenie:
 fullscreen: true

@@ -1,0 +1,6 @@
+---
+label: slide
+title: News
+type: news
+published: true
+---
