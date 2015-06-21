@@ -88,14 +88,31 @@ enquire.register("screen and (min-width: 640px)", [{
 
 				  	checkCookie(1);
 
-				  	$('.personel-item').on('click', function() {
-				  		if ($(this).hasClass('active')) {
-				  			$(this).removeClass('active');
-				  		} else {
-				  			$('.personel-item.active').removeClass('active');
-				  			$(this).addClass('active');
-				  		}
-				  	});
+				  	var ifInitiated = false;
+
+				  	$('.personel-list').on('mouseover', function(e) {
+
+				  		ifInitiated = true;
+
+				  		console.log(e.pageY);
+
+					  	$('.personel-item').on('mouseover', function() {
+
+					  		console.log("dupa");
+					  		
+					  		if ($(this).hasClass('active')) {
+					  			//$(this).removeClass('active');
+					  		} else {
+					  			$('.personel-item.active').removeClass('active');
+					  			$(this).addClass('active');
+					  		}
+					  	});
+					});  	
+					
+					$('.personel-list').on('mouseleave', function() {
+						ifInitiated = false;
+						$('.personel-item.active').removeClass('active');
+					});
 
 			$(function() {
 
