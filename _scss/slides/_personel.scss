@@ -21,6 +21,7 @@
 
 .personel-list {
   color:$black;
+  overflow: hidden;
 }
 
     .personel-wrapper-img {
@@ -29,6 +30,7 @@
       width:100%;
       padding-bottom:150%;
       z-index:9;
+      pointer-events: none;
     }
     .personel-wrapper {
       position:absolute;
@@ -41,6 +43,7 @@
       @include transition-property(opacity);
       @include transition-duration($transition-time);
       opacity:0;
+      pointer-events: none;
     }
       .personel-wrapper-content {
         top:rhythm($lil);
