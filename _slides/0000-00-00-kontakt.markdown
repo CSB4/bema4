@@ -9,7 +9,7 @@ fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Fr 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
-ogloszenie: Informujemy, że w piątek <b>26.06.2015</b> nasze Centrum będzie nieczynne. Cały zespół udaje się na uroczystość ślubną na Mazury.
+ogloszenie: ''
 fullscreen: true
 published: true
 ---
