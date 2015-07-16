@@ -1,0 +1,8 @@
+---
+label: news
+published: true
+title: Msza święta
+scale: 2
+---
+
+W dniu 21.07.2015 r. (wtorek) o godz. 8.15 w&nbsp;Parafii p.w.&nbsp;Najświętszego Serca Pana Jezusa w&nbsp;Gdyni przy ul.&nbsp;Armii Krajowej&nbsp;46 odbędzie się Msza Św. w&nbsp;Pierwszą Rocznicę Śmierci ś.p.&nbsp;Marka Komorowskiego.
