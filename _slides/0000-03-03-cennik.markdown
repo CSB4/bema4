@@ -30,6 +30,7 @@ published: true
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span> <span>520 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span> <span>620 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span> <span>700 pln</span>
+* <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
 * <span>usunięcie złamanego narzędzia</span> <span>300 pln</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
 
