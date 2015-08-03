@@ -1,8 +1,0 @@
----
-label: news
-published: true
-title: Remont
-scale: 2
----
-
-Informujemy, że nasze Centrum będzie nieczynne w dniach od 3. do 17. sierpnia 2015 w związku z remontem.
