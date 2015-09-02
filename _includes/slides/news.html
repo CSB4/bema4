@@ -1,7 +1,7 @@
 <ul class="news">
 
 	{% assign counter = 0 %}
-	{% for news in site.news %}
+	{% for news in site.news reversed %}
 
 		{% assign counter = counter | plus: news.scale %}
 
