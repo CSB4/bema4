@@ -10,7 +10,7 @@ published: true
 
 ##Stomatologia zachowawcza i estetyczna
 
-* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;50 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>140 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>120&ndash;150 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>150&ndash;170 pln</span>
@@ -37,6 +37,7 @@ published: true
 
 ##Protetyka
 
+* <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>korona bezmetalowa ZIRKONIA</span> <span>1500&ndash;1800 pln</span>
 * <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
 * <span>korona porcelanowa na metalu</span> <span>920 pln</span>
@@ -70,6 +71,7 @@ published: true
 
 ##Chirurgia stomatologiczna
 
+* <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>usunięcie zęba stałego</span> <span>120&ndash;150 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400 pln</span>
@@ -83,6 +85,7 @@ published: true
 
 ##Implantologia
 
+* <span>konsultacja</span> <span>100&ndash;200 pln</span>
 * <span>wszczepienie implantu</span> <span>2500 pln</span>
 * <span>korona porcelanowa na implancie</span> <span>koszt łącznika + 2050&ndash;2950 pln</span>
 * <span>proteza oparta na implantach</span> <span>wycena w gabinecie</span>
@@ -100,4 +103,4 @@ published: true
 * <span>wybielanie metodą domową</span> <span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span> <span>1000&ndash;1300 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 21.08.2015</div>
+<div class="cennik-aktualizacja">Cennik z dnia 28.11.2015</div>
