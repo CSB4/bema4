@@ -9,7 +9,7 @@ fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Fr 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
-ogloszenie: 'W związku ze Świętami Bożego Narodzenia oraz Nowym Rokiem, informujemy że Centrum będzie dodatkowo nieczynne w dniach 24 oraz 31 grudnia 2015. W dniach 23 oraz 30 grudnia 2015 Centrum będzie czynne jedynie do godziny 15:00.'
+ogloszenie: ''
 fullscreen: true
 published: true
 ---
