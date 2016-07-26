@@ -2,17 +2,22 @@
 
 	{% assign counter = 0 %}
 	{% for news in site.news reversed %}
+	
+		{% if site.published %}  
 
-		{% assign counter = counter | plus: news.scale %}
-
-		{% if counter > 4 %}
-			{% break %}
-		{% endif %}
-
-		<li class="news-item scale-{{ news.scale }}">
-			<h3 class="news-title">{{ news.title }}</h3>
-			<p class="news-content">{{ news.content }}</p>
-		</li>
+	
+			{% assign counter = counter | plus: news.scale %}
+	
+			{% if counter > 4 %}
+				{% break %}
+			{% endif %}
+	
+			<li class="news-item scale-{{ news.scale }}">
+				<h3 class="news-title">{{ news.title }}</h3>
+				<p class="news-content">{{ news.content }}</p>
+			</li>
+			
+		{% endif %}	
 
 	{% endfor %}
 
