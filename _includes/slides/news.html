@@ -3,7 +3,7 @@
 	{% assign counter = 0 %}
 	{% for news in site.news reversed %}
 	
-		{% if site.published == 'true' %}  
+		{% if news.published %}  
 
 	
 			{% assign counter = counter | plus: news.scale %}
