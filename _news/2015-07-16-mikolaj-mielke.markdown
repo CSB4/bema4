@@ -1,7 +1,7 @@
 ---
 label: news
 published: true
-title: Nowy specjalistaa
+title: Nowy specjalista
 scale: 2
 ---
 
