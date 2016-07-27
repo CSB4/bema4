@@ -6,9 +6,9 @@ fullscreen: true
 published: true
 ---
 
-#<span>Cennik usług podstawowych</span>
+# <span>Cennik usług podstawowych</span>
 
-##Stomatologia zachowawcza i estetyczna
+## Stomatologia zachowawcza i estetyczna
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>140 pln</span>
