@@ -25,6 +25,7 @@ published: true
 
 <h2 id="endodoncja">Endodoncja (leczenie kanałowe)</h2>
 
+* <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
 * <span>dewitalizacja miazgi (zatrucie)</span> <span>50 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span> <span>270 pln</span>
 * <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span> <span>360 pln</span>
