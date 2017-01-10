@@ -4,6 +4,7 @@ title: Historia
 type: historia
 published: true
 img_1: 1.jpg
+date: 2014-08-21 19:53:26
 img_2: 2.jpg
 ---
 

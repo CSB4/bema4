@@ -2,4 +2,5 @@
 label: slide
 title:  "Galeria"
 type: galeria
+date: 2013-10-21 19:53:26
 ---

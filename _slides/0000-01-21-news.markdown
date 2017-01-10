@@ -2,5 +2,6 @@
 label: slide
 title: News
 type: news
+date: 2011-10-21 19:53:26
 published: true
 ---

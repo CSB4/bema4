@@ -3,6 +3,7 @@ label: slide
 title: Gwarancja
 type: gwarancja
 fullscreen: true
+date: 2015-08-21 19:53:26
 published: true
 ---
 

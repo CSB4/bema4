@@ -3,6 +3,7 @@ label: slide
 title: Zakres Usług
 type: uslugi
 fullscreen: true
+date: 2011-11-21 19:53:26
 published: true
 ---
 
