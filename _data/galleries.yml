@@ -40,15 +40,16 @@
     position: Lekarz dentysta
     group: doctors
     description: Izabela Marszałek jest absolwentką Wydziału Lekarskiego o specjalności Techniki Dentystyczne-Protetyka Stomatologiczna oraz Wydziału Lekarsko-Dentystycznego na Gdańskim Uniwersytecie Medycznym. Zdobyła tytuły technika dentystycznego i lekarza dentysty. Stale podnosi swoje kwalifikacje na licznych kursach i szkoleniach. W 2011 roku dołączyła do zespołu Centrum Bema 4, gdzie wykonuje zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej. Prywatnie miłośniczka tańca i kajakarstwa.
+  - name: anna_kj.jpg
+    title: Anna Kabacińska-Jerzak
+    position: Lekarz dentysta
+    group: doctors
+    description: Absolwentka ukończonego z wyróżnieniem kierunku lekarsko-dentystycznego Gdańskiego Uniwersytetu Medycznego. Wieloletni nauczyciel akademicki oraz wykładowca na Katedrze Stomatologii Zachowawczej i Endodoncji Gdańskiego Uniwersytetu Medycznego. Współautorka prac naukowych oraz programów badawczych. W 2013 roku zdała z najlepszym wynikiem w Polsce egzamin specjalizacyjny w zakresie stomatologii zachowawczej z endodoncją. Realizuje specjalistyczne zabiegi z zakresu nowoczesnej endodoncji z użyciem mikroskopu zabiegowego, stomatologii zachowawczej w pełnym zakresie oraz protetyki stomatologicznej. Pasjonuje się dysfunkcjami narządu żucia, chorobą okluzyjną oraz problemami ze stawami skroniowo-żuchwowymi. W trosce o dobro pacjentów oraz wysoką jakość swojej pracy stale podnosi kwalifikacje uczestnicząc w licznych szkoleniach i kursach naukowych w Polsce i za granicą. Prywatnie kocha kino i podróże, lubi biegać, pływać, jeździć na rowerze i startuje w triathlonach.
   - name: natalia_p.jpg
     title: Natalia Piaskowska
     position: Specjalista periodontologii
     group: doctors
     description: Natalia Piaskowska jest absolwentką kierunku lekarsko-stomatologicznego Gdańskiej Akademii Medycznej. W 2000 r. zdała z wyróżnieniem egzamin na I stopień specjalizacji ze stomatologii ogólnej. W 2008 r. uzyskała II stopień specjalizacji z zakresu periodontologii. W swojej praktyce szczególny nacisk kładzie na kompleksowe, interdyscyplinarne leczenie pacjentów. Pasjonuje się stomatologią estetyczną. Wykonuje skomplikowane zabiegi protetyczno-estetyczne, włączając zabiegi z zakresu chirurgii dziąsłowej. Uczestniczy w konferencjach i szkoleniach systematycznie doskonaląc swoją wiedzę i umiejętności. Interesuje się psychologią i astronomią. Lubi pływać i czytać książki.
-  - name: anna_kj.jpg
-    title: Anna Kabacińska-Jerzak
-    position: Lekarz dentysta
-    group: doctors
   # - name: mikolaj_m.jpg
   #   title: Mikołaj Mielke
   #   position: Lekarz dentysta
