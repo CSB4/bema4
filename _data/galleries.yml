@@ -2,39 +2,43 @@
   imagefolder: /images/gallery
   thumbfolder: /images/gallery/thumbs
   images:
-  - name: recepcja.jpg
-    title: Recepcja
+  - name: rejestracja.jpg
+    title:
     description:
-  - name: gabinet_1.jpg
-    title: Gabinet
-    description:
-  - name: gabinet_1_z_tylu.jpg
-    title: Gabinet
-    description:
-  - name: mikroskop.jpg
-    title: Mikroskop
-    description:
-  - name: lampa.jpg
-    title: Unit
-    description:
-  - name: spluwaczka.jpg
-    title: Unit
-    description:
-  - name: koncowki.jpg
-    title: Unit
-    description:
-  - name: gabinet_3.jpg
-    title: Gabinet
+  - name: joanna_d_nikoletta_k_przy_pracy.jpg
+    title:
     description:
   - name: korytarz.jpg
-    title: Gabinet
+    title:
     description:
-
+  - name: gabinet_1.jpg
+    title:
+    description:
+  - name: gabinet_2.jpg
+    title:
+    description:
+  - name: izabela_m_joanna_w_przy_pracy.jpg
+    title:
+    description:
+  - name: mikroskop.jpg
+    title:
+    description:
+  - name: anna_kj_aleksandra_k_przy_pracy.jpg
+    title:
+    description:
+  - name: mikolaj_m_anna_k_przy_pracy.jpg
+    title:
+    description:
+  - name: is_full_kit.jpg
+    title:
+    description:
+  - name: grupowe.jpg
+    title:
+    description:
 
 - id: personel
   imagefolder: /images/personel
   images:
-
   - name: izabela_m.jpg
     title: Izabela Marszałek
     position: Lekarz dentysta
