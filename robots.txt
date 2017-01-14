@@ -1,8 +1,2 @@
 User-agent: *
-Disallow: /images/personel/ola.jpg
-Disallow: /images/personel/asia_d.jpg
-Disallow: /images/personel/ania_k.jpg
-Disallow: /images/personel/asia_p.jpg
-Disallow: /images/personel/monika.jpg
-Disallow: /images/personel/agnieszka.jpg
-Disallow: /images/personel/maciej.jpg
+Disallow: /images/personel/
