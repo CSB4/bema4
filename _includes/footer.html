@@ -26,6 +26,10 @@ function disableLinksByElement(el) {
 }
 disableLinksByElement('galeria');
 
+$('.personel-list').on('contextmenu', 'img', function(e){ 
+  return false; 
+});	
+	
 enquire.register("screen and (min-width: 640px)", [{
 
 
