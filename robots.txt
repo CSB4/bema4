@@ -1,2 +1,7 @@
 User-agent: *
 Disallow: /images/personel/
+Disallow: /images/gallery/anna_kj_aleksandra_k_przy_pracy.jpg
+Disallow: /images/gallery/grupowe.jpg
+Disallow: /images/gallery/izabela_m_joanna_w_przy_pracy.jpg
+Disallow: /images/gallery/joanna_d_nikoletta_k_przy_pracy.jpg
+Disallow: /images/gallery/mikolaj_m_anna_k_przy_pracy.jpg
