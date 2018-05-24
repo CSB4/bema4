@@ -9,7 +9,8 @@ telefon: +48 58 620 21 82
 fax: +48 58 727 92 59
 mail: "stomatologia@bema4.pl"
 godziny:
-  - "<time itemprop=\"openingHours\" datetime=\"Mo-Fr 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
+  - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 08:00-20:00\"><b>pn&ndash;pt:</b> 08:00&ndash;20:00</time>"
+  - "<time itemprop=\"openingHours\" datetime=\"Fr 08:00-14:00\"><b>pt:</b> 08:00&ndash;14:00</time>"
 ogloszenie: ''
 fullscreen: true
 published: true
