@@ -1,7 +1,7 @@
 ---
 label: news
 published: true
-title: Ochrona Danych Osobowych
+title: Informacja o ochronie Danych Osobowych
 scale: 2
 ---
 
