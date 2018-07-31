@@ -12,7 +12,7 @@ published: true
 ## Stomatologia zachowawcza i estetyczna
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>140 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>150 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>120&ndash;150 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>150&ndash;170 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>180&ndash;220 pln</span>
@@ -27,13 +27,14 @@ published: true
 <h2 id="endodoncja">Endodoncja (leczenie kanałowe)</h2>
 
 * <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
-* <span>dewitalizacja miazgi (zatrucie)</span> <span>50 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span> <span>270 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span> <span>360 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span> <span>520 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span> <span>620 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span> <span>700 pln</span>
+* <span>dewitalizacja miazgi (zatrucie)</span> <span>100 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span> <span>350 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span> <span>450 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span> <span>650 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span> <span>800 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span> <span>900 pln</span>
 * <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
+* <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
 * <span>opatrunek leczniczy zakładany między wizytami</span> <span>100&ndash;250 pln</span>
 * <span>usunięcie złamanego narzędzia</span> <span>300 pln</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
@@ -43,12 +44,14 @@ published: true
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>korona bezmetalowa ZIRKONIA</span> <span>1500&ndash;1800 pln</span>
 * <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
-* <span>korona porcelanowa na metalu</span> <span>920 pln</span>
+* <span>korona porcelanowa na metalu</span> <span>950 pln</span>
+* <span>licówka porcelanowa</span> <span>1700 pln</span>
 * <span>proteza akrylowa całkowita</span> <span>1600 pln</span>
 * <span>proteza akrylowa częściowa</span> <span>700&ndash;1600 pln</span>
 * <span>proteza szkieletowa</span> <span>od 1800 pln</span>
 * <span>naprawa protezy (1 punkt)</span> <span>150 pln</span>
-* <span>wkład koronowo-korzeniowy</span> <span>340&ndash;640 pln</span>
+* <span>wkład koronowo-korzeniowy (chromowo-kobaltowy)</span> <span>400&ndash;800 pln</span>
+* <span>wkład koronowo-korzeniowy (złoty)</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład z włókna szklanego (3M)</span> <span>250 pln</span>
 * <span>szyna relaksacyjna</span> <span>350 pln</span>
 * <span>korona tymczasowa (wykonana w gabinecie)</span> <span>gratis</span>
@@ -56,12 +59,14 @@ published: true
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
 
 ## Periodontologia
+
 * <span>konsultacja i badanie periodontologiczne</span> <span>200 pln</span>
 * <span>leczenie chorób błony śluzowej</span> <span>100 pln</span>
 * <span>kiretaż zamknięty 1&ndash;3 zębów</span> <span>200 pln</span>
 * <span>kiretaż zamknięty połowy uzębienia</span> <span>450 pln</span>
 
 ## Chirurgia periodontologiczna
+
 * <span>wydłużenie korony klinicznej zęba</span> <span>400 pln</span>
 * <span>kiretaż otwarty</span> <span>500 pln</span>
 * <span>sterowana regeneracja tkanek z użyciem biomateriałów i błon</span> <span>koszt materiałów + 600 pln</span>
@@ -106,4 +111,4 @@ published: true
 * <span>wybielanie metodą domową</span> <span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span> <span>1000&ndash;1300 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 09.08.2017</div>
+<div class="cennik-aktualizacja">Cennik z dnia 01.08.2018</div>
