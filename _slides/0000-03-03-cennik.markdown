@@ -42,7 +42,7 @@ published: true
 ## Protetyka
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
-* <span>korona bezmetalowa ZIRKONIA</span> <span>1500&ndash;1800 pln</span>
+* <span>korona bezmetalowa cyrkonowa</span> <span>1500&ndash;1800 pln</span>
 * <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
 * <span>korona porcelanowa na metalu</span> <span>950 pln</span>
 * <span>licówka porcelanowa</span> <span>1700 pln</span>
