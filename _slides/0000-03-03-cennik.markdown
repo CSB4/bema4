@@ -19,7 +19,7 @@ published: true
 * <span>rekonstrukcja zachowawcza</span> <span>230&ndash;280 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>100 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
-* <span>wizyta adaptacyjna dla dzieci</span> <span>50 pln</span>
+* <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
 * <span>wypełnienie kompozytowe w zębie mlecznym 1&#8209;powierzchniowym</span> <span>100 pln</span>
 * <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span> <span>120 pln</span>
 * <span>RVG</span> <span>20 pln</span>
