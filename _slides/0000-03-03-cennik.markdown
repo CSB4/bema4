@@ -58,25 +58,6 @@ published: true
 * <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
 
-## Periodontologia
-
-* <span>konsultacja i badanie periodontologiczne</span> <span>200 pln</span>
-* <span>leczenie chorób błony śluzowej</span> <span>100 pln</span>
-* <span>kiretaż zamknięty 1&ndash;3 zębów</span> <span>200 pln</span>
-* <span>kiretaż zamknięty połowy uzębienia</span> <span>450 pln</span>
-
-## Chirurgia periodontologiczna
-
-* <span>wydłużenie korony klinicznej zęba</span> <span>400 pln</span>
-* <span>kiretaż otwarty</span> <span>500 pln</span>
-* <span>sterowana regeneracja tkanek z użyciem biomateriałów i błon</span> <span>koszt materiałów + 600 pln</span>
-* <span>poszerzenie strefy dziąsła związanego z przeszczepem nabłonkowym</span> <span>700 pln</span>
-* <span>pokrycie recesji dziąsłowej tkanką łączną</span> <span>1500 pln</span>
-* <span>augmentacja wyrostka zębowego</span> <span>1000 pln</span>
-* <span>plastyka wędzidełka</span> <span>150 pln</span>
-* <span>wycięcie zmian na błonie śluzowej</span> <span>150&ndash;200 pln</span>
-* <span>gingiwoosteoplastyka&#8202;&mdash;&#8202;korekta uśmiechu dziąsłowego</span> <span>wycena w gabinecie</span>
-
 ## Chirurgia stomatologiczna
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
