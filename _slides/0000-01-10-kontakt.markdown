@@ -11,7 +11,7 @@ mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 08:00-20:00\"><b>pn&ndash;cz:</b> 08:00&ndash;20:00</time>"
   - "<time itemprop=\"openingHours\" datetime=\"Fr 08:00-14:00\"><b>pt:</b> 08:00&ndash;14:00</time>"
-ogloszenie: 'W związku z przerwą urlopową w dniach 06-17.08.2018 Centrum Stomatologiczne będzie nieczynne.'
+ogloszenie: ''
 fullscreen: true
 published: true
 ---
