@@ -1,7 +1,109 @@
 <script type="text/javascript">
 
+	function initGoogleMaps() {
+		var content = $('.content');
+		var lat_lng = new google.maps.LatLng(54.513208, 18.540717);
+		var mapOptions = {
+			center: lat_lng,
+			zoom: 17,
+			panControl: false,
+			streetViewControl: false,
+			zoomControl: false,
+			mapTypeControl: false,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map_loaded = false;
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-function addImg(imgUrl, divId) {
+		var marker = new google.maps.Marker({
+			position: lat_lng,
+			map: map,
+			title: 'Centrum Stomatologiczne Bema 4'
+		});
+
+		var overlay = new google.maps.OverlayView();
+		overlay.draw = function () { };
+		overlay.setMap(map);
+
+		function updateGoogleLogoToBeVisible() {
+			if (map_loaded) {
+				var logo = $("#map div a img").parentsUntil("a").parentsUntil("div").parent();
+				logo.css("margin-left", $(".content").width() + 5);
+			}
+		}
+
+		function updateMapCenter() {
+			if (map_loaded) {
+				map.setCenter(lat_lng);
+				var map_div = $("#map");
+
+				var aspectRatio = $(window).innerWidth() / $(window).innerHeight();
+
+				if (aspectRatio < 1) {
+					var x = $(".kontakt-wrapper").width();
+				} else {
+					var x = map_div.width() - $(".kontakt-wrapper").width();
+				}
+
+
+				var latlng = overlay.getProjection().fromContainerPixelToLatLng(new google.maps.Point(x / 2, map_div.height() / 2));
+				map.panTo(latlng);
+			}
+		}
+		google.maps.event.addListener(marker, 'click', function () {
+			window.location.href = "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572";
+		});
+		google.maps.event.addListenerOnce(map, 'idle', function () {
+			map_loaded = true;
+			updateGoogleLogoToBeVisible();
+			updateMapCenter();
+		});
+	}
+
+	function initPersonelListHandlers() {
+		$('.personel-item').on('mouseover', function () {
+			if (!$(this).hasClass('active')) {
+				$('.personel-item.active').removeClass('active');
+				$(this).addClass('active');
+			}
+		});
+
+		$('.personel-list').on('mouseleave', function () {
+			$('.personel-item.active').removeClass('active');
+		});
+
+	}
+
+	function setMapContainerHeight() {
+		function setHeight() {
+			windowHeight = $(window).innerHeight();
+			containerWidth = $('#top').width();
+			wrapperHeight = $('.kontakt-wrapper').height();
+			mapContainerHeight = windowHeight - wrapperHeight - containerWidth * 0.1;
+			$('#map').css('height', mapContainerHeight);
+		}
+
+		function isPortrait() {
+			var aspectRatio = $(window).innerWidth() / $(window).innerHeight();
+			return aspectRatio < 1;
+		}
+
+		if (isPortrait()) {
+			setHeight();
+		}
+
+		$(window).resize(function () {
+
+			if (isPortrait()) {
+				setHeight();
+			} else {
+				$('#map').css('height', 'auto');
+			}
+
+		});
+	}
+
+	function addImg(imgUrl, divId) {
 		var img = document.createElement("img");
 		var src = document.getElementById(divId);
 
@@ -9,208 +111,95 @@ function addImg(imgUrl, divId) {
 		img.className = "bg-image";
 
 		src.appendChild(img);
-}
+	}
 
-function disableLinksByElement(el) {
-  if (document.getElementById && document.getElementsByTagName) {
-    if (typeof(el) == 'string') {
-      el = document.getElementById(el);
-    }
-    var anchors = el.getElementsByTagName('a');
-    for (var i=0, end=anchors.length; i<end; i++) {
-      anchors[i].onclick = function() {
-        return false;
-      };
-    }
-  }
-}
-disableLinksByElement('galeria');
-
-
-enquire.register("screen and (min-width: 640px)", [{
+	function disableLinksByElement(el) {
+		if (document.getElementById && document.getElementsByTagName) {
+			if (typeof (el) == 'string') {
+				el = document.getElementById(el);
+			}
+			var anchors = el.getElementsByTagName('a');
+			for (var i = 0, end = anchors.length; i < end; i++) {
+				anchors[i].onclick = function () {
+					return false;
+				};
+			}
+		}
+	}
+	disableLinksByElement('galeria');
 
 
-    deferSetup : true,
-
-    setup : function () {
-
-      Modernizr.load([
-        {
-          load: ['https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize',
-                '{{site.baseurl}}/javascript/fastclick.js',
-                'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
-          		'{{site.baseurl}}/javascript/responsive-nav.js',
-          		'{{site.baseurl}}/javascript/scroll.js',
-                '{{site.baseurl}}/javascript/fixed-responsive-nav.js',
-                '{{site.baseurl}}/javascript/gallery.js',
-                '{{site.baseurl}}/javascript/cookie.js',
-                 '{{site.baseurl}}/javascript/imagesloaded.js',
-                 '{{site.baseurl}}/javascript/imgfill.js'],
-
-          complete : function() {
-
-					jQuery('.mh-100').imagefill();
+	enquire.register("screen and (min-width: 640px)", [{
 
 
-					$(function() {
-						Grid.init();
-					});
+		deferSetup: true,
 
-					function mapContainer() {
-						windowHeight = $(window).innerHeight();
-						containerWidth = $( '#top' ).width();
-						wrapperHeight = $( '.kontakt-wrapper' ).height();
-						mapContainerHeight = windowHeight - wrapperHeight - containerWidth * 0.1;
-						$( '#map' ).css('height', mapContainerHeight);
+		setup: function () {
+
+			Modernizr.load([
+				{
+					load: ['https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize',
+						'{{site.baseurl}}/javascript/fastclick.js',
+						'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
+						'{{site.baseurl}}/javascript/responsive-nav.js',
+						'{{site.baseurl}}/javascript/scroll.js',
+						'{{site.baseurl}}/javascript/fixed-responsive-nav.js',
+						'{{site.baseurl}}/javascript/gallery.js',
+						'{{site.baseurl}}/javascript/cookie.js',
+						'{{site.baseurl}}/javascript/imagesloaded.js',
+						'{{site.baseurl}}/javascript/imgfill.js'],
+
+					complete: function () {
+						setMapContainerHeight();
+						initPersonelListHandlers();
+
+						jQuery('.mh-100').imagefill();
+
+
+						$(function () {
+							Grid.init();
+						});
+
+						checkCookie(1);
+
+
+						$(initGoogleMaps);
 					}
+				},
+			]);
 
-					function ifPortrait() {
-						var aspectRatio = $(window).innerWidth()/$(window).innerHeight();
-						if (aspectRatio < 1) {
-							return true;
-						} else {
-							return false;
-						}
+			addImg('/images/test.jpg', 'uslugi');
+		}
+
+	}]);
+
+
+
+
+
+	enquire.register("screen and (max-width: 640px)", [{
+
+		deferSetup: true,
+
+		setup: function () {
+
+
+			Modernizr.load([
+				{
+					load: ['{{site.baseurl}}/javascript/fastclick.js',
+						'{{site.baseurl}}/javascript/responsive-nav.js',
+						'{{site.baseurl}}/javascript/scroll.js',
+						'{{site.baseurl}}/javascript/cookie.js',
+						'{{site.baseurl}}/javascript/fixed-responsive-nav.js'],
+
+					complete: function () {
+
+						checkCookie(1);
 					}
+				},
+			]);
 
-					if ( ifPortrait() ) {
-		    			mapContainer();
-		    		}
+		}
 
-		    		$(window).resize(function() {
-
-						if ( ifPortrait() ) {
-			    			mapContainer();
-			    		} else {
-			    			$( '#map' ).css('height', 'auto');
-			    		}
-
-				  	});
-
-				  	checkCookie(1);
-
-				  	var ifInitiated = false;
-
-				  	$('.personel-list').on('mouseover', function(e) {
-
-				  		ifInitiated = true;
-
-				  	
-
-					  	$('.personel-item').on('mouseover', function() {
-
-					  		
-					  		if ($(this).hasClass('active')) {
-					  			//$(this).removeClass('active');
-					  		} else {
-					  			$('.personel-item.active').removeClass('active');
-					  			$(this).addClass('active');
-					  		}
-					  	});
-					});  	
-					
-					$('.personel-list').on('mouseleave', function() {
-						ifInitiated = false;
-						$('.personel-item.active').removeClass('active');
-					});
-
-			$(function() {
-
-	            var content = $('.content');
-	            var lat_lng = new google.maps.LatLng(54.513208, 18.540717);
-	            var mapOptions = {
-	                center: lat_lng,
-	                zoom: 17,
-	                panControl: false,
-	                streetViewControl: false,
-	                zoomControl: false,
-	                mapTypeControl: false,
-	                mapTypeId: google.maps.MapTypeId.ROADMAP
-	            };
-	            var map_loaded = false;
-	            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-	            var marker = new google.maps.Marker({
-	                position: lat_lng,
-	                map: map,
-	                title: 'Centrum Stomatologiczne Bema 4'
-	            });
-
-	            var overlay = new google.maps.OverlayView();
-	            overlay.draw = function() {};
-	            overlay.setMap(map);
-
-	            function updateGoogleLogoToBeVisible() {
-	              if (map_loaded) {
-	                var logo = $("#map div a img").parentsUntil("a").parentsUntil("div").parent();
-	                logo.css("margin-left", $(".content").width() + 5);
-	              }
-	            }
-
-	            function updateMapCenter() {
-	              if (map_loaded) {
-	                map.setCenter(lat_lng);
-	                var map_div = $("#map");
-
-						var aspectRatio = $(window).innerWidth()/$(window).innerHeight();
-
-						if (aspectRatio < 1) {
-							var x = $(".kontakt-wrapper").width();
-						} else {
-							var x = map_div.width() - $(".kontakt-wrapper").width();
-						}
-
-
-	                var latlng = overlay.getProjection().fromContainerPixelToLatLng(new google.maps.Point(x/2, map_div.height()/2));
-	                map.panTo(latlng);
-	              }
-	            }
-	            google.maps.event.addListener(marker, 'click', function() {
-				  window.location.href = "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.5131757,18.5409225,18z/data=!4m2!3m1!1s0x46fda731b042040b:0xef62ec1f389b1572";
-				});
-	            google.maps.event.addListenerOnce(map, 'idle', function() {
-	              map_loaded = true;
-	              updateGoogleLogoToBeVisible();
-	              updateMapCenter();
-	            });
-
-	        });
-          }
-        },
-      ]);
-
-      addImg('/images/test.jpg', 'uslugi');
-    }
-
-  }]);
-
-
-
-
-
-enquire.register("screen and (max-width: 640px)", [{
-
-    deferSetup : true,
-
-    setup : function () {
-
-
-      Modernizr.load([
-        {
-          load: ['{{site.baseurl}}/javascript/fastclick.js',
-          		'{{site.baseurl}}/javascript/responsive-nav.js',
-          		'{{site.baseurl}}/javascript/scroll.js',
-          		'{{site.baseurl}}/javascript/cookie.js',
-                '{{site.baseurl}}/javascript/fixed-responsive-nav.js'],
-
-          complete : function() {
-
-				  	checkCookie(1);
-          }
-        },
-      ]);
-
-    }
-
-  }]);
+	}]);
 </script>
