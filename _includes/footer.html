@@ -103,6 +103,17 @@
 		});
 	}
 
+	function initRodoAccordion() {
+		$('.rodo-section-title').on('click', function () {
+			$(this).next().slideToggle('slow')
+
+			// if (!$(this).hasClass('active')) {
+			// 	$('.personel-item.active').removeClass('active');
+			// 	$(this).addClass('active');
+			// }
+		});
+	}
+
 	function addImg(imgUrl, divId) {
 		var img = document.createElement("img");
 		var src = document.getElementById(divId);
@@ -152,7 +163,8 @@
 					complete: function () {
 						setMapContainerHeight();
 						initPersonelListHandlers();
-
+						initRodoAccordion();
+						
 						jQuery('.mh-100').imagefill();
 
 
