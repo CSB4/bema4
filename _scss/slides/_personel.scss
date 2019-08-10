@@ -1,0 +1,280 @@
+.personel-item {
+  position:relative;
+  height:0;
+  padding-bottom:150%;
+}
+
+@include breakpoint($medium-up){
+  .personel-item {
+    @include gallery(6 of 12);
+    position:relative;
+    padding-bottom:0;
+    height:auto;
+  }
+}
+@include breakpoint($large-up){
+  .personel-item {
+    @include gallery(4 of 12);
+    position:relative;
+  }
+}
+@include breakpoint($xxxlarge-up){
+  .personel-item {
+    @include gallery(3 of 12);
+    position:relative;
+  }
+}
+
+.personel-list {
+  color:$black;
+  overflow: hidden;
+}
+
+    .personel-wrapper-img {
+      position:absolute;
+      top:0;
+      width:100%;
+      padding-bottom:150%;
+      z-index:9;
+      pointer-events: none;
+    }
+    .personel-wrapper {
+      position:absolute;
+      top:0;
+      width:100%;
+      height:0;
+      padding-bottom:150%;
+      z-index:10;
+
+      @include transition-property(opacity);
+      @include transition-duration($transition-time);
+      opacity:0;
+      pointer-events: none;
+    }
+      .personel-wrapper-content {
+        top:rhythm($lil);
+        left:rhythm($lil);
+        bottom:rhythm($lil);
+        right:rhythm($lil);
+        position:absolute;
+      }
+        .personel-name {
+          @include bold;
+          @include large;
+        }
+        .personel-position {
+          @include large;
+          padding-top:rhythm();
+          display:block;
+        }
+        .personel-desc {
+          display:none;
+        }
+        .personel-img {
+          @include transition-property(opacity);
+          @include transition-duration($transition-time);
+          opacity:1;
+          width:100%;
+        }
+
+.personel-item:hover {
+  .personel-wrapper {
+    opacity:1;
+  }
+  .personel-img {
+    opacity:0.2;
+  }
+}
+
+//overalys
+.doctors {
+  .personel-wrapper-img {
+    background:$light-blue;
+  }
+ .personel-wrapper {
+    background:rgba($light-blue,.2);
+  }
+}
+.asisstants {
+  .personel-wrapper-img {
+    background:$white;
+  }
+  .personel-wrapper {
+    background:rgba($white,.2);
+  }
+}
+
+// new desc prev
+
+@include breakpoint($medium-up) {
+
+  // show description on medium up
+  .personel-desc {
+    display:block;
+    @include smaller;
+    @include leader;
+  }
+
+  .personel-item {
+
+    //hover states
+    &:hover {
+      cursor:pointer;
+
+      & .personel-img {
+        opacity:0.2;
+        @include transition-property(all);
+        @include transition-duration($transition-time);
+      }
+    }
+    &.active:hover .personel-img {
+        @include transition-property(all);
+        @include transition-duration($transition-time);
+        opacity:1;
+    }
+
+    // constrain assistants to one block
+    &.asisstants {
+      overflow:hidden;
+    }
+
+    //set up overlay block
+    .personel-wrapper {
+      opacity:1; //reset from small
+      @include transition-property(all);
+      @include transition-duration($transition-time/2);
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%); //hide doctors
+      position:relative;
+      z-index:10;
+      width:100%;
+    }
+    &.doctors .personel-wrapper {
+      @include transition-duration($transition-time);
+      width:200%; // set doctors desc wdth
+    }
+
+    //right block tweak
+    &.doctors:nth-child(2n) .personel-wrapper { // place desc box
+      left:-100%;
+      text-align:right;
+
+      .personel-name {
+        text-align:right;
+      }
+    }
+
+      //active state -> show overaly block
+      &.active .personel-wrapper {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        background:rgba(white,0.8);
+      }
+      &.doctors.active .personel-wrapper {
+        background:rgba($light-blue,0.8);
+      }
+  }
+
+  //reset hover for touch
+  .touch .personel-item:hover .personel-img {
+      opacity:1;
+  }
+}
+
+
+@include breakpoint($large-up) {
+
+  //set up to 3 columns grid
+  .personel-item {
+     &.doctors .personel-wrapper {
+      width:300%;
+    }
+
+    &.doctors:nth-child(3n) .personel-wrapper {
+      left:-200%;
+      text-align:right;
+
+      .personel-name {
+        text-align:right;
+      }
+    }
+
+    //overwrite 2n (for #4 => 2n == 3n+1)
+    &.doctors:nth-child(3n+1) .personel-wrapper {
+      left:0;
+      text-align:left;
+
+      .personel-name {
+        text-align:left;
+      }
+    }
+
+    &.doctors:nth-child(3n+2) .personel-wrapper {
+      left:-100%;
+      text-align:center;
+
+      .personel-name {
+        text-align:center;
+      }
+    }
+
+  } // !.personel-item
+}
+
+@include breakpoint($xxxlarge-up) {
+
+  //set up to 4 columns grid
+  .personel-item {
+     &.doctors .personel-wrapper {
+      width:400%;
+    }
+
+    &.doctors:nth-child(4n) .personel-wrapper {
+      left:-300%;
+      text-align:right;
+
+      .personel-name {
+        text-align:right;
+      }
+    }
+
+    &.doctors:nth-child(4n+1) .personel-wrapper {
+      left:0;
+      text-align:left;
+
+      .personel-name {
+        text-align:left;
+      }
+    }
+
+    &.doctors:nth-child(4n+2) .personel-wrapper,
+    &.doctors:nth-child(4n+3) .personel-wrapper {
+      left:-100%;
+      text-align:center;
+
+      .personel-name {
+        text-align:center;
+      }
+    }
+
+    &.doctors:nth-child(4n+3) .personel-wrapper {
+      left:-200%;
+    }
+
+  } // !.personel-item
+}
+
+
+@inlude breakpoint($xlarge-up) {
+  .personel-desc {
+    @include base-font-size;
+  }
+    .personel-wrapper-content {
+      top:rhythm(2*$lil);
+      left:rhythm(2*$lil);
+      bottom:rhythm(2*$lil);
+      right:rhythm(2*$lil);
+    }
+}

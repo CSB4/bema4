@@ -1,0 +1,42 @@
+//cennik
+.slide-rodo {
+    overflow:hidden;
+
+    h1 {
+      @include xlarge;
+      @include trailer();
+    }
+
+    h2 {
+      @include trailer(0.5);
+      @include bold;
+      clear:both;
+    }
+
+    p {
+      @include trailer($lil);
+      @include leader(0.5);
+    }
+  }
+
+    .rodo-section {
+    }
+      .rodo-section-title {
+        @include bold;
+        @include trailer;
+        color: $dark-blue;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .rodo-section-content {
+        padding: 20px 0;
+        // slideTooggle will take it from here
+        display: none;
+
+        li {
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+      }

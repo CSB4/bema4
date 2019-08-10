@@ -1,0 +1,133 @@
+/////////////
+//kontakt
+.slide.slide-kontakt {
+  background:$light-blue;
+  padding-bottom:0;
+}
+  .kontakt-header {
+      @include bold;
+      color: darken($dark-blue, 10%);
+      padding-bottom:30px;
+      margin-bottom:30px;
+      border-bottom:1px solid $dark-blue;
+
+      p {
+        margin:0;
+      }
+    }
+    .kontakt-wrapper {
+      overflow:hidden;
+    }
+    #map {
+      width:100%;
+    }
+
+    .kontakt-lista {
+     color:black;
+     padding-bottom: rhythm($lil);
+
+      > li {
+        padding:6px 0;
+
+        > b {
+          @include regular;
+        }
+      }
+    }
+
+    .kontakt-ogloszenie {
+      @include trailer($lil);
+      border-left:rem-calc(8px) solid $dark-blue;
+      padding-left:rem-calc(32px);
+
+      > b {
+        @include regular;
+      }
+    }
+    @include breakpoint($xlarge-up) {
+      .kontakt-ogloszenie {
+        @include leader();
+      }
+    }
+
+      .tooltip-content {
+        height:0;
+        width:0;
+        @include transition-property(opacity);
+        @include transition-duration($transition-time);
+        opacity:0;
+        background:$white;
+        color: $dark-blue;
+        @include light;
+        margin-left:10px;
+        display:none;
+      }
+      .tooltip > span:hover .tooltip-content {
+        height:auto;
+        width:auto;
+        padding: 3px 6px;
+        opacity:1;
+        position:absolute;
+        display:inline;
+      }
+      .tooltip > span {
+        @include bold;
+        color:$dark-blue;
+        display:block;
+        width:rem-calc(40px);
+        float:left;
+        height:10px;
+        &:hover {
+          cursor:pointer;
+        }
+      }
+      .kontakt-lista li:not(.tooltip):before {
+        width:rem-calc(40px);
+        float:left;
+        content:"";
+        height:10px;
+        display:block;
+      }
+
+    .kontakt-content{
+      @include span($m-cols-content of $col-medium);
+      @include push($m-cols-content-margin of $col-medium);
+    }
+
+
+@include breakpoint($medium-up) {
+  .kontakt-header {
+    padding-top:0;
+  }
+}
+
+@include breakpoint($large-up) {
+  .full {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+  }
+  .bg-kontakt {
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      background:rgba($light-blue,0.9);
+      z-index:110;
+      @include span(12 of $col-large);
+      position:absolute;
+  }
+  .slide-kontakt {
+    background:transparent;
+  }
+    .kontakt-wrapper {
+      @include span(12 of $col-large);
+    }
+      .kontakt-content{
+        margin-left:8.3%;
+        position:relative;
+        z-index:111;
+      }
+}

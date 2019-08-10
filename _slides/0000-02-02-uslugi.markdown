@@ -1,0 +1,20 @@
+---
+label: slide
+title: Zakres Usług
+type: uslugi
+fullscreen: true
+date: 2011-11-21 19:53:26
+published: true
+---
+
+* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
+* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia estetyczna</a>
+* <a href="#endodoncja" title="Przejdź do cennika" data-scroll>Endodoncja mikroskopowa</a>
+* <a href="#protetyka" title="Przejdź do cennika" data-scroll>Protetyka</a>
+* <a href="#chirurgia-stomatologiczna" title="Przejdź do cennika" data-scroll>Chirurgia stomatologiczna</a>
+* <a href="#implantologia" title="Przejdź do cennika" data-scroll>Implantologia</a>
+* <a href="#profilaktyka" title="Przejdź do cennika" data-scroll>Profilaktyka</a>
+* <a href="#wybielanie" title="Przejdź do cennika" data-scroll>Wybielanie zębów</a>
+
+
+Proponujemy Państwu leczenie w&nbsp;komfortowych warunkach i&nbsp;miłej atmosferze przy zastosowaniu najnowszych zdobyczy technik i&nbsp;technologii w&nbsp;dziedzinie stomatologii zachowawczej i&nbsp;estetycznej, endodoncji, protetyki, chirurgii stomatologicznej, implantologii, wybielania zębów oraz profilaktyki.

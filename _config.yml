@@ -1,0 +1,16 @@
+# Site settings
+title: Centrum Stomatologiczne Bema 4
+email: stomatologia@bema4.pl
+description: > # this means to ignore newlines until "baseurl:"
+  Zapewniamy Państwu kompleksową opiekę stomatologiczną na najwyższym
+  poziomie w samym centrum Gdyni.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.bema4.pl" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+collections:
+- slides
+- news
+- rodo

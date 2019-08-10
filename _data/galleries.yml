@@ -1,0 +1,86 @@
+- id: gallery
+  imagefolder: /images/gallery
+  thumbfolder: /images/gallery/thumbs
+  images:
+  - name: poczekalnia.jpg
+    title:
+    description:
+  - name: joanna_d_nikoletta_k_przy_pracy.jpg
+    title:
+    description:
+  - name: korytarz.jpg
+    title:
+    description:
+  - name: gabinet_1.jpg
+    title:
+    description:
+  - name: gabinet_2.jpg
+    title:
+    description:
+  - name: izabela_m_joanna_w_przy_pracy.jpg
+    title:
+    description:
+  - name: mikroskop.jpg
+    title:
+    description:
+  - name: anna_kj_aleksandra_k_przy_pracy.jpg
+    title:
+    description:
+  - name: mikolaj_m_anna_k_przy_pracy.jpg
+    title:
+    description:
+  - name: is_full_kit.jpg
+    title:
+    description:
+  - name: grupowe.jpg
+    title:
+    description:
+
+- id: personel
+  imagefolder: /images/personel
+  images:
+  - name: izabela_m.jpg
+    title: Izabela Marszałek
+    position: Lekarz dentysta
+    group: doctors
+    description: Izabela Marszałek jest absolwentką Wydziału Lekarskiego o specjalności Techniki Dentystyczne-Protetyka Stomatologiczna oraz Wydziału Lekarsko-Dentystycznego na Gdańskim Uniwersytecie Medycznym. Zdobyła tytuły technika dentystycznego i lekarza dentysty. Stale podnosi swoje kwalifikacje na licznych kursach i szkoleniach. W 2011 roku dołączyła do zespołu Centrum Bema 4, gdzie wykonuje zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej. Prywatnie miłośniczka tańca i kajakarstwa.
+  - name: anna_kj.jpg
+    title: Anna Kabacińska-Jerzak
+    position: Lekarz spec. stomatologii zachowawczej z endodoncją
+    group: doctors
+    description: Absolwentka ukończonego z wyróżnieniem kierunku lekarsko-dentystycznego Gdańskiego Uniwersytetu Medycznego. Wieloletni nauczyciel akademicki oraz wykładowca na Katedrze Stomatologii Zachowawczej i Endodoncji Gdańskiego Uniwersytetu Medycznego. Współautorka prac naukowych oraz programów badawczych. W 2013 roku zdała z najlepszym wynikiem w Polsce egzamin specjalizacyjny w zakresie stomatologii zachowawczej z endodoncją. Realizuje specjalistyczne zabiegi z zakresu nowoczesnej endodoncji z użyciem mikroskopu zabiegowego, stomatologii zachowawczej w pełnym zakresie oraz protetyki stomatologicznej. Pasjonuje się dysfunkcjami narządu żucia, chorobą okluzyjną oraz problemami ze stawami skroniowo-żuchwowymi. W trosce o dobro pacjentów oraz wysoką jakość swojej pracy stale podnosi kwalifikacje uczestnicząc w licznych szkoleniach i kursach naukowych w Polsce i za granicą. Prywatnie kocha kino i podróże, lubi biegać, pływać, jeździć na rowerze i startuje w triathlonach.
+  - name: mikolaj_m.jpg
+    title: Mikołaj Mielke
+    position: Lekarz dentysta implantolog
+    group: doctors
+    description: Mikołaj Mielke ukończył Wydział Stomatologii Gdańskiego Uniwersytetu Medycznego. Od początku jego największe zainteresowanie budziła chirurgia stomatologiczna, szczękowo-twarzowa oraz implantologia. Umiejętności z tych dziedzin doskonalił na licznych kursach oraz konferencjach w Polsce i za granicą. Od początku swojej pracy używa lup oraz mikroskopu stomatologicznego do codziennej praktyki. Nie wyobraża sobie leczenia implantologicznego oraz wykonania protetyki bez powiększenia niezbędnego do wyłapania szczegółów niedostrzegalnych nieuzbrojonym okiem. W 2013 roku rozpoczął dokształcanie w dziedzinie implantologii w ramach cyklu szkoleń Curriculum Implantologii Polskiego Stowarzyszenia Implantologicznego, które ukończył z wyróżnieniem. W 2015 roku rozpoczął pracę na Oddziale Chirurgii Szczękowej Szpitala Św. Wincentego a Paulo w Gdyni, gdzie rozwij swoje zainteresowania w dziedzinie chirurgii szczękowo-twarzowej. Wciąż poszerza zakres swojej wiedzy, aby zagwarantować Państwu leczenie na najwyższym poziomie.
+  - name: tomasz_l.jpg
+    title: Tomasz Lisiecki
+    position: Lekarz stomatolog
+    group: doctors
+    description: Absolwent Akademii Medycznej w Gdańsku. Ćwierć wieku w gabinecie stomatologicznym. Setki implantów, usuniętych chirurgicznie zębów mądrości, zaprojektowanych i wykonanych prac protetycznych. Rozległych, zaawansowanych technologicznie. Jestem do Państwa dyspozycji! ...chyba, że mój motocykl zawiezie mnie poza horyzont. Albo zapomniany przez wszystkich tunel kolejowy, bunkier czy inny świadek historii, zatrzyma na jeszcze jedną noc.
+  - name: joanna_d.jpg
+    title: Joanna Dawidowska
+    position: Specjalistka do spraw administracyjno-finansowych, rejestratorka medyczna
+    group: asisstants
+    description:
+  - name: nikoletta_k.jpg
+    title: Nikoletta Konopka
+    position: Rejestratorka medyczna
+    group: asisstants
+    description:
+  - name: anna_k.jpg
+    title: Anna Konopka
+    position: Higienistka stomatologiczna
+    group: asisstants
+    description:
+  - name: joanna_w.jpg
+    title: Joanna Walo
+    position: Higienistka stomatologiczna
+    group: asisstants
+    description:
+  - name: aleksandra_k.jpg
+    title: Aleksandra Koroś
+    position: Higienistka stomatologiczna
+    group: asisstants
+    description:

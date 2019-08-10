@@ -1,0 +1,16 @@
+<div class="content">
+	{{ slide.content }} 
+	
+	{% for rodoItem in site.rodo %}
+
+		<div class="rodo-section">
+			<h6 class="rodo-section-title">
+				{{ rodoItem.title }}
+			</h6>
+			<div class="rodo-section-content">
+				{{ rodoItem.content }}
+			</div>
+		</div>
+
+	{% endfor %}
+</div>

@@ -1,0 +1,150 @@
+// normalize
+//@import "normalize";
+
+// reset browser default style
+@import "compass/reset";
+
+//variables and functions
+@import "global";
+@import "compass";
+
+//susy grids
+@import "breakpoint";
+@import "grids";
+
+//general typography settings
+@import "typography";
+
+// nav bar and logo
+@import "navigation";
+
+//slides
+@import "slides/cennik";
+@import "slides/news";
+@import "slides/galeria";
+@import "slides/gwarancja";
+@import "slides/historia";
+@import "slides/kontakt";
+@import "slides/personel";
+@import "slides/uslugi";
+@import "slides/rodo";
+
+img {
+  max-width:100%;
+}
+
+.show-for-small-logo img {
+  background:$light-blue;
+  width:100%;
+  display:block;
+  margin-top:50px;
+  padding-top:20px;
+}
+
+@include breakpoint($medium-up) {
+  .show-for-small-logo {
+    display:none;
+  }
+}
+
+//slides
+.slide {
+  clear:both;
+  overflow:hidden;
+  padding:10% 0;
+}
+.slide-personel, .slide-galeria {
+  padding:0;
+}
+////////////////////////
+//full screen background
+.bg-image {
+  display:none;
+  position:absolute;
+}
+@include breakpoint($large-up) {
+  .mh-100 {
+    position:relative;
+
+    .bg-image {
+      max-width:4000px;
+      position:absolute;
+      z-index:0;
+      z-index:-1;
+      display:block;
+    }
+  }
+}
+.mh-100 {
+  min-height:100vh;
+}
+
+// iPad
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .mh-100 {
+    min-height:calc(100vh + 50px);
+  }
+}
+
+//cookie warrning
+
+.cookiewarning {
+  @include transition-property(opacity);
+  @include transition-duration($transition-time/2);
+  font-size:rem-calc(14px);
+  line-height:rem-calc(21px);
+  position:fixed;
+  z-index:999999;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding: 8px 30px 8px 3%;
+  border-top:1px solid $dark-blue;
+  background:$white;
+
+  > span {
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left:0;
+      width: 100%;
+      top: 50%;
+      height: 2px;
+      background: $dark-blue;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      background: darken($dark-blue,10%);
+    }
+  }
+}
+.cookiewarning.closed {
+  opacity:0;
+}
+@include breakpoint($xxlarge-up) {
+  .cookiewarning {
+    font-size:14px;
+    line-height:18px;
+  }
+}

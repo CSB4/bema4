@@ -1,0 +1,84 @@
+/*
+  Grid using Susy
+*/
+
+//overwrite compass buggy mixin
+@mixin box-sizing($value) {
+    -moz-box-sizing: $value;
+         box-sizing: $value;
+}
+
+@import "susy";
+@include border-box-sizing;
+@include layout($susy);
+
+$m-cols-nav-col:3;
+$m-cols-content:10;
+$m-cols-content-margin:1;
+
+$l-cols-nav-col:5;
+$l-cols-content:20;
+$l-cols-content-margin:2;
+
+$xxl-cols-nav-col:5;
+$xxl-cols-content:19;
+$xxl-cols-content-margin:2;
+
+
+body {
+  @include container;
+
+  .content {
+    @include container(96%);
+  }
+}
+
+.nav-col {
+  @include span($col-small);
+
+  @include susy-breakpoint($medium-up, $col-medium){
+    @include span($m-cols-nav-col of $col-medium);
+    position:fixed;
+    top:0;
+    bottom:0;
+  }
+  @include susy-breakpoint($large-up, $col-large){
+    @include span($l-cols-nav-col of $col-large);
+  }
+}
+
+.main-container {
+//small
+  @include span($col-small);
+
+//medium
+  @include susy-breakpoint($medium-up, $medium-gr){
+    @include span(($col-medium - $m-cols-nav-col) at ($m-cols-nav-col + 1) of $col-medium);
+    @include push($m-cols-nav-col of $col-medium);
+
+    .content {
+      @include span($m-cols-content of $col-medium);
+      @include push($m-cols-content-margin of $col-medium);
+    }
+  }
+//large
+  @include susy-breakpoint($large-up, $large-gr){
+    @include span(($col-large - $l-cols-nav-col) at ($l-cols-nav-col + 1) of $col-large);
+    @include push($l-cols-nav-col of $col-large);
+
+    .content {
+      @include span($l-cols-content of $col-large);
+      @include push($l-cols-content-margin of $col-large);
+    }
+  }
+ // xxlarge
+  @include susy-breakpoint($xxlarge-up, $large-gr){
+    @include span(($col-large - $xxl-cols-nav-col) at ($xxl-cols-nav-col + 1) of $col-large);
+    @include push($xxl-cols-nav-col of $col-large);
+
+    .content {
+      @include span($xxl-cols-content of $col-large);
+      @include push($xxl-cols-content-margin of $col-large);
+    }
+  }
+}

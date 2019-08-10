@@ -1,0 +1,95 @@
+---
+label: slide
+title: Cennik
+type: cennik
+fullscreen: true
+date: 2012-08-21 19:53:26
+published: true
+---
+
+# <span>Cennik usług podstawowych</span>
+
+## Stomatologia zachowawcza i estetyczna
+
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>150 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>150&ndash;160 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>170&ndash;180 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>190&ndash;220 pln</span>
+* <span>rekonstrukcja zachowawcza</span> <span>230&ndash;280 pln</span>
+* <span>założenie opatrunku leczniczego</span> <span>100 pln</span>
+* <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
+* <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym 1&#8209;powierzchniowym</span> <span>100 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span> <span>120 pln</span>
+* <span>RVG</span> <span>20 pln</span>
+
+<h2 id="endodoncja">Endodoncja (leczenie kanałowe)</h2>
+
+* <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
+* <span>dewitalizacja miazgi (zatrucie)</span> <span>100 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span> <span>350 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span> <span>450 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span> <span>650 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span> <span>800 pln</span>
+* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span> <span>900 pln</span>
+* <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
+* <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
+* <span>opatrunek leczniczy zakładany między wizytami</span> <span>100&ndash;250 pln</span>
+* <span>usunięcie złamanego narzędzia</span> <span>300 pln</span>
+* <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
+
+## Protetyka
+
+* <span>konsultacja</span> <span>0&ndash;100 pln</span>
+* <span>korona bezmetalowa cyrkonowa</span> <span>1500&ndash;1800 pln</span>
+* <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
+* <span>korona porcelanowa na metalu</span> <span>950 pln</span>
+* <span>licówka porcelanowa</span> <span>1700 pln</span>
+* <span>proteza akrylowa całkowita</span> <span>1600 pln</span>
+* <span>proteza akrylowa częściowa</span> <span>700&ndash;1600 pln</span>
+* <span>proteza szkieletowa</span> <span>od 1800 pln</span>
+* <span>naprawa protezy (1 punkt)</span> <span>150 pln</span>
+* <span>wkład koronowo-korzeniowy chromowo-kobaltowy</span> <span>400&ndash;800 pln</span>
+* <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
+* <span>wkład koronowo-korzeniowy cyrkonowy KAD/KAM</span> <span>wycena w gabinecie</span>
+* <span>wkład z włókna szklanego (3M)</span> <span>250 pln</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>gratis</span>
+* <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
+* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
+
+## Chirurgia stomatologiczna
+
+* <span>konsultacja</span> <span>0&ndash;100 pln</span>
+* <span>usunięcie zęba stałego</span> <span>120&ndash;150 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400 pln</span>
+* <span>dłutowanie zęba trzonowego dolnego trzeciego</span> <span>600&ndash;1000 pln</span>
+* <span>usunięcie zęba trzonowego dolnego trzeciego</span> <span>300&ndash;500 pln</span>
+* <span>usuniecie zęba mlecznego lub rozchwianego</span> <span>100 pln</span>
+* <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>360/420 pln</span>
+* <span>hemisekcja</span> <span>250 pln</span>
+* <span>szycie/chirurgiczne zaopatrzenie rany</span> <span>50/70 pln</span>
+* <span>odbudowa kości (z biomateriałem)</span> <span>wycena w gabinecie</span>
+
+## Implantologia
+
+* <span>konsultacja</span> <span>100&ndash;200 pln</span>
+* <span>wszczepienie implantu</span> <span>2500 pln</span>
+* <span>korona porcelanowa na implancie</span> <span>koszt łącznika + 2050&ndash;2950 pln</span>
+* <span>proteza oparta na implantach</span> <span>wycena w gabinecie</span>
+
+## Profilaktyka
+
+* <span>usunięcie kamienia (2 łuki)</span> <span>180 pln</span>
+* <span>fluoryzacja pianką</span> <span>20 pln</span>
+* <span>piaskowanie</span> <span>100 pln</span>
+* <span>lakierowanie zębów mlecznych/stałych</span> <span>60/120 pln</span>
+* <span>lakowanie zębów stałych (1 ząb)</span> <span>50 pln</span>
+
+## Wybielanie
+
+* <span>wybielanie metodą domową</span> <span>800 pln</span>
+* <span>wybielanie zębów w gabinecie + nakładki</span> <span>1000&ndash;1300 pln</span>
+
+<div class="cennik-aktualizacja">Cennik z dnia 03.08.2018</div>

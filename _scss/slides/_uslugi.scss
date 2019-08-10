@@ -1,0 +1,57 @@
+//uslugi
+.slide-uslugi {
+    background:$dark-blue;
+    color:$white;
+
+    ul {
+      @include bold;
+      margin-bottom:40px;
+      overflow:hidden;
+
+      li {
+        clear:both;
+        &:before {
+          content:"- ";
+        }
+      }
+   }
+}
+
+@include breakpoint($medium-up) {
+  .slide-uslugi {
+      background:rgba($dark-blue, 0.85);
+
+      ul {
+
+        li {
+          @include light;
+          @include large;
+          float: left;
+          line-height: 1.6em;
+          padding-right: rem-calc(90px);
+          position: relative;
+          clear: none;
+          &:before {
+            content: "";
+            height: 3px;
+            position: absolute;
+            bottom: 0.6em;
+            right: rem-calc(15px);
+            display: block;
+            width: rem-calc(60px);
+            background: #b5e0e8;
+          }
+        }
+     }
+  }
+}
+@include breakpoint($xxlarge-up) {
+  .slide-uslugi ul li {
+    @include adjust-font-size-to(($f-xlarge + $f-large)/2*0.8);
+  }
+}
+@include breakpoint($xxxlarge-up) {
+  .slide-uslugi ul li {
+    @include adjust-font-size-to(($f-xlarge + $f-large)/2);
+  }
+}
