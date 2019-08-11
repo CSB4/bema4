@@ -9,15 +9,16 @@ published: true
 
 # Dane Osobowe {#rodo-header}
 
-## Szanowni Państwo
+## Szanowni Państwo,
 
-W związku ze stosowaniem Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 s 1), (dalej jako RODO), wypełniając obowiązek wynikający z art. 13 RODO, przekazujemy informacje na temat przetwarzania danych osobowych.
+W związku ze stosowaniem Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 s 1), (dalej jako RODO), wypełniając obowiązek wynikający z art. 13 ust. 1 i 2 RODO oraz art. 11 ustawy z dnia 10 maja 2018 r. o ochronie danych osobowych, przekazujemy poniższe informacje.
 
 ## Inspektor ochrony danych
 
-Inspektorem Ochrony Danych (IOD) jest Katarzyna Kawczyńska. Można się z nim kontaktować poprzez e-mailem na adres: iod@bema4.pl oraz na adres siedziby Administratora Danych: 81-386 Gdynia, ul. Bema4/2.
-Do Inspektora Ochrony Danych należy kierować wyłącznie sprawy dotyczące przetwarzania Państwa danych przez Centrum Stomatologiczne Bema 4 Małgorzata Komorowska, w tym realizacji Państwa praw. Do kompetencji Inspektora Ochrony Danych nie należy natomiast załatwianie innych spraw.
+Administrator wyznaczył inspektora ochrony danych (IOD), funkcję tę pełni Katarzyna Kawczyńska. Z inspektorem ochrony danych można kontaktować się w sprawach związanych z ochroną Państwa danych kierując wiadomość na adres e-mail: iod@bema4.pl lub tradycyjnie na adres siedziby Administratora danych: Centrum Stomatologiczne Bema 4, 81-386 Gdynia, ul. Bema 4/2.
+
+Do inspektora ochrony danych należy kierować sprawy dotyczące przetwarzania Państwa danych przez Centrum Stomatologiczne Bema 4, w tym realizacji Państwa praw wynikających z RODO.
 
 ## Klauzule informacyjne dla osób, od których pozyskiwane są dane
 
-Obowiązki informacyjne są podzielone według grup osób, których dane dotyczą. Mamy nadzieję, że taki podział pozwoli Państwu w łatwy sposób dotrzeć do informacji, które są kierowane bezpośrednio do Was. Prosimy o zapoznanie się z poniższymi informacjami przed przekazaniem nam Waszych danych osobowych. W razie wątpliwości prosimy o kontakt z Inspektorem ochrony danych osobowych pod adresem: iod@bema4.pl lub na adres korespondencyjny Administratora Danych podany powyżej.
+Obowiązki informacyjne są podzielone według grup osób, których dane dotyczą. Mamy nadzieję, że taki podział pozwoli Państwu w łatwy sposób dotrzeć do informacji, które są kierowane bezpośrednio do Was. Prosimy o zapoznanie się z poniższymi informacjami przed przekazaniem nam Waszych danych osobowych. W razie wątpliwości prosimy o kontakt z inspektorem ochrony danych pod adresem e-mail: iod@bema4.pl lub na adres korespondencyjny Administratora danych podany powyżej.
