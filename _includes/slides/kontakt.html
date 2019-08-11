@@ -1,35 +1,30 @@
 <div class="kontakt-wrapper">
-	<div class="kontakt-content">
-		<div class="kontakt-header">
-			{{ 	slide.content }}
-		</div>
-		<ul class="kontakt-lista">
-			<li class="adres tooltip"><span>A:<span class="tooltip-content">Adres</span></span><a
-					href="{{ slide.adres_url}}" itemprop="address">{{ slide.adres }}</a></li>
-			<li class="mail tooltip"><span>E:<span class="tooltip-content">e-mail</span></span><a
-					href="mailto:{{ slide.mail }}" itemprop="email">{{ slide.mail }}</a></li>
-			<li class="telefon tooltip"><span>T:<span class="tooltip-content">Telefon</span></span><em
-					itemprop="telephone">{{ slide.telefon }}</em></li>
-			<li class="fax tooltip"><span>F:<span class="tooltip-content">Fax</span></span><em
-					itemprop="faxNumber">{{ slide.fax }}</em></li>
+		<div class="kontakt-content">
+			<div class="kontakt-header">
+				{{ 	slide.content }}
+			</div>
+			<ul class="kontakt-lista">
+				<li class="adres tooltip"><span>A:<span class="tooltip-content">Adres</span></span><a href="{{ slide.adres_url}}" itemprop="address">{{ slide.adres }}</a></li>
+				<li class="mail tooltip"><span>E:<span class="tooltip-content">e-mail</span></span><a href="mailto:{{ slide.mail }}" itemprop="email">{{ slide.mail }}</a></li>
+				<li class="telefon tooltip"><span>T:<span class="tooltip-content">Telefon</span></span><em itemprop="telephone">{{ slide.telefon }}</em></li>
+				<li class="fax tooltip"><span>F:<span class="tooltip-content">Fax</span></span><em itemprop="faxNumber">{{ slide.fax }}</em></li>
 
-			{% for godziny in slide.godziny %}
-			{% if forloop.index == 1 %}
-			<li class="godziny tooltip"><span>G:<span class="tooltip-content">Godziny
-						Otwarcia</span></span>{{ godziny }}</li>
-			{% else %}
-			<li>{{ godziny }}</li>
+				{% for godziny in slide.godziny %}
+					 {% if forloop.index == 1 %}
+						<li class="godziny tooltip"><span>G:<span class="tooltip-content">Godziny Otwarcia</span></span>{{ godziny }}</li>
+					{% else %}
+						<li>{{ godziny }}</li>
+					{% endif %}
+				{% endfor %}
+
+			</ul>
+
+			{% if slide.ogloszenie != blank %}
+				<div class="kontakt-ogloszenie">{{ slide.ogloszenie }}</div>
 			{% endif %}
-			{% endfor %}
 
-		</ul>
-
-		{% if slide.ogloszenie != blank %}
-		<div class="kontakt-ogloszenie">{{ slide.ogloszenie }}</div>
-		{% endif %}
-
-	</div>
-	<div class="bg-kontakt"></div>
+		</div>
+		<div class="bg-kontakt"></div>
 </div>
 <div id="map" class="full">
 </div>
