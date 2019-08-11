@@ -1,0 +1,8 @@
+{
+    "name": "bema4pl-ruby",
+    "image": "ruby:2.6-buster",
+    "appPort": [
+        4000
+    ],
+    "postCreateCommand": "bundle update"
+}

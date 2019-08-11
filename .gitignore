@@ -1,5 +1,5 @@
 .DS_Store
 _site
-_sass\.sass-cache\*
+_sass/.sass-cache
 *.db
 *.log

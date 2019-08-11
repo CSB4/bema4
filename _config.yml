@@ -14,3 +14,6 @@ collections:
 - slides
 - news
 - rodo
+
+# Development settings
+host: 0.0.0.0 # binds the dev webserver to all addresses, needed when working inside a container
