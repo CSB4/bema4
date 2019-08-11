@@ -7,7 +7,7 @@ Wypełniając obowiązek ustawowy uregulowany zapisami art. 13 Rozporządzenia P
 
 * Administratorem danych jest Centrum Stomatologiczne Bema 4 Małgorzata Komorowska z siedzibą w Gdyni przy ul. Bema 4/2.
 * monitoring stosowany jest w celu ochrony mienia oraz zapewnienia bezpieczeństwa na terenie monitorowanym
-* podstawą przetwarzania jest uzasadniony interes Administratora zgodnie z art. 6 ust. 1 lit. f RODO oraz art. 222 Kodeksu Pracy.
+* podstawą przetwarzania jest uzasadniony interes Administratora zgodnie z art. 6 ust. 1 lit. f RODO oraz art. 22 [2] Kodeksu Pracy.
 * zapisy z monitoringu przechowywane nie dłużej niż 3 miesiące od dnia jego pierwszego zarejestrowania do momentu nadpisania
 * osoba zarejestrowana przez system monitoringu ma prawo do dostępu do danych osobowych, z poszanowaniem prywatności innych osób
 * osobie zarejestrowanej przez system monitoringu przysługuje prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych
