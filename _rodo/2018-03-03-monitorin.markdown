@@ -12,7 +12,7 @@ Wypełniając obowiązek ustawowy uregulowany zapisami art. 13 Rozporządzenia P
 * osoba zarejestrowana przez system monitoringu ma prawo do dostępu do danych osobowych, z poszanowaniem prywatności innych osób
 * osobie zarejestrowanej przez system monitoringu przysługuje prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych
 * dane osobowe nie będą udostępniane innym podmiotom niż upoważnionym na podstawie przepisów prawa
-* Administrator wyznaczył Inspektora ochrony danych, z którym można kontaktować się wyłącznie w sprawach dotyczące przetwarzania Państwa danych, w tym realizacji Państwa praw. Kontakt możliwy jest poprzez adres e-mail: inspektor@bema4.pl lub listownie na adres siedziby Administratora: Centrum Stomatologiczne Bema 4 Małgorzata Komorowska, ul. Bema 4/2, 81-386 Gdynia.
+* Administrator wyznaczył Inspektora ochrony danych, z którym można kontaktować się wyłącznie w sprawach dotyczące przetwarzania Państwa danych, w tym realizacji Państwa praw. Kontakt możliwy jest poprzez adres e-mail: iod@bema4.pl lub listownie na adres siedziby Administratora: Centrum Stomatologiczne Bema 4 Małgorzata Komorowska, ul. Bema 4/2, 81-386 Gdynia.
 
 
 
