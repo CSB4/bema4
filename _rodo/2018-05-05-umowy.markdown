@@ -3,12 +3,20 @@ published: true
 title: Strony umów cywilnoprawnych
 ---
 
-Zgodnie z zapisami art. 13 Rozporządzenia Parlamentu Europejskiego i Rady (UE)  2016/679  z dnia  27  kwietnia  2016  roku  w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu  takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016), dalej RODO, informuję, iż:
+Zgodnie z zapisami art. 13 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016), dalej RODO, informuję, iż:
+
 1) Administratorem danych Zleceniobiorcy jest Centrum Stomatologiczne Bema 4 Małgorzata Komorowska z siedzibą w Gdyni przy ul. Bema 4/2
+
 2) Dane osobowe Zleceniobiorcy przetwarzane będą w celu realizacji umowy lub podjęcia działań przed zawarciem umowy, która jest podstawą przetwarzania (zgodnie z art. 6 ust. 1 lit. b RODO).
+
 3) Odbiorcami danych osobowych Zleceniobiorcy będą wyłącznie podmioty uprawnione do uzyskania danych osobowych oraz biuro rachunkowe, banki, firmy pocztowe.
+
 4) Dane osobowe Zleceniobiorcy przechowywane będą przez okres 5 lat licząc od stycznia roku następnego po zakończeniu umowy, zgodnie z przepisami prawa, w celach archiwalnych, podatkowych lub zabezpieczenia ewentualnych roszczeń.
+
 5) Zleceniobiorca posiada prawo do żądania od administratora dostępu do swoich danych osobowych oraz uzyskania ich kopii, do ich sprostowania oraz ograniczenia przetwarzania (w przypadku nieprawidłowości danych, do momentu ich poprawienia).
+
 6) Zleceniobiorca ma prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.
+
 7) Podanie danych osobowych jest dobrowolne, jednakże odmowa podania danych będzie skutkowała odmową zawarcia umowy.
+
 8) Administrator wyznaczył Inspektora ochrony danych, z którym można kontaktować się wyłącznie w sprawach dotyczące przetwarzania Państwa danych, w tym realizacji Państwa praw. Kontakt możliwy jest poprzez adres e-mail: iod@bema4.pl lub listownie na adres siedziby Administratora: Centrum Stomatologiczne Bema 4 Małgorzata Komorowska, ul. Bema 4/2, 81-386 Gdynia.
