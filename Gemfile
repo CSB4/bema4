@@ -6,7 +6,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "~> 4.0.0"
 
 gem 'sass', '~> 3.4', '>= 3.4.9'
 
