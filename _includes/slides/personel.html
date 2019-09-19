@@ -1,11 +1,11 @@
 {% for gallery in site.data.galleries %}
 {% if gallery.id == "personel" %}
 
-		<ul class="personel-list" itemscope itemtype="http://schema.org/Employees">
+		<ul class="personel-list" itemscope itemtype="https://schema.org/Employees">
 		{% for image in gallery.images %}
 			<li class="{{image.group}} personel-item">
 
-				<div class="personel-wrapper" itemscope itemtype="http://schema.org/Employee">
+				<div class="personel-wrapper" itemscope itemtype="https://schema.org/Employee">
 
 					<div class="personel-wrapper-content">
 
