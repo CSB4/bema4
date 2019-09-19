@@ -4,5 +4,6 @@
     "appPort": [
         4000
     ],
+    "extensions": ["rebornix.ruby"],
     "postCreateCommand": "bundle update"
 }
