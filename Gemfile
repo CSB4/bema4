@@ -18,7 +18,7 @@ gem "susy", "~> 2.2.14"
 gem "breakpoint", "~> 2.7.1"
 
 group :development do
-  gem 'reek', '~> 5.4.0'
-  gem 'rubocop', '~> 0.74.0'
-  gem 'solargraph', '~> 0.37.2'
+  gem 'reek', '~> 5.4.0', require: false
+  gem 'rubocop', '~> 0.74.0', require: false
+  gem 'solargraph', '~> 0.37.2', require: false
 end
