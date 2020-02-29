@@ -5,5 +5,10 @@
         4000
     ],
     "extensions": ["rebornix.ruby"],
-    "postCreateCommand": "bundle update"
+    "postCreateCommand": "bundle update",
+    "containerEnv": {
+        "LC_ALL": "C.UTF-8",
+        "LANG": "en_US.UTF-8",
+        "LANGUAGE": "en_US.UTF-8"
+    },
 }
