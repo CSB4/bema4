@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "jekyll", "~> 4.0.0"
+gem "github-pages", "~> 204", group: :jekyll_plugins
 
 # The old version was chosen for compatibility with latest version of susy.
 # For some reason, the fact that breakpoint depends on `sass ~> 3.3`
