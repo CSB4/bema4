@@ -1,6 +1,6 @@
 {
     "name": "bema4pl-ruby",
-    "image": "ruby:2.6-buster",
+    "image": "ruby:2.5-buster",
     "appPort": [
         4000
     ],

@@ -238,9 +238,9 @@ GEM
     minitest (5.14.0)
     multi_json (1.14.1)
     multipart-post (2.1.1)
-    nokogiri (1.10.8)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    octokit (4.16.0)
+    octokit (4.17.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)
@@ -273,7 +273,7 @@ GEM
     ruby-enum (0.7.2)
       i18n
     ruby-progressbar (1.10.1)
-    rubyzip (2.2.0)
+    rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.4.25)
     sassy-maps (0.4.0)
@@ -311,7 +311,7 @@ GEM
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
     yard (0.9.24)
-    zeitwerk (2.2.2)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
@@ -327,4 +327,4 @@ DEPENDENCIES
   susy (~> 2.2.14)
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
