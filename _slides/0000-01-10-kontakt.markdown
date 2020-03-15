@@ -10,7 +10,7 @@ mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 08:00-20:00\"><b>pn&ndash;cz:</b> 08:00&ndash;20:00</time>"
   - "<time itemprop=\"openingHours\" datetime=\"Fr 08:00-14:00\"><b>pt:</b> 08:00&ndash;14:00</time>"
-ogloszenie: ''
+ogloszenie: 'W związku z sytuacją epidemiologiczną, co najmniej do 28 marca 2020 Centrum ogranicza swoją działalność tylko do przypadków pilnych.<br><br>W takich sytuacjach prosimy o kontakt telefoniczny we wtorek 17 marca 2020, w godzinach od 9 do 11.<br><br>Będziemy informować o kolejnych godzinach konsultacji.'
 fullscreen: true
 published: true
 ---
