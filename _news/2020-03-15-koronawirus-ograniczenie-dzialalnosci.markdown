@@ -11,7 +11,7 @@ W związku z sytuacją epidemiologiczną w kraju i zgodnie z <a href="https://ni
 <br><br>
 Decyzję tę podjęliśmy kierowani troską o nasze wspólne bezpieczeństwo.
 <br><br>
-Skontaktujemy się z pacjentami umówionym na wizyty w tym czasie. Tych Państwa, którzy uznają swój stan za pilny prosimy o kontakt mailowy na <a href="mailto:stomatologia@bema4.pl">stomatologia@bema4.pl</a> lub telefoniczny pod dyżurny nr tel. <a href="tel:+48509897714">509 897 714</a> od poniedziałku do piątku w godz. 9.00&ndash;11.00.
+Skontaktujemy się z pacjentami umówionym na wizyty w tym czasie. Tych Państwa, którzy uznają swój stan za pilny prosimy o kontakt mailowy na <a href="mailto:stomatologia@bema4.pl">stomatologia@bema4.pl</a> lub telefoniczny pod dyżurny nr tel. <del>509 897 714</del> <a href="tel:+48504696063">504 696 063</a> od poniedziałku do piątku w godz. 9.00&ndash;11.00.
 <br><br>
 Mamy nadzieję, że jak najszybciej powrócimy do leczenia Państwa w pełnym wymiarze, jak to ma miejsce nieprzerwanie przez ostatnie 15 lat.
 <br><br>
