@@ -5,9 +5,6 @@
   - name: poczekalnia.jpg
     title:
     description:
-  - name: joanna_d_nikoletta_k_przy_pracy.jpg
-    title:
-    description:
   - name: korytarz.jpg
     title:
     description:
@@ -67,11 +64,6 @@
   - name: joanna_d.jpg
     title: Joanna Dawidowska
     position: Specjalistka do spraw administracyjno-finansowych, rejestratorka medyczna
-    group: asisstants
-    description:
-  - name: anna_k.jpg
-    title: Anna Konopka
-    position: Higienistka stomatologiczna
     group: asisstants
     description:
   - name: joanna_w.jpg
