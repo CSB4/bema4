@@ -29,9 +29,6 @@
   - name: is_full_kit.jpg
     title:
     description:
-  - name: grupowe.jpg
-    title:
-    description:
 
 - id: personel
   imagefolder: /images/personel
