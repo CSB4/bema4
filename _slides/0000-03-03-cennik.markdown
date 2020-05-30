@@ -13,31 +13,43 @@ published: true
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>150 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>150&ndash;160 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>170&ndash;180 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>190&ndash;220 pln</span>
-* <span>rekonstrukcja zachowawcza</span> <span>230&ndash;280 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>160&ndash;180 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>180&ndash;200 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>200&ndash;240 pln</span>
+* <span>rekonstrukcja zachowawcza</span> <span>240&ndash;300 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>100 pln</span>
+* <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>300 pln</span>
+* <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>300&ndash;350 pln</span>
+* <span>korekta/renowacja licznych wypełnień (1 ząb)</span> <span>30 pln</span>
+* <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
 * <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
-* <span>wypełnienie kompozytowe w zębie mlecznym 1&#8209;powierzchniowym</span> <span>100 pln</span>
-* <span>wypełnienie kompozytowe w zębie mlecznym powyżej 1 powierzchni</span> <span>120 pln</span>
-* <span>RVG</span> <span>20 pln</span>
+* <span>wypełnienie kompozytowe w zębie mlecznym</span> <span>100&ndash;150 pln</span>
+* <span>RVG</span> <span>30 pln</span>
 
-<h2 id="endodoncja">Endodoncja (leczenie kanałowe)</h2>
+<h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
+
+W cenie zdjęcie RVG i znieczulenie
 
 * <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
-* <span>dewitalizacja miazgi (zatrucie)</span> <span>100 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 1&#8209;kanałowy</span> <span>350 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 2&#8209;kanałowy</span> <span>450 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 3&#8209;kanałowy</span> <span>650 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 4&#8209;kanałowy</span> <span>800 pln</span>
-* <span>wypełnienie ostateczne kanału&#8202;&mdash;&#8202;ząb 5&#8209;kanałowy</span> <span>900 pln</span>
+* <span>dewitalizacja miazgi (zatrucie)</span> <span>150 pln</span>
+* <span>ząb 1&#8209;kanałowy</span> <span>400 pln</span>
+* <span>ząb 2&#8209;kanałowy</span> <span>500 pln</span>
+* <span>ząb 3&#8209;kanałowy</span> <span>700 pln</span>
+* <span>ząb 4&#8209;kanałowy</span> <span>800 pln</span>
 * <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
 * <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
 * <span>opatrunek leczniczy zakładany między wizytami</span> <span>100&ndash;250 pln</span>
-* <span>usunięcie złamanego narzędzia</span> <span>300 pln</span>
+* <span>usunięcie złamanego narzędzia</span> <span>wycena w gabinecie</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
+
+## Periodontologia
+
+* <span>kiretaż zamknięty (1 przestrzeń)</span> <span>150 pln</span>
+* <span>leczenie zmian na błonie śluzowej (afta, nadżerka, owrzodzenie)</span> <span>50&ndash;100 pln</span>
+* <span>wydłużenie korony klinicznej zęba</span> <span>400 pln</span>
+* <span>nacięcie ropnia paradontalnego</span> <span>150 pln</span>
+* <span>szynowanie zębów z zastosowaniem włókna szklanego (1 ząb)</span> <span>100 pln</span>
 
 ## Protetyka
 
@@ -61,13 +73,13 @@ published: true
 ## Chirurgia stomatologiczna
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
-* <span>usunięcie zęba stałego</span> <span>120&ndash;150 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250 pln</span>
+* <span>usunięcie zęba stałego</span> <span>200&ndash;250 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250&ndash;300 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400 pln</span>
-* <span>dłutowanie zęba trzonowego dolnego trzeciego</span> <span>600&ndash;1000 pln</span>
-* <span>usunięcie zęba trzonowego dolnego trzeciego</span> <span>300&ndash;500 pln</span>
-* <span>usuniecie zęba mlecznego lub rozchwianego</span> <span>100 pln</span>
-* <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>360/420 pln</span>
+* <span>usunięcie zęba trzonowego trzeciego</span> <span>300&ndash;500 pln</span>
+* <span>dłutowanie zęba trzonowego trzeciego</span> <span>600&ndash;1000 pln</span>
+* <span>usunięcie zęba mlecznego lub rozchwianego</span> <span>100 pln</span>
+* <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
 * <span>szycie/chirurgiczne zaopatrzenie rany</span> <span>50/70 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span> <span>wycena w gabinecie</span>
@@ -81,15 +93,16 @@ published: true
 
 ## Profilaktyka
 
-* <span>usunięcie kamienia (2 łuki)</span> <span>180 pln</span>
-* <span>fluoryzacja pianką</span> <span>20 pln</span>
 * <span>pełen pakiet higienizacyjny (skaling, fluoryzacja pianką i piaskowanie)</span> <span>250 pln</span>
+* <span>usunięcie kamienia, tzw. skaling (2 łuki)</span> <span>180 pln</span>
+* <span>fluoryzacja pianką</span> <span>20 pln</span>
+* <span>piaskowanie</span> <span>100&ndash;150 pln</span>
 * <span>lakierowanie zębów mlecznych/stałych</span> <span>60/120 pln</span>
-* <span>lakowanie zębów stałych (1 ząb)</span> <span>50 pln</span>
+* <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
 
 ## Wybielanie
 
 * <span>wybielanie metodą domową</span> <span>800 pln</span>
 * <span>wybielanie zębów w gabinecie + nakładki</span> <span>1000&ndash;1300 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 18.05.2020</div>
+<div class="cennik-aktualizacja">Cennik z dnia 01.06.2020</div>
