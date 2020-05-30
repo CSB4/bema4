@@ -10,6 +10,7 @@ published: true
 * <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
 * <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia estetyczna</a>
 * <a href="#endodoncja" title="Przejdź do cennika" data-scroll>Endodoncja mikroskopowa</a>
+* <a href="#periodontologia" title="Przejdź do cennika" data-scroll>Periodontologia</a>
 * <a href="#protetyka" title="Przejdź do cennika" data-scroll>Protetyka</a>
 * <a href="#chirurgia-stomatologiczna" title="Przejdź do cennika" data-scroll>Chirurgia stomatologiczna</a>
 * <a href="#implantologia" title="Przejdź do cennika" data-scroll>Implantologia</a>
