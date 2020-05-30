@@ -29,7 +29,9 @@ published: true
 
 <h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
 
-W cenie zdjęcie RVG i znieczulenie
+(w cenie zdjęcie RVG i znieczulenie)
+
+<br>
 
 * <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
 * <span>dewitalizacja miazgi (zatrucie)</span> <span>150 pln</span>
