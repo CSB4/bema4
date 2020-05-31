@@ -16,11 +16,11 @@ published: true
 * <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>160&ndash;180 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>180&ndash;200 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>200&ndash;240 pln</span>
-* <span>rekonstrukcja zachowawcza</span> <span>240&ndash;300 pln</span>
+* <span>rekonstrukcja zachowawcza</span> <span>260&ndash;300 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>100 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>300 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>300&ndash;350 pln</span>
-* <span>korekta/renowacja licznych wypełnień (1 ząb)</span> <span>30 pln</span>
+* <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>50 pln</span>
 * <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
 * <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
