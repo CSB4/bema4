@@ -24,7 +24,7 @@ published: true
 * <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
 * <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
-* <span>wypełnienie kompozytowe w zębie mlecznym</span> <span>100&ndash;150 pln</span>
+* <span>wypełnienie w zębie mlecznym</span> <span>120&ndash;170 pln</span>
 * <span>RVG</span> <span>30 pln</span>
 
 <h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
@@ -67,7 +67,7 @@ published: true
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy</span> <span>400&ndash;800 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład koronowo-korzeniowy cyrkonowy KAD/KAM</span> <span>wycena w gabinecie</span>
-* <span>wkład z włókna szklanego (3M)</span> <span>250 pln</span>
+* <span>wkład z włókna szklanego (3M)</span> <span>300 pln</span>
 * <span>korona tymczasowa (wykonana w gabinecie)</span> <span>gratis</span>
 * <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
