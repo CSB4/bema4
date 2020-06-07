@@ -1,7 +1,7 @@
 ---
 label: news
 published: true
-title: Nowa specjalistka
+title: Nowy lekarz
 scale: 2
 ---
 
