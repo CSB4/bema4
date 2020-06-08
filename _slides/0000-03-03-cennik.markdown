@@ -68,7 +68,7 @@ published: true
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy</span> <span>400&ndash;800 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład koronowo-korzeniowy cyrkonowy KAD/KAM</span> <span>wycena w gabinecie</span>
-* <span>wkład z włókna szklanego (3M)</span> <span>300 pln</span>
+* <span>wkład z włókna szklanego (3M)</span> <span>350 pln</span>
 * <span>korona tymczasowa (wykonana w gabinecie)</span> <span>gratis</span>
 * <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
