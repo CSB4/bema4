@@ -30,7 +30,7 @@
     title:
     description:
 
-- id: personel
+- id: lekarze
   imagefolder: /images/personel
   images:
   - name: izabela_m.jpg
