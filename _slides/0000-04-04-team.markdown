@@ -1,6 +1,6 @@
 ---
 label: slide
-title: Personel
-type: personel
+title: Lekarze
+type: lekarze
 date: 2013-08-21 19:53:26
 ---
