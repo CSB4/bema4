@@ -13,4 +13,4 @@ W związku z sytuacją epidemiczną wizyty będą ustalane po konsultacji telefo
 <br><br>
 Poprzedni tymczasowy numer telefonu komórkowego nie jest już monitorowany.
 <br><br>
-Zapraszamy na wizyty!
+Zapraszamy do kontaktu telefonicznego!
