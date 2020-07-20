@@ -11,6 +11,10 @@ published: true
 
 ## Stomatologia zachowawcza i estetyczna
 
+(w cenie znieczulenie)
+
+<br>
+
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie glasjonomerowe typu Fuji/Equia</span> <span>180 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>160 pln</span>
@@ -24,9 +28,18 @@ published: true
 * <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>30&ndash;50 pln</span>
 * <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
 * <span>znieczulenie miejscowe/przewodowe</span> <span>10/20 pln</span>
-* <span>wizyta adaptacyjna dla dzieci</span> <span>100 pln</span>
-* <span>wypełnienie w zębie mlecznym</span> <span>120&ndash;170 pln</span>
 * <span>RVG</span> <span>30 pln</span>
+
+<h2 id="pedodoncja">Stomatologia dziecięca (pedodoncja)</h2>
+
+* <span>wizyta adaptacyjna</span> <span>100 pln</span>
+* <span>wypełnienie w zębie mlecznym</span> <span>120&ndash;170 pln</span>
+* <span>opatrunek leczniczy w zębie mlecznym</span> <span>100 pln</span>
+* <span>dewitalizacja miazgi (zatrucie)</span> <span>120 pln</span>
+* <span>ekstrakcja zęba mlecznego</span> <span>100&ndash;150 pln</span>
+* <span>higiniezacja</span> <span>100&ndash;150 pln</span>
+* <span>fluoryzacja</span> <span>100 pln</span>
+* <span>lakowanie bruzd zęba mlecznego</span> <span>100 pln</span>
 
 <h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
 
@@ -77,10 +90,10 @@ published: true
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>usunięcie zęba stałego</span> <span>200&ndash;250 pln</span>
 * <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250&ndash;300 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400&ndash;500 pln</span>
 * <span>usunięcie zęba trzonowego trzeciego</span> <span>300&ndash;500 pln</span>
 * <span>dłutowanie zęba trzonowego trzeciego</span> <span>600&ndash;1000 pln</span>
-* <span>usunięcie zęba mlecznego lub rozchwianego</span> <span>100 pln</span>
+* <span>usunięcie zęba rozchwianego</span> <span>150 pln</span>
 * <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
 * <span>szycie/chirurgiczne zaopatrzenie rany</span> <span>50/70 pln</span>
@@ -96,10 +109,9 @@ published: true
 ## Profilaktyka
 
 * <span>pełen pakiet higienizacyjny (skaling, fluoryzacja pianką, polerowanie i piaskowanie)</span> <span>250 pln</span>
-* <span>skaling (1/2 łuki)</span> <span>120/200 pln</span>
+* <span>skaling (1/2 łuki)</span> <span>100/180 pln</span>
 * <span>fluoryzacja pianką</span> <span>30 pln</span>
-* <span>higienizacja u dzieci (skaling, polerowanie)</span> <span>80&ndash;150 pln</span>
-* <span>lakierowanie zębów mlecznych/stałych</span> <span>80/120 pln</span>
+* <span>lakierowanie zębów stałych</span> <span>120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
 
 ## Wybielanie
