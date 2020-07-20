@@ -42,7 +42,7 @@ published: true
 * <span>ząb 4&#8209;kanałowy</span> <span>1000 pln</span>
 * <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
 * <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
-* <span>opatrunek leczniczy zakładany między wizytami</span> <span>100&ndash;250 pln</span>
+* <span>opatrunek leczniczy zakładany między wizytami</span> <span>150 pln</span>
 * <span>usunięcie złamanego narzędzia</span> <span>wycena w gabinecie</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
 
