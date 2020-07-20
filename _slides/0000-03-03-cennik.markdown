@@ -95,8 +95,8 @@ published: true
 
 ## Profilaktyka
 
-* <span>pełen pakiet higienizacyjny (skaling, fluoryzacja pianką, polerowanie i piaskowanie)</span> <span>280 pln</span>
-* <span>skaling (1/2 łuki)</span> <span>130/200 pln</span>
+* <span>pełen pakiet higienizacyjny (skaling, fluoryzacja pianką, polerowanie i piaskowanie)</span> <span>250 pln</span>
+* <span>skaling (1/2 łuki)</span> <span>120/200 pln</span>
 * <span>fluoryzacja pianką</span> <span>30 pln</span>
 * <span>higienizacja u dzieci (skaling, polerowanie)</span> <span>80&ndash;150 pln</span>
 * <span>lakierowanie zębów mlecznych/stałych</span> <span>80/120 pln</span>
