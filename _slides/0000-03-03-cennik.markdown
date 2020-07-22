@@ -91,7 +91,7 @@ published: true
 * <span>usunięcie zęba rozchwianego</span> <span>150 pln</span>
 * <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
-* <span>szycie/chirurgiczne zaopatrzenie rany</span> <span>50/70 pln</span>
+* <span>chirurgiczne zaopatrzenie rany</span> <span>50 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span> <span>wycena w gabinecie</span>
 
 ## Implantologia
