@@ -1,7 +1,7 @@
 ---
 label: news
 published: true
-title: Nowy lekarz
+title: Joanna Janik
 scale: 2
 ---
 
