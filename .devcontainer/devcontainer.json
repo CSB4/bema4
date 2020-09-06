@@ -1,11 +1,11 @@
 {
     "name": "bema4pl-ruby",
-    "image": "ruby:2.5-buster",
+    "image": "ruby:2.7.1-buster",
     "appPort": [
         4000
     ],
     "extensions": ["rebornix.ruby"],
-    "postCreateCommand": "bundle update",
+    "postCreateCommand": "bundle update --bundler",
     "containerEnv": {
         "LC_ALL": "C.UTF-8",
         "LANG": "en_US.UTF-8",
