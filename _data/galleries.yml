@@ -24,41 +24,41 @@
 - id: lekarze
   imagefolder: /images/personel
   images:
-  - name: izabela_m.jpg
-    title: Izabela Marszałek
-    position: Lekarz dentysta
-    group: doctors
-    description: Izabela Marszałek jest absolwentką Wydziału Lekarskiego o specjalności Techniki Dentystyczne-Protetyka Stomatologiczna oraz Wydziału Lekarsko-Dentystycznego na Gdańskim Uniwersytecie Medycznym. Zdobyła tytuły technika dentystycznego i lekarza dentysty. Stale podnosi swoje kwalifikacje na licznych kursach i szkoleniach. W 2011 roku dołączyła do zespołu Centrum Bema 4, gdzie wykonuje zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej. Prywatnie miłośniczka tańca i kajakarstwa.
   - name: anna_kj.jpg
     title: Anna Kabacińska-Jerzak
     position: Lekarz spec. stomatologii zachowawczej z endodoncją
     group: doctors
     description: Absolwentka ukończonego z wyróżnieniem kierunku lekarsko-dentystycznego Gdańskiego Uniwersytetu Medycznego. Wieloletni nauczyciel akademicki oraz wykładowca na Katedrze Stomatologii Zachowawczej i Endodoncji Gdańskiego Uniwersytetu Medycznego. Współautorka prac naukowych oraz programów badawczych. W 2013 roku zdała z najlepszym wynikiem w Polsce egzamin specjalizacyjny w zakresie stomatologii zachowawczej z endodoncją. Realizuje specjalistyczne zabiegi z zakresu nowoczesnej endodoncji z użyciem mikroskopu zabiegowego, stomatologii zachowawczej w pełnym zakresie oraz protetyki stomatologicznej. Pasjonuje się dysfunkcjami narządu żucia, chorobą okluzyjną oraz problemami ze stawami skroniowo-żuchwowymi. W trosce o dobro pacjentów oraz wysoką jakość swojej pracy stale podnosi kwalifikacje uczestnicząc w licznych szkoleniach i kursach naukowych w Polsce i za granicą. Prywatnie kocha kino i podróże, lubi biegać, pływać, jeździć na rowerze i startuje w triathlonach.
-  - name: mikolaj_m.jpg
-    title: Mikołaj Mielke
-    position: Lekarz dentysta implantolog
-    group: doctors
-    description: Mikołaj Mielke ukończył Wydział Stomatologii Gdańskiego Uniwersytetu Medycznego. Od początku jego największe zainteresowanie budziła chirurgia stomatologiczna, szczękowo-twarzowa oraz implantologia. Umiejętności z tych dziedzin doskonalił na licznych kursach oraz konferencjach w Polsce i za granicą. Od początku swojej pracy używa lup oraz mikroskopu stomatologicznego do codziennej praktyki. Nie wyobraża sobie leczenia implantologicznego oraz wykonania protetyki bez powiększenia niezbędnego do wyłapania szczegółów niedostrzegalnych nieuzbrojonym okiem. W 2013 roku rozpoczął dokształcanie w dziedzinie implantologii w ramach cyklu szkoleń Curriculum Implantologii Polskiego Stowarzyszenia Implantologicznego, które ukończył z wyróżnieniem. W 2015 roku rozpoczął pracę na Oddziale Chirurgii Szczękowej Szpitala Św. Wincentego a Paulo w Gdyni, gdzie rozwij swoje zainteresowania w dziedzinie chirurgii szczękowo-twarzowej. Wciąż poszerza zakres swojej wiedzy, aby zagwarantować Państwu leczenie na najwyższym poziomie.
-  - name: lukasz_k.jpg
-    title: Łukasz Książek
-    position: Lekarz dentysta
-    group: doctors
-    description: Absolwent Gdańskiego Uniwersytetu Medycznego. Obecnie specjalizant chirurgii stomatologicznej w zakładzie Chirurgii Stomatologicznej UCS Gdańskiego Uniwersytetu Medycznego. Autor publikacji naukowych z zakresu chirurgii, uczestnik wielu szkoleń i konferencji dotyczących chirurgii oraz endodoncji, dąży do ciągłego podnoszenia swoich kwalifikacji. W klinice zajmuje się leczeniem ogólnostomatologicznym, chirurgią, endodoncją (leczeniem kanałowym). Do każdego pacjenta podchodzi z troską i zaangażowaniem. Prywatnie z zamiłowania podróżnik po krajach wschodniej Azji, miłośnik piłki nożnej, w wolnych chwilach grywa też w szachy.
-  - name: marzanna_kf.jpg
-    title: Marzanna Kołecka-Florczak
-    position: Lekarz dentysta
-    group: doctors
-    description: Absolwentka Gdańskiego Uniwersytetu Medycznego, uzyskała specjalizację w zakresie stomatologii ogólnej. Obecnie zajmuje się przede wszystkim stomatologią estetyczną, protetyką oraz endodoncją. Podczas pracy wykorzystuje mikroskop zabiegowy aby zapewnić precyzję i trwałość wykonywanych uzupełnień. Stomatologia i praca z ludżmi to jej pasja. Jej profesjonalizm, zaangażowanie, empatia i uśmiech sprawiają, że pacjenci czują się bezpiecznie, a wizyta w Centrum Stomatologicznym Bema 4 jest przyjemnością. Prywatnie miłośniczka wschodów słońca i jazdy na łyżworolkach.
-  - name: joanna_j.jpg
-    title: Joanna Janik
-    position: Lekarz dentysta
-    group: doctors
-    description: Joanna Janik jest absolwentką Gdańskiego Uniwersytetu Medycznego na kierunku Lekarsko-Dentystycznym. Wykonuje zabiegi ogólnodentystyczne, z czego największym umiłowaniem darzy stomatologię zachowawczą i estetyczną. Od lat pasjonuje się estetyczną odbudową kompozytową zębów przednich. W swoją pracę wkłada pełne zaangażowanie, dbając o komfort pacjenta oraz wysoką jakość i precyzję świadczonych usług. Wciąż podąża za aktualnie dostępną wiedzą i doskonali swoje umiejętności na kursach i szkoleniach. Prywatnie mama, miłośniczka przyrody, podróżowania i zdrowego stylu życia.
   - name: oktawia_z.jpg
     title: Oktawia Zacharek
     position: Lekarz spec. stomatologii zachowawczej z endodoncją
     group: doctors
     description: Absolwentka Pomorskiego Uniwersytetu Medycznego w Szczecinie na wydziale kierunku lekarsko-stomatologicznego. Podczas studiów zaangażowana w koło oraz prace naukowe. Zaraz po stażu rozpoczeła specjalizację ze stomatologii zachowawczej z endodoncją w Katedrze i Zakładzie Stomatologii Zachowawczej Gdańskiego Uniwersytetu Medycznego. Podczas specjalizacji zajmowała sie pracą kliniczną, jak i dydaktyczną – szkoliła studentów stomatologii. Cały czas bierze czynny udział w licznych kursach oraz kongresach poszerzając swoją wiedzę z zakresu endodoncji, szczególnie pracy pod mikroskopem, oraz z leczenia zachowawczego. Zagłębia swoją wiedzę także z protetyki oraz chirurgii stomatologicznej.
+  - name: izabela_m.jpg
+    title: Izabela Marszałek
+    position: Lekarz dentysta
+    group: doctors
+    description: Izabela Marszałek jest absolwentką Wydziału Lekarskiego o specjalności Techniki Dentystyczne-Protetyka Stomatologiczna oraz Wydziału Lekarsko-Dentystycznego na Gdańskim Uniwersytecie Medycznym. Zdobyła tytuły technika dentystycznego i lekarza dentysty. Stale podnosi swoje kwalifikacje na licznych kursach i szkoleniach. W 2011 roku dołączyła do zespołu Centrum Bema 4, gdzie wykonuje zabiegi z zakresu stomatologii estetycznej, zaawansowanej protetyki, endodoncji mikroskopowej, chirurgii stomatologicznej oraz stomatologii zachowawczej. Prywatnie miłośniczka tańca i kajakarstwa.
+  - name: mikolaj_m.jpg
+    title: Mikołaj Mielke
+    position: Lekarz dentysta implantolog
+    group: doctors
+    description: Mikołaj Mielke ukończył Wydział Stomatologii Gdańskiego Uniwersytetu Medycznego. Od początku jego największe zainteresowanie budziła chirurgia stomatologiczna, szczękowo-twarzowa oraz implantologia. Umiejętności z tych dziedzin doskonalił na licznych kursach oraz konferencjach w Polsce i za granicą. Od początku swojej pracy używa lup oraz mikroskopu stomatologicznego do codziennej praktyki. Nie wyobraża sobie leczenia implantologicznego oraz wykonania protetyki bez powiększenia niezbędnego do wyłapania szczegółów niedostrzegalnych nieuzbrojonym okiem. W 2013 roku rozpoczął dokształcanie w dziedzinie implantologii w ramach cyklu szkoleń Curriculum Implantologii Polskiego Stowarzyszenia Implantologicznego, które ukończył z wyróżnieniem. W 2015 roku rozpoczął pracę na Oddziale Chirurgii Szczękowej Szpitala Św. Wincentego a Paulo w Gdyni, gdzie rozwij swoje zainteresowania w dziedzinie chirurgii szczękowo-twarzowej. Wciąż poszerza zakres swojej wiedzy, aby zagwarantować Państwu leczenie na najwyższym poziomie.
+  - name: marzanna_kf.jpg
+    title: Marzanna Kołecka-Florczak
+    position: Lekarz dentysta
+    group: doctors
+    description: Absolwentka Gdańskiego Uniwersytetu Medycznego, uzyskała specjalizację w zakresie stomatologii ogólnej. Obecnie zajmuje się przede wszystkim stomatologią estetyczną, protetyką oraz endodoncją. Podczas pracy wykorzystuje mikroskop zabiegowy aby zapewnić precyzję i trwałość wykonywanych uzupełnień. Stomatologia i praca z ludżmi to jej pasja. Jej profesjonalizm, zaangażowanie, empatia i uśmiech sprawiają, że pacjenci czują się bezpiecznie, a wizyta w Centrum Stomatologicznym Bema 4 jest przyjemnością. Prywatnie miłośniczka wschodów słońca i jazdy na łyżworolkach.
+  - name: lukasz_k.jpg
+    title: Łukasz Książek
+    position: Lekarz dentysta
+    group: doctors
+    description: Absolwent Gdańskiego Uniwersytetu Medycznego. Obecnie specjalizant chirurgii stomatologicznej w zakładzie Chirurgii Stomatologicznej UCS Gdańskiego Uniwersytetu Medycznego. Autor publikacji naukowych z zakresu chirurgii, uczestnik wielu szkoleń i konferencji dotyczących chirurgii oraz endodoncji, dąży do ciągłego podnoszenia swoich kwalifikacji. W klinice zajmuje się leczeniem ogólnostomatologicznym, chirurgią, endodoncją (leczeniem kanałowym). Do każdego pacjenta podchodzi z troską i zaangażowaniem. Prywatnie z zamiłowania podróżnik po krajach wschodniej Azji, miłośnik piłki nożnej, w wolnych chwilach grywa też w szachy.
+  - name: joanna_j.jpg
+    title: Joanna Janik
+    position: Lekarz dentysta
+    group: doctors
+    description: Joanna Janik jest absolwentką Gdańskiego Uniwersytetu Medycznego na kierunku Lekarsko-Dentystycznym. Wykonuje zabiegi ogólnodentystyczne, z czego największym umiłowaniem darzy stomatologię zachowawczą i estetyczną. Od lat pasjonuje się estetyczną odbudową kompozytową zębów przednich. W swoją pracę wkłada pełne zaangażowanie, dbając o komfort pacjenta oraz wysoką jakość i precyzję świadczonych usług. Wciąż podąża za aktualnie dostępną wiedzą i doskonali swoje umiejętności na kursach i szkoleniach. Prywatnie mama, miłośniczka przyrody, podróżowania i zdrowego stylu życia.
   - name: joanna_l.jpg
     title: Joanna Linkiewicz
     position: Lekarz dentysta
