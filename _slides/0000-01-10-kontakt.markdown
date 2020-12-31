@@ -10,7 +10,7 @@ mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 09:00-19:00\"><b>pn&ndash;cz:</b> 9:00&ndash;19:00</time>"
   - "<time itemprop=\"openingHours\" datetime=\"Fr 09:00-14:00\"><b>pt:</b> 9:00&ndash;14:00</time>"
-ogloszenie: 'Informujemy, że Centrum powróciło do codziennej działalności. W związku z sytuacją epidemiczną wizyty będą ustalane po konsultacji telefonicznej pod nr tel.&nbsp;<a href="tel:+48586202182">58&nbsp;620&nbsp;21&nbsp;82</a> w godzinach 9:00&ndash;15:00.<br><br>Poprzedni tymczasowy numer telefonu komórkowego nie jest już monitorowany.'
+ogloszenie: 'Informujemy, że w dniu 31 grudnia 2020 Centrum jest nieczynne. Do pracy powrócimy w poniedziałek 4 stycznia 2021.'
 fullscreen: true
 published: true
 ---
