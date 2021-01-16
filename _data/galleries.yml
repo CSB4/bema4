@@ -1,26 +1,3 @@
-- id: gallery
-  imagefolder: /images/gallery
-  thumbfolder: /images/gallery/thumbs
-  images:
-  - name: poczekalnia.jpg
-    title:
-    description:
-  - name: korytarz.jpg
-    title:
-    description:
-  - name: gabinet_1.jpg
-    title:
-    description:
-  - name: gabinet_2.jpg
-    title:
-    description:
-  - name: mikroskop.jpg
-    title:
-    description:
-  - name: is_full_kit.jpg
-    title:
-    description:
-
 - id: lekarze
   imagefolder: /images/personel
   images:
