@@ -21,7 +21,6 @@
 //slides
 @import "slides/cennik";
 @import "slides/news";
-@import "slides/galeria";
 @import "slides/gwarancja";
 @import "slides/historia";
 @import "slides/kontakt";
@@ -53,7 +52,7 @@ img {
   overflow:hidden;
   padding:10% 0;
 }
-.slide-personel, .slide-galeria {
+.slide-personel {
   padding:0;
 }
 ////////////////////////

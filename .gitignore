@@ -1,6 +1,6 @@
 .DS_Store
 .jekyll-cache
 _site
-_sass/.sass-cache
+.sass-cache
 *.db
 *.log
