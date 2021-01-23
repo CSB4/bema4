@@ -106,8 +106,8 @@ published: true
 
 * <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>250 pln</span>
 * <span>skaling</span> <span>200 pln</span>
-* <span>piaskowanie</span> <span>150 pln</span>
-* <span>fluoryzacja pianką</span> <span>30 pln</span>
+* <span>piaskowanie</span> <span>200 pln</span>
+* <span>fluoryzacja pianką</span> <span>50 pln</span>
 * <span>lakierowanie zębów stałych</span> <span>120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
 
