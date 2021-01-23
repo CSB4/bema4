@@ -14,9 +14,7 @@ published: true
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie glasjonomerowe typu Fuji/Equia</span> <span>180 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>160 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 1&#8209;powierzchniowe</span> <span>180 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 2&#8209;powierzchniowe</span> <span>200 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne 3&#8209;powierzchniowe</span> <span>240 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>180&ndash;240 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>300 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>350 pln</span>
@@ -42,9 +40,9 @@ published: true
 
 <br>
 
-* <span>ocena zęba w mikroskopie</span> <span>100&ndash;150 pln</span>
+* <span>ocena zęba w mikroskopie</span> <span>150 pln</span>
 * <span>dewitalizacja miazgi (zatrucie)</span> <span>150 pln</span>
-* <span>ząb 1&#8209;kanałowy</span> <span>400 pln</span>
+* <span>ząb 1&#8209;kanałowy</span> <span>450 pln</span>
 * <span>ząb 2&#8209;kanałowy</span> <span>600 pln</span>
 * <span>ząb 3&#8209;kanałowy</span> <span>800 pln</span>
 * <span>ząb 4&#8209;kanałowy</span> <span>1000 pln</span>
@@ -83,39 +81,44 @@ published: true
 ## Chirurgia stomatologiczna
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
-* <span>usunięcie zęba stałego</span> <span>200&ndash;250 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>250&ndash;300 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>400&ndash;500 pln</span>
-* <span>usunięcie zęba trzonowego trzeciego</span> <span>300&ndash;500 pln</span>
-* <span>dłutowanie zęba trzonowego trzeciego</span> <span>600&ndash;1000 pln</span>
+* <span>usunięcie zęba stałego</span> <span>250&ndash;350 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>350&ndash;450 pln</span>
+* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>500&ndash;650 pln</span>
+* <span>usunięcie zęba trzonowego trzeciego (ósemka) górnego/dolnego</span> <span>500/800 pln</span>
+* <span>dłutowanie zęba trzonowego trzeciego (ósemka)</span> <span>800&ndash;1000 pln</span>
 * <span>usunięcie zęba rozchwianego</span> <span>150 pln</span>
 * <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
-* <span>chirurgiczne zaopatrzenie rany</span> <span>50 pln</span>
+* <span>chirurgiczne zaopatrzenie rany</span> <span>80 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span> <span>wycena w gabinecie</span>
 
 ## Implantologia
 
-* <span>konsultacja</span> <span>100&ndash;200 pln</span>
-* <span>wszczepienie implantu</span> <span>2500 pln</span>
-* <span>korona porcelanowa na implancie</span> <span>koszt łącznika + 2050&ndash;2950 pln</span>
+* <span>konsultacja</span> <span>150 pln</span>
+* <span>odsłonięcie implantu</span> <span>200 pln</span>
+* <span>wszczepienie implantu</span> <span>2700&ndash;3200 pln</span>
+* <span>usunięcie implantu wszczepionego w innym gabinecie</span> <span>1000 pln</span>
+* <span>przeszczep tkanki łącznej</span> <span>1000&ndash;2000 pln</span>
+* <span>korona porcelanowa na implancie</span> <span>2700&ndash;3200 pln</span>
 * <span>proteza oparta na implantach</span> <span>wycena w gabinecie</span>
 
 ## Profilaktyka
 
-* <span>pełen pakiet higienizacyjny (skaling, fluoryzacja pianką, polerowanie i piaskowanie)</span> <span>250 pln</span>
-* <span>skaling (1/2 łuki)</span> <span>100/180 pln</span>
+* <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>250 pln</span>
+* <span>skaling</span> <span>200 pln</span>
+* <span>piaskowanie</span> <span>150 pln</span>
 * <span>fluoryzacja pianką</span> <span>30 pln</span>
 * <span>lakierowanie zębów stałych</span> <span>120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
 
 ## Wybielanie
 
-* <span>wybielanie metodą domową</span> <span>800 pln</span>
-* <span>wybielanie zębów w gabinecie + nakładki</span> <span>1000&ndash;1300 pln</span>
+* <span>wybielanie metodą domową (nakładki)</span> <span>800 pln</span>
+* <span>wybielanie zębów w gabinecie</span> <span>1000 pln</span>
+* <span>dobielanie zębów w gabinecie</span> <span>300 pln</span>
 
 <h2 id="uslugi-w-cenie"></h2>
 
 * <span>znieczulenie</span> <span>0 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 22.07.2020</div>
+<div class="cennik-aktualizacja">Cennik z dnia 24.01.2021</div>
