@@ -8,8 +8,8 @@ adres_url: "https://www.google.pl/maps/place/Centrum+Stomatologiczne+Bema+4/@54.
 telefon: <a href="tel:+48586202182">+48 58 620 21 82</a>
 mail: "stomatologia@bema4.pl"
 godziny:
-  - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 09:00-19:00\"><b>pn&ndash;cz:</b> 9:00&ndash;19:00</time>"
-  - "<time itemprop=\"openingHours\" datetime=\"Fr 09:00-14:00\"><b>pt:</b> 9:00&ndash;14:00</time>"
+  - "<time itemprop=\"openingHours\" datetime=\"Mo-We 09:00-19:00\"><b>pn&ndash;śr:</b> 9:00&ndash;19:00</time>"
+  - "<time itemprop=\"openingHours\" datetime=\"Th-Fr 09:00-14:00\"><b>cz&ndash;pt:</b> 9:00&ndash;14:00</time>"
 ogloszenie: 'Informujemy, że Centrum powróciło do codziennej działalności. W związku z sytuacją epidemiczną wizyty będą ustalane po konsultacji telefonicznej pod nr tel.&nbsp;<a href="tel:+48586202182">58&nbsp;620&nbsp;21&nbsp;82</a> w godzinach 9:00&ndash;15:00.<br><br>Poprzedni tymczasowy numer telefonu komórkowego nie jest już monitorowany.'
 fullscreen: true
 published: true
