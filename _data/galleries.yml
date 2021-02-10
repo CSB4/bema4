@@ -1,11 +1,6 @@
 - id: lekarze
   imagefolder: /images/personel
   images:
-  - name: anna_kj.jpg
-    title: Anna Kabacińska-Jerzak
-    position: Lekarz spec. stomatologii zachowawczej z endodoncją
-    group: doctors
-    description: Absolwentka ukończonego z wyróżnieniem kierunku lekarsko-dentystycznego Gdańskiego Uniwersytetu Medycznego. Wieloletni nauczyciel akademicki oraz wykładowca na Katedrze Stomatologii Zachowawczej i Endodoncji Gdańskiego Uniwersytetu Medycznego. Współautorka prac naukowych oraz programów badawczych. W 2013 roku zdała z najlepszym wynikiem w Polsce egzamin specjalizacyjny w zakresie stomatologii zachowawczej z endodoncją. Realizuje specjalistyczne zabiegi z zakresu nowoczesnej endodoncji z użyciem mikroskopu zabiegowego, stomatologii zachowawczej w pełnym zakresie oraz protetyki stomatologicznej. Pasjonuje się dysfunkcjami narządu żucia, chorobą okluzyjną oraz problemami ze stawami skroniowo-żuchwowymi. W trosce o dobro pacjentów oraz wysoką jakość swojej pracy stale podnosi kwalifikacje uczestnicząc w licznych szkoleniach i kursach naukowych w Polsce i za granicą. Prywatnie kocha kino i podróże, lubi biegać, pływać, jeździć na rowerze i startuje w triathlonach.
   - name: oktawia_z.jpg
     title: Oktawia Zacharek
     position: Lekarz spec. stomatologii zachowawczej z endodoncją
