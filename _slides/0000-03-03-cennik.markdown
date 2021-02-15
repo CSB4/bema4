@@ -36,7 +36,7 @@ published: true
 
 <h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
 
-(w cenie zdjęcie RVG)
+(w cenie zdjęcie RVG oraz znieczulenie, cena nie obejmuje wypełnienia kompozytowego)
 
 <br>
 
@@ -121,4 +121,4 @@ published: true
 
 * <span>znieczulenie</span> <span>0 pln</span>
 
-<div class="cennik-aktualizacja">Cennik z dnia 24.01.2021</div>
+<div class="cennik-aktualizacja">Cennik z dnia 15.02.2021</div>
