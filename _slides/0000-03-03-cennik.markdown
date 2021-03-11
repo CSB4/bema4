@@ -14,7 +14,7 @@ published: true
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie glasjonomerowe typu Fuji/Equia</span> <span>180 pln</span>
 * <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>160 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>180&ndash;240 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>180&ndash;250 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>300 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>350 pln</span>
@@ -63,13 +63,17 @@ published: true
 ## Protetyka
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
+* <span>korona porcelanowa na podbudowie metalowej</span> <span>950 pln</span>
+* <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1500 pln</span>
+* <span>korona pełnoceramiczna e.max</span> <span>1700 pln</span>
 * <span>korona bezmetalowa cyrkonowa</span> <span>1500&ndash;1800 pln</span>
 * <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
 * <span>korona porcelanowa na metalu</span> <span>950 pln</span>
-* <span>licówka porcelanowa</span> <span>1700 pln</span>
 * <span>proteza akrylowa całkowita</span> <span>1600 pln</span>
 * <span>proteza akrylowa częściowa</span> <span>700&ndash;1600 pln</span>
-* <span>proteza szkieletowa</span> <span>od 1800 pln</span>
+* <span>proteza szkieletowa</span> <span>od 2000 pln</span>
+* <span>proteza całkowita</span> <span>1800 pln</span>
+* <span>proteza częściowa</span> <span>1500 pln</span>
 * <span>naprawa protezy (1 punkt)</span> <span>150 pln</span>
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>450/600 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
@@ -120,5 +124,3 @@ published: true
 <h2 id="uslugi-w-cenie"></h2>
 
 * <span>znieczulenie</span> <span>0 pln</span>
-
-<div class="cennik-aktualizacja">Cennik z dnia 15.02.2021</div>
