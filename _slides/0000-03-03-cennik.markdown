@@ -66,11 +66,6 @@ published: true
 * <span>korona porcelanowa na podbudowie metalowej</span> <span>950 pln</span>
 * <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1500 pln</span>
 * <span>korona pełnoceramiczna e.max</span> <span>1700 pln</span>
-* <span>korona bezmetalowa cyrkonowa</span> <span>1500&ndash;1800 pln</span>
-* <span>korona bezmetalowa e.max</span> <span>1500 pln</span>
-* <span>korona porcelanowa na metalu</span> <span>950 pln</span>
-* <span>proteza akrylowa całkowita</span> <span>1600 pln</span>
-* <span>proteza akrylowa częściowa</span> <span>700&ndash;1600 pln</span>
 * <span>proteza szkieletowa</span> <span>od 2000 pln</span>
 * <span>proteza całkowita</span> <span>1800 pln</span>
 * <span>proteza częściowa</span> <span>1500 pln</span>
