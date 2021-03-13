@@ -45,8 +45,8 @@ published: true
 * <span>ząb 1&#8209;kanałowy</span> <span>450 pln</span>
 * <span>ząb 2&#8209;kanałowy</span> <span>600 pln</span>
 * <span>ząb 3&#8209;kanałowy</span> <span>800 pln</span>
-* <span>ząb 4&#8209;kanałowy</span> <span>1000 pln</span>
-* <span>ponowne leczenie kanałowe</span> <span>dodatkowo 50&ndash;250 pln</span>
+* <span>każdy kolejny kanał</span> <span>dodatkowo 200 pln</span>
+* <span>ponowne leczenie kanałowe (re-endo)</span> <span>dodatkowo 200 pln</span>
 * <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
 * <span>opatrunek leczniczy zakładany między wizytami</span> <span>150 pln</span>
 * <span>usunięcie złamanego narzędzia</span> <span>wycena w gabinecie</span>
@@ -54,7 +54,9 @@ published: true
 
 ## Periodontologia
 
-* <span>kiretaż zamknięty (1 przestrzeń)</span> <span>150 pln</span>
+* <span>kiretaż zamknięty (1 ząb)</span> <span>200 pln</span>
+* <span>kiretaż zamknięty (połowy łuku)</span> <span>350 pln</span>
+* <span>kiretaż zamknięty (całego łuku)</span> <span>500 pln</span>
 * <span>leczenie zmian na błonie śluzowej (afta, nadżerka, owrzodzenie)</span> <span>50&ndash;100 pln</span>
 * <span>wydłużenie korony klinicznej zęba</span> <span>400 pln</span>
 * <span>nacięcie ropnia paradontalnego</span> <span>150 pln</span>
@@ -66,14 +68,15 @@ published: true
 * <span>korona porcelanowa na podbudowie metalowej</span> <span>950 pln</span>
 * <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1500 pln</span>
 * <span>korona pełnoceramiczna e.max</span> <span>1700 pln</span>
+* <span>licówka porcelanowa</span> <span>1800 pln</span>
 * <span>proteza szkieletowa</span> <span>od 2000 pln</span>
 * <span>proteza całkowita</span> <span>1800 pln</span>
 * <span>proteza częściowa</span> <span>1500 pln</span>
 * <span>naprawa protezy (1 punkt)</span> <span>150 pln</span>
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>450/600 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
-* <span>wkład z włókna szklanego (3M)</span> <span>350 pln</span>
-* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>gratis</span>
+* <span>wkład z włókna szklanego</span> <span>500 pln</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>50 pln</span>
 * <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
 
