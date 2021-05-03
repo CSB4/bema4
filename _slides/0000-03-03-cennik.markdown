@@ -13,9 +13,9 @@ published: true
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
 * <span>wypełnienie glasjonomerowe typu Fuji/Equia</span> <span>180 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>160 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>180&ndash;250 pln</span>
-* <span>rekonstrukcja zachowawcza</span> <span>300 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>180 pln</span>
+* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>200&ndash;280 pln</span>
+* <span>rekonstrukcja zachowawcza</span> <span>350 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>350 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>500 pln</span>
@@ -43,8 +43,8 @@ published: true
 * <span>ocena zęba w mikroskopie</span> <span>150 pln</span>
 * <span>dewitalizacja miazgi (zatrucie)</span> <span>150 pln</span>
 * <span>ząb 1&#8209;kanałowy</span> <span>450 pln</span>
-* <span>ząb 2&#8209;kanałowy</span> <span>600 pln</span>
-* <span>ząb 3&#8209;kanałowy</span> <span>800 pln</span>
+* <span>ząb 2&#8209;kanałowy</span> <span>650 pln</span>
+* <span>ząb 3&#8209;kanałowy</span> <span>850 pln</span>
 * <span>każdy kolejny kanał</span> <span>dodatkowo 200 pln</span>
 * <span>ponowne leczenie kanałowe (re-endo)</span> <span>dodatkowo 200 pln</span>
 * <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
@@ -83,13 +83,11 @@ published: true
 ## Chirurgia stomatologiczna
 
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
-* <span>usunięcie zęba stałego</span> <span>250&ndash;350 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji wewnątrzzębodołowej</span> <span>350&ndash;450 pln</span>
-* <span>dłutowanie zęba w przebiegu ekstrakcji zewnątrzzębodołowej</span> <span>500&ndash;650 pln</span>
-* <span>usunięcie zęba trzonowego trzeciego (ósemka) górnego/dolnego</span> <span>500/800 pln</span>
-* <span>dłutowanie zęba trzonowego trzeciego (ósemka)</span> <span>800&ndash;1000 pln</span>
-* <span>usunięcie zęba rozchwianego</span> <span>150 pln</span>
-* <span>resekcja zęba 1&#8209;korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
+* <span>ekstrakcja prosta zęba</span> <span>250&ndash;400 pln</span>
+* <span>ekstrakcja chirurgiczna (dłutowanie) zęba</span> <span>400&ndash;600 pln</span>
+* <span>ekstrakcja/dłutowanie ósemki górnej</span> <span>500/800 pln</span>
+* <span>ekstrakcja/dłutowanie ósemki dolnej</span> <span>800/1000 pln</span>
+* <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
 * <span>chirurgiczne zaopatrzenie rany</span> <span>80 pln</span>
 * <span>odbudowa kości (z biomateriałem)</span> <span>wycena w gabinecie</span>
