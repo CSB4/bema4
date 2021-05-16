@@ -18,7 +18,7 @@ gem "susy", "~> 2.2.14"
 gem "breakpoint", "~> 2.7.1"
 
 group :development do
-  gem 'reek', '~> 6.0.3', require: false
-  gem 'rubocop', '~> 1.8.1', require: false
-  gem 'solargraph', git: 'https://github.com/castwide/solargraph', ref: 'c0845bae', require: false # solargraph 0.40.1 doesn't allow parser 3.0.0, which is required by reek 6.0.3 and rubocop 1.8.1
+  gem 'reek', '~> 6.0.4', require: false
+  gem 'rubocop', '~> 1.14.0', require: false
+  gem 'solargraph', '~> 0.40.4', require: false
 end
