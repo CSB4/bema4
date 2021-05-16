@@ -21,9 +21,9 @@ W pliku `_config.yml` masz dane konfiguracyjne dla jekyll, tytuł i opis strony.
 
 Do pliku `default.html` masz zaincludowane pliki:
 
-* head.html - zawartość tagu `<head></head>`
-* header.html - lewa kolumna strony (nawigacja i logo)
-* footer.html - stopka strony
+* `head.html` - zawartość tagu `<head></head>`
+* `header.html` - lewa kolumna strony (nawigacja i logo)
+* `footer.html` - stopka strony
 
 # javascript
 
