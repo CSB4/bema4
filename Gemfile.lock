@@ -330,11 +330,11 @@ PLATFORMS
 DEPENDENCIES
   breakpoint (~> 2.7.1)
   compass (~> 1.0.3)
-  github-pages (~> 214)
-  reek (~> 6.0.4)
-  rubocop (~> 1.14.0)
+  github-pages
+  reek
+  rubocop
   sass (~> 3.4.25)
-  solargraph (~> 0.40.4)
+  solargraph
   susy (~> 2.2.14)
 
 BUNDLED WITH
