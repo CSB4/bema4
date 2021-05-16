@@ -328,14 +328,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  breakpoint (~> 2.7.1)
-  compass (~> 1.0.3)
+  breakpoint
+  compass
   github-pages
   reek
   rubocop
-  sass (~> 3.4.25)
   solargraph
-  susy (~> 2.2.14)
+  susy
 
 BUNDLED WITH
    2.1.4
