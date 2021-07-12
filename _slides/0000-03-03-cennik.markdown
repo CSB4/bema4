@@ -67,7 +67,7 @@ published: true
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>korona porcelanowa na podbudowie metalowej</span> <span>1100 pln</span>
 * <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1700 pln</span>
-* <span>korona pełnoceramiczna e.max</span> <span>1600 pln</span>
+* <span>korona pełnoceramiczna e.max</span> <span>1800 pln</span>
 * <span>licówka porcelanowa</span> <span>1800 pln</span>
 * <span>proteza szkieletowa</span> <span>od 2000 pln</span>
 * <span>proteza całkowita</span> <span>1800 pln</span>
@@ -85,8 +85,10 @@ published: true
 * <span>konsultacja</span> <span>0&ndash;100 pln</span>
 * <span>ekstrakcja prosta zęba</span> <span>250&ndash;400 pln</span>
 * <span>ekstrakcja chirurgiczna (dłutowanie) zęba</span> <span>400&ndash;600 pln</span>
-* <span>ekstrakcja/dłutowanie ósemki górnej</span> <span>500/800 pln</span>
-* <span>ekstrakcja/dłutowanie ósemki dolnej</span> <span>800/1000 pln</span>
+* <span>ekstrakcja ósemki górnej</span> <span>500 pln</span>
+* <span>ekstrakcja ósemki dolnej</span> <span>800 pln</span>
+* <span>dłutowanie ósemki górnej</span> <span>800 pln</span>
+* <span>dłutowanie ósemki dolnej</span> <span>1000 pln</span>
 * <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
 * <span>chirurgiczne zaopatrzenie rany</span> <span>80 pln</span>
