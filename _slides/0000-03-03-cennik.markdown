@@ -17,7 +17,7 @@ published: true
 * <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>200&ndash;280 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>350 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
-* <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>400 pln</span>
+* <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>400&ndash;500 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>500 pln</span>
 * <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>30&ndash;50 pln</span>
 * <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
@@ -76,7 +76,7 @@ published: true
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>450/600 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład z włókna szklanego</span> <span>500 pln</span>
-* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>50 pln</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>100 pln</span>
 * <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
 * <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
 
@@ -106,9 +106,9 @@ published: true
 
 ## Profilaktyka
 
-* <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>250 pln</span>
-* <span>skaling</span> <span>200 pln</span>
-* <span>piaskowanie</span> <span>200 pln</span>
+* <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>270 pln</span>
+* <span>skaling</span> <span>220 pln</span>
+* <span>piaskowanie</span> <span>220 pln</span>
 * <span>fluoryzacja pianką</span> <span>50 pln</span>
 * <span>lakierowanie zębów stałych</span> <span>120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
