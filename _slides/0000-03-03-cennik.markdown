@@ -64,7 +64,7 @@ published: true
 
 ## Protetyka
 
-* <span>konsultacja</span> <span>0&ndash;100 pln</span>
+* <span>konsultacja protetyczna/z planem leczenia</span> <span>100/200 pln</span>
 * <span>korona porcelanowa na podbudowie metalowej</span> <span>1100 pln</span>
 * <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1700 pln</span>
 * <span>korona pełnoceramiczna e.max</span> <span>1800 pln</span>
@@ -107,8 +107,8 @@ published: true
 ## Profilaktyka
 
 * <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>270 pln</span>
-* <span>skaling</span> <span>220 pln</span>
-* <span>piaskowanie</span> <span>220 pln</span>
+* <span>skaling</span> <span>200 pln</span>
+* <span>piaskowanie</span> <span>200 pln</span>
 * <span>fluoryzacja pianką</span> <span>50 pln</span>
 * <span>lakierowanie zębów stałych</span> <span>120 pln</span>
 * <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
