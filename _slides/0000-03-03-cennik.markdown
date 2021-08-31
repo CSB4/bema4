@@ -72,7 +72,6 @@ published: true
 * <span>proteza szkieletowa</span> <span>od 2000 pln</span>
 * <span>proteza całkowita</span> <span>1800 pln</span>
 * <span>proteza częściowa</span> <span>1500 pln</span>
-* <span>naprawa protezy (1 punkt)</span> <span>150 pln</span>
 * <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>450/600 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład z włókna szklanego</span> <span>500 pln</span>
