@@ -7,9 +7,8 @@ date: 2011-11-21 19:53:26
 published: true
 ---
 
-* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
-* <a href="#stomatologia-zachowawcza-i-estetyczna" title="Przejdź do cennika" data-scroll>Stomatologia estetyczna</a>
-* <a href="#pedodoncja" title="Przejdź do cennika" data-scroll>Stomatologia dziecięca</a>
+* <a href="#stomatologia-zachowawcza" title="Przejdź do cennika" data-scroll>Stomatologia zachowawcza</a>
+* <a href="#stomatologia-dziecieca" title="Przejdź do cennika" data-scroll>Stomatologia dziecięca</a>
 * <a href="#endodoncja" title="Przejdź do cennika" data-scroll>Endodoncja mikroskopowa</a>
 * <a href="#periodontologia" title="Przejdź do cennika" data-scroll>Periodontologia</a>
 * <a href="#protetyka" title="Przejdź do cennika" data-scroll>Protetyka</a>
