@@ -64,7 +64,7 @@ published: true
 
 ## Protetyka
 
-* <span>konsultacja protetyczna z planem leczenia i kosztorysem</span> <span>100&ndash;150 pln</span>
+* <span>konsultacja protetyczna z planem leczenia i kosztorysem</span> <span>100&ndash;250 pln</span>
 * <span>korona porcelanowa na podbudowie metalowej</span> <span>1100 pln</span>
 * <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1700 pln</span>
 * <span>korona pełnoceramiczna e.max</span> <span>1800 pln</span>
