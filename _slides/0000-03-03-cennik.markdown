@@ -103,7 +103,7 @@ published: true
 * <span>korona porcelanowa na implancie</span> <span>2700&ndash;3200 pln</span>
 * <span>proteza oparta na implantach</span> <span>wycena w gabinecie</span>
 
-## Profilaktyka
+<h2 id="profilaktyka">Profilaktyka i higienizacja</h2>
 
 * <span>skaling (usuwanie kamienia nazębnego)</span> <span>200 pln</span>
 * <span>piaskowanie (usuwanie osadu nazębnego)</span> <span>200 pln</span>
