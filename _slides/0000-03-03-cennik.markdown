@@ -9,30 +9,32 @@ published: true
 
 # <span>Cennik usług podstawowych</span>
 
-## Stomatologia zachowawcza i estetyczna
+## Stomatologia zachowawcza
+
+(znieczulenie wliczone w cenę zabiegu)
+
+<br>
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
-* <span>wypełnienie glasjonomerowe typu Fuji/Equia</span> <span>180 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne ubytek klinowy</span> <span>180 pln</span>
-* <span>wypełnienie kompozytowe światłoutwardzalne</span> <span>200&ndash;280 pln</span>
+* <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>180&ndash;300 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>350 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
+* <span>przygotowanie zęba do leczenia kanałowego (próchnica, odbudowa ścian, opatrunek)</span> <span>200&ndash;250 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>400&ndash;500 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>500 pln</span>
 * <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>30&ndash;50 pln</span>
-* <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>100 pln</span>
 * <span>RVG</span> <span>30 pln</span>
 
-<h2 id="pedodoncja">Stomatologia dziecięca (pedodoncja)</h2>
+<h2 id="stomatologia-dziecieca">Stomatologia dziecięca (zęby mleczne)</h2>
 
 * <span>wizyta adaptacyjna</span> <span>100 pln</span>
-* <span>wypełnienie w zębie mlecznym</span> <span>120&ndash;170 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
+* <span>wypełnienie w zębie mlecznym</span> <span>130&ndash;180 pln</span>
 * <span>opatrunek leczniczy w zębie mlecznym</span> <span>100 pln</span>
-* <span>dewitalizacja miazgi (zatrucie)</span> <span>120 pln</span>
+* <span>dewitalizacja (zatrucie) w zębie mlecznym</span> <span>120 pln</span>
+* <span>amputacja w zębie mlecznym</span> <span>150 pln</span>
+* <span>leczenie kanałowe w zębie mlecznym (1 wizyta)</span> <span>100&ndash;150 pln</span>
 * <span>ekstrakcja zęba mlecznego</span> <span>100&ndash;150 pln</span>
-* <span>higiniezacja</span> <span>100&ndash;150 pln</span>
-* <span>fluoryzacja</span> <span>100 pln</span>
-* <span>lakowanie bruzd zęba mlecznego</span> <span>100 pln</span>
 
 <h2 id="endodoncja">Leczenie kanałowe (endodoncja)</h2>
 
@@ -95,26 +97,28 @@ published: true
 
 * <span>konsultacja</span> <span>150 pln</span>
 * <span>odsłonięcie implantu</span> <span>200 pln</span>
-* <span>wszczepienie implantu</span> <span>2900&ndash;3200 pln</span>
+* <span>wszczepienie implantu</span> <span>2700&ndash;3200 pln</span>
 * <span>usunięcie implantu wszczepionego w innym gabinecie</span> <span>1000 pln</span>
 * <span>przeszczep tkanki łącznej</span> <span>1000&ndash;2000 pln</span>
-* <span>korona porcelanowa na implancie</span> <span>2900&ndash;3200 pln</span>
+* <span>korona porcelanowa na implancie</span> <span>2700&ndash;3200 pln</span>
 * <span>proteza oparta na implantach</span> <span>wycena w gabinecie</span>
 
-## Profilaktyka
+<h2 id="profilaktyka">Profilaktyka i higienizacja</h2>
 
-* <span>pełen pakiet higienizacyjny (skaling, piaskowanie, polerowanie i fluoryzacja pianką)</span> <span>270 pln</span>
-* <span>skaling</span> <span>200 pln</span>
-* <span>piaskowanie</span> <span>200 pln</span>
-* <span>fluoryzacja pianką</span> <span>50 pln</span>
-* <span>lakierowanie zębów stałych</span> <span>120 pln</span>
-* <span>lakowanie zębów stałych (1 ząb)</span> <span>100 pln</span>
+* <span>skaling (usuwanie kamienia nazębnego)</span> <span>200 pln</span>
+* <span>piaskowanie (usuwanie osadu nazębnego)</span> <span>200 pln</span>
+* <span>pełen pakiet higienizacyjny (skaling, piaskowanie, fluoryzacja pianką)</span> <span>270 pln</span>
+* <span>higienizacja u dzieci</span> <span>100&ndash;150 pln</span>
+* <span>fluoryzacja (pianką)</span> <span>50 pln</span>
+* <span>fluoryzacja (lakierowanie)</span> <span>100 pln</span>
+* <span>lakowanie (1 ząb)</span> <span>100 pln</span>
 
 ## Wybielanie
 
 * <span>wybielanie metodą domową (nakładki)</span> <span>800 pln</span>
 * <span>wybielanie zębów w gabinecie</span> <span>1000 pln</span>
 * <span>dobielanie zębów w gabinecie</span> <span>300 pln</span>
+* <span>wybielanie zęba martwego bez ceny wypełnienia (1 wizyta)</span> <span>130 pln</span>
 
 <h2 id="uslugi-w-cenie"></h2>
 
