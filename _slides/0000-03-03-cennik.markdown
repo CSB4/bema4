@@ -16,13 +16,12 @@ published: true
 <br>
 
 * <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
-* <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>180&ndash;300 pln</span>
+* <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>200&ndash;300 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>350 pln</span>
-* <span>założenie opatrunku leczniczego</span> <span>150 pln</span>
-* <span>przygotowanie zęba do leczenia kanałowego (próchnica, odbudowa ścian, opatrunek)</span> <span>200&ndash;250 pln</span>
-* <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>400&ndash;500 pln</span>
+* <span>założenie opatrunku leczniczego</span> <span>200 pln</span>
+* <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>500&ndash;600 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>500 pln</span>
-* <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>30&ndash;50 pln</span>
+* <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>50 pln</span>
 * <span>RVG</span> <span>30 pln</span>
 
 <h2 id="stomatologia-dziecieca">Stomatologia dziecięca (zęby mleczne)</h2>
@@ -42,15 +41,14 @@ published: true
 
 <br>
 
-* <span>ocena zęba w mikroskopie</span> <span>150 pln</span>
-* <span>dewitalizacja miazgi (zatrucie)</span> <span>150 pln</span>
-* <span>ząb 1&#8209;kanałowy</span> <span>450 pln</span>
-* <span>ząb 2&#8209;kanałowy</span> <span>650 pln</span>
-* <span>ząb 3&#8209;kanałowy</span> <span>850 pln</span>
-* <span>każdy kolejny kanał</span> <span>dodatkowo 200 pln</span>
+* <span>ocena zęba w mikroskopie</span> <span>200 pln</span>
+* <span>dewitalizacja miazgi (zatrucie)</span> <span>250 pln</span>
+* <span>siekacze</span> <span>500 pln</span>
+* <span>przedtrzonowce</span> <span>800 pln</span>
+* <span>trzonowce</span> <span>1100 pln</span>
 * <span>ponowne leczenie kanałowe (re-endo)</span> <span>dodatkowo 200 pln</span>
 * <span>skomplikowana anatomia kanałowa</span> <span>dodatkowo 100&ndash;200 pln</span>
-* <span>opatrunek leczniczy zakładany między wizytami</span> <span>150 pln</span>
+* <span>opatrunek leczniczy zakładany między wizytami</span> <span>200 pln</span>
 * <span>usunięcie złamanego narzędzia</span> <span>wycena w gabinecie</span>
 * <span>usunięcie wkładu koronowo-korzeniowego</span> <span>wycena w gabinecie</span>
 
