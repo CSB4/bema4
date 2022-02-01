@@ -64,20 +64,20 @@ published: true
 
 ## Protetyka
 
-* <span>konsultacja protetyczna z planem leczenia i kosztorysem</span> <span>100&ndash;250 pln</span>
-* <span>korona porcelanowa na podbudowie metalowej</span> <span>1100 pln</span>
-* <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1700 pln</span>
-* <span>korona pełnoceramiczna e.max</span> <span>1800 pln</span>
-* <span>licówka porcelanowa</span> <span>1800 pln</span>
-* <span>proteza szkieletowa</span> <span>od 2000 pln</span>
-* <span>proteza całkowita</span> <span>1800 pln</span>
-* <span>proteza częściowa</span> <span>1500 pln</span>
-* <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>450/600 pln</span>
+* <span>konsultacja protetyczna z planem leczenia i kosztorysem</span> <span>150&ndash;250 pln</span>
+* <span>korona porcelanowa na podbudowie metalowej</span> <span>1400 pln</span>
+* <span>korona porcelanowa na podbudowie cyrkonowej</span> <span>1900 pln</span>
+* <span>korona pełnoceramiczna e.max</span> <span>2000 pln</span>
+* <span>licówka porcelanowa</span> <span>od 2000 pln</span>
+* <span>proteza szkieletowa</span> <span>od 2500 pln</span>
+* <span>proteza całkowita</span> <span>2000 pln</span>
+* <span>proteza częściowa</span> <span>1800 pln</span>
+* <span>wkład koronowo-korzeniowy chromowo-kobaltowy pojedynczy/dzielony</span> <span>500/700 pln</span>
 * <span>wkład koronowo-korzeniowy złoty</span> <span>koszt złota + 400&ndash;800 pln</span>
 * <span>wkład z włókna szklanego</span> <span>500 pln</span>
-* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>100 pln</span>
-* <span>korona tymczasowa (wykonana w laboratorium)</span> <span>wycena w gabinecie</span>
-* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>wycena w gabinecie</span>
+* <span>korona tymczasowa (wykonana w gabinecie)</span> <span>150 pln</span>
+* <span>korona tymczasowa (wykonana w laboratorium)</span> <span>300 pln</span>
+* <span>proteza na zatrzaskach, zasuwach lub teleskopach</span> <span>od 4500 pln</span>
 
 ## Chirurgia stomatologiczna
 
