@@ -15,19 +15,19 @@ published: true
 
 <br>
 
-* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
-* <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>200&ndash;300 pln</span>
-* <span>rekonstrukcja zachowawcza</span> <span>350 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>100 pln</span>
+* <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>250&ndash;350 pln</span>
+* <span>rekonstrukcja zachowawcza</span> <span>450&ndash;600 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>200 pln</span>
 * <span>licowanie zęba materiałem kompozytowym, tzw. bonding</span> <span>500&ndash;600 pln</span>
 * <span>odbudowa zęba na wkładzie z włókna szklanego</span> <span>500 pln</span>
-* <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>50 pln</span>
-* <span>RVG</span> <span>30 pln</span>
+* <span>korekta/renowacja wypełnienia (1 ząb)</span> <span>80 pln</span>
+* <span>RVG</span> <span>40 pln</span>
 
 <h2 id="stomatologia-dziecieca">Stomatologia dziecięca (zęby mleczne)</h2>
 
 * <span>wizyta adaptacyjna</span> <span>100 pln</span>
-* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>0&ndash;100 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>100 pln</span>
 * <span>wypełnienie w zębie mlecznym</span> <span>130&ndash;180 pln</span>
 * <span>opatrunek leczniczy w zębie mlecznym</span> <span>100 pln</span>
 * <span>dewitalizacja (zatrucie) w zębie mlecznym</span> <span>120 pln</span>
@@ -57,10 +57,10 @@ published: true
 * <span>kiretaż zamknięty (1 ząb)</span> <span>200 pln</span>
 * <span>kiretaż zamknięty (połowy łuku)</span> <span>350 pln</span>
 * <span>kiretaż zamknięty (całego łuku)</span> <span>500 pln</span>
-* <span>leczenie zmian na błonie śluzowej (afta, nadżerka, owrzodzenie)</span> <span>50&ndash;100 pln</span>
-* <span>wydłużenie korony klinicznej zęba</span> <span>400 pln</span>
-* <span>nacięcie ropnia paradontalnego</span> <span>150 pln</span>
-* <span>szynowanie zębów z zastosowaniem włókna szklanego (1 ząb)</span> <span>100 pln</span>
+* <span>leczenie zmian na błonie śluzowej (afta, nadżerka, owrzodzenie)</span> <span>100&ndash;150 pln</span>
+* <span>wydłużenie korony klinicznej zęba</span> <span>500 pln</span>
+* <span>nacięcie ropnia paradontalnego</span> <span>250 pln</span>
+* <span>szynowanie zębów z zastosowaniem włókna szklanego (1 ząb)</span> <span>150 pln</span>
 
 ## Protetyka
 
@@ -81,11 +81,11 @@ published: true
 
 ## Chirurgia stomatologiczna
 
-* <span>konsultacja</span> <span>0&ndash;100 pln</span>
-* <span>ekstrakcja prosta zęba</span> <span>250&ndash;400 pln</span>
-* <span>ekstrakcja chirurgiczna (dłutowanie) zęba</span> <span>400&ndash;600 pln</span>
-* <span>ekstrakcja/dłutowanie ósemki górnej</span> <span>500/800 pln</span>
-* <span>ekstrakcja/dłutowanie ósemki dolnej</span> <span>800/1000 pln</span>
+* <span>konsultacja</span> <span>100 pln</span>
+* <span>ekstrakcja prosta zęba</span> <span>250&ndash;500 pln</span>
+* <span>ekstrakcja chirurgiczna (dłutowanie) zęba</span> <span>600&ndash;800 pln</span>
+* <span>ekstrakcja ósemki górnej</span> <span>500&ndash;800 pln</span>
+* <span>ekstrakcja ósemki dolnej</span> <span>800&ndash;1500 pln</span>
 * <span>resekcja zęba 1-korzeniowego/wielokorzeniowego</span> <span>800/1500 pln</span>
 * <span>hemisekcja</span> <span>250 pln</span>
 * <span>chirurgiczne zaopatrzenie rany</span> <span>80 pln</span>
