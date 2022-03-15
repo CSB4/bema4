@@ -4,7 +4,9 @@
     "appPort": [
         4000
     ],
-    "extensions": ["rebornix.ruby"],
+    "extensions": [
+        "rebornix.ruby"
+    ],
     "postCreateCommand": "bundle install",
     "containerEnv": {
         "LC_ALL": "C.UTF-8",
