@@ -1,17 +1,18 @@
 //slide gwarancja
 .slide-gwarancja {
-  background:#eee;
-  color:#999;
+  background: #eee;
+  color: #999;
 
   h1 {
     @include xlarge;
     @include trailer();
   }
+
   a {
-    color:$dark-blue;
+    color: $dark-blue;
 
     &:hover {
-      text-decoration:underline;
+      text-decoration: underline;
     }
   }
 }

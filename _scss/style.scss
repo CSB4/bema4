@@ -29,59 +29,63 @@
 @import "slides/rodo";
 
 img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 .show-for-small-logo img {
-  background:$light-blue;
-  width:100%;
-  display:block;
-  margin-top:50px;
-  padding-top:20px;
+  background: $light-blue;
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  padding-top: 20px;
 }
 
 @include breakpoint($medium-up) {
   .show-for-small-logo {
-    display:none;
+    display: none;
   }
 }
 
 //slides
 .slide {
-  clear:both;
-  overflow:hidden;
-  padding:10% 0;
+  clear: both;
+  overflow: hidden;
+  padding: 10% 0;
 }
+
 .slide-personel {
-  padding:0;
+  padding: 0;
 }
+
 ////////////////////////
 //full screen background
 .bg-image {
-  display:none;
-  position:absolute;
+  display: none;
+  position: absolute;
 }
+
 @include breakpoint($large-up) {
   .mh-100 {
-    position:relative;
+    position: relative;
 
     .bg-image {
-      max-width:4000px;
-      position:absolute;
-      z-index:0;
-      z-index:-1;
-      display:block;
+      max-width: 4000px;
+      position: absolute;
+      z-index: 0;
+      z-index: -1;
+      display: block;
     }
   }
 }
+
 .mh-100 {
-  min-height:100vh;
+  min-height: 100vh;
 }
 
 // iPad
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .mh-100 {
-    min-height:calc(100vh + 50px);
+    min-height: calc(100vh + 50px);
   }
 }
 
@@ -90,18 +94,18 @@ img {
 .cookiewarning {
   @include transition-property(opacity);
   @include transition-duration($transition-time/2);
-  font-size:rem-calc(14px);
-  line-height:rem-calc(21px);
-  position:fixed;
-  z-index:999999;
-  bottom:0;
-  left:0;
-  width:100%;
+  font-size: rem-calc(14px);
+  line-height: rem-calc(21px);
+  position: fixed;
+  z-index: 999999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 8px 30px 8px 3%;
-  border-top:1px solid $dark-blue;
-  background:$white;
+  border-top: 1px solid $dark-blue;
+  background: $white;
 
-  > span {
+  >span {
     width: 21px;
     height: 21px;
     cursor: pointer;
@@ -116,7 +120,7 @@ img {
     &::after {
       content: '';
       position: absolute;
-      left:0;
+      left: 0;
       width: 100%;
       top: 50%;
       height: 2px;
@@ -134,16 +138,18 @@ img {
 
     &:hover::before,
     &:hover::after {
-      background: darken($dark-blue,10%);
+      background: darken($dark-blue, 10%);
     }
   }
 }
+
 .cookiewarning.closed {
-  opacity:0;
+  opacity: 0;
 }
+
 @include breakpoint($xxlarge-up) {
   .cookiewarning {
-    font-size:14px;
-    line-height:18px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }

@@ -1,24 +1,27 @@
 .slide-news {
 	padding: 0;
 }
+
 .slide.slide-news {
 	padding: 0;
 }
-	.news-item {
-		float: left;
-		padding: rhythm($lil);
 
-		@include breakpoint($large-up) {
-			width: 25%;
+.news-item {
+	float: left;
+	padding: rhythm($lil);
 
-			&.scale-2 {
-				width: 50%;
-			}
+	@include breakpoint($large-up) {
+		width: 25%;
 
+		&.scale-2 {
+			width: 50%;
 		}
+
 	}
-		.news-title {
-			@include bold;
-			@include trailer;
-			color: $dark-blue;
-		}
+}
+
+.news-title {
+	@include bold;
+	@include trailer;
+	color: $dark-blue;
+}

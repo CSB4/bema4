@@ -29,7 +29,7 @@
 
     var whatOffSet = 0;
     var winWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
-    if ( winWidth < 640) {
+    if (winWidth < 640) {
       whatOffSet = 50;
       smoothScroll.init({ offset: whatOffSet });
     } else {
@@ -52,7 +52,7 @@
 
     // Disable mask transitions on Android to boost performance
     if (navigator.userAgent.match(/Android/i) !== null) {
-     document.documentElement.className += " android";
+      document.documentElement.className += " android";
     }
 
     // Find navigation links and save a reference to them
@@ -94,13 +94,13 @@
       navTitle.innerHTML = links[i].innerHTML;
     };
 
-      var top = window.pageYOffset;
-      var n = 1;
-      while (top >= content[n]) {
-        n++;
-      }
-      n--;
-      selectActiveMenuItem(n);
+    var top = window.pageYOffset;
+    var n = 1;
+    while (top >= content[n]) {
+      n++;
+    }
+    n--;
+    selectActiveMenuItem(n);
 
 
     // Highlight active link when scrolling
@@ -172,7 +172,7 @@
           location.hash = "#" + thisID;
           pane.setAttribute("id", thisID);
 
-        // If the URL is "#home", remove hash from the URL
+          // If the URL is "#home", remove hash from the URL
         } else {
           if (history.pushState) {
             history.pushState("", document.title, window.location.pathname);

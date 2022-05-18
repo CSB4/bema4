@@ -1,5 +1,5 @@
 .slide-galeria {
-  position:relative;
+  position: relative;
 }
 
 //medium
@@ -11,6 +11,7 @@
     }
   }
 }
+
 //large
 @include susy-breakpoint($large-up, $large-gr) {
   .og-grid {
@@ -21,29 +22,31 @@
   }
 }
 
-.og-grid li > a,
-.og-grid li > a img {
+.og-grid li>a,
+.og-grid li>a img {
   display: block;
   position: relative;
 }
 
-.og-grid li > a {
-  background:$dark-blue;
+.og-grid li>a {
+  background: $dark-blue;
 
   img {
     @include transition-property(opacity);
     @include transition-duration($transition-time/2);
-    width:100%;
-    opacity:0.5;
+    width: 100%;
+    opacity: 0.5;
   }
 }
-.no-touch .og-grid li > a img:hover {
-  opacity:1;
+
+.no-touch .og-grid li>a img:hover {
+  opacity: 1;
 }
 
-.og-grid li.og-expanded > a > img {
-  opacity:1;
+.og-grid li.og-expanded>a>img {
+  opacity: 1;
 }
+
 .og-expander {
   position: absolute;
   top: auto;
@@ -57,16 +60,17 @@
 .og-expander-inner {
   padding: 10px 0 10px 0;
   height: 100%;
-  text-align:center;
+  text-align: center;
 
 
   h3 {
     @include trailer();
     @include bold;
-    text-align:left;
+    text-align: left;
   }
+
   p {
-    text-align:left;
+    text-align: left;
   }
 }
 
@@ -77,15 +81,15 @@
   top: 9px;
   right: 15px;
   cursor: pointer;
-  z-index:10;
-  overflow:hidden;
+  z-index: 10;
+  overflow: hidden;
 }
 
 .og-close::before,
 .og-close::after {
   content: '';
   position: absolute;
-  left:0;
+  left: 0;
   width: 100%;
   top: 50%;
   height: 2px;
@@ -112,9 +116,11 @@
   height: 100%;
   overflow: hidden;
   position: relative;
+
   &:hover {
-    cursor:pointer;
+    cursor: pointer;
   }
+
   img {
     display: inline-block;
     max-height: 100%;
@@ -123,7 +129,7 @@
 }
 
 .og-details {
-  display:none;
+  display: none;
 }
 
 .og-loading {
@@ -141,32 +147,70 @@
 }
 
 @-webkit-keyframes loader {
-  0% { background: #ddd; }
-  33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-  66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+  0% {
+    background: #ddd;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
 }
 
 @-moz-keyframes loader {
-  0% { background: #ddd; }
-  33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-  66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+  0% {
+    background: #ddd;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
 }
 
 @keyframes loader {
-  0% { background: #ddd; }
-  33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-  66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+  0% {
+    background: #ddd;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+  }
 }
 
 @media screen and (max-width: 830px) {
 
-  .og-expander h3 { @include large }
+  .og-expander h3 {
+    @include large
+  }
 
 }
 
 @media screen and (max-width: 650px) {
 
-  .og-fullimg { display: none; }
-  .og-details { float: none; width: 100%; }
+  .og-fullimg {
+    display: none;
+  }
+
+  .og-details {
+    float: none;
+    width: 100%;
+  }
 
 }

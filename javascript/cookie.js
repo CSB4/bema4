@@ -1,5 +1,5 @@
 // Wyedytuj tresc Tutaj:
-    var cookieMessage = "Strona www.bema4.pl korzysta z plików cookies w celach statystycznych. Warunki przechowywania tych plików można określić w ustawieniach przeglądarki internetowej.";
+var cookieMessage = "Strona www.bema4.pl korzysta z plików cookies w celach statystycznych. Warunki przechowywania tych plików można określić w ustawieniach przeglądarki internetowej.";
 
 // ######################
 // ###########
@@ -20,7 +20,7 @@ function getCookie(c_name) {
 function displayNotification(c_action) {
 
     var message = "<div class='cookiewarning' onclick=\"doAccept()\">";
-    message += cookieMessage ;
+    message += cookieMessage;
     message += " <span></span>";
     message += "</div>";
 
@@ -41,10 +41,10 @@ function doAccept() {
     var warning = document.querySelector(".cookiewarning");
     warning.className = warning.className + " closed";
 
-    setTimeout(function(){
+    setTimeout(function () {
         warning.outerHTML = "";
         delete warning;
-     }, 1000);
+    }, 1000);
 }
 
 

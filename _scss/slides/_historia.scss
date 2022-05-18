@@ -5,9 +5,11 @@
     @include xlarge;
     @include trailer();
   }
+
   p {
     @include trailer($lil);
   }
+
   img {
     @include gallery(2);
   }
