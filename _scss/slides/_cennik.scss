@@ -1,28 +1,31 @@
 //cennik
 .slide-cennik {
-  overflow:hidden;
+  overflow: hidden;
 
   h1 {
-    text-transform:uppercase;
-    color:$dark-blue;
+    text-transform: uppercase;
+    color: $dark-blue;
     @include large;
     @include trailer(3/2*$lil);
-    overflow:hidden;
+    overflow: hidden;
 
     span {
-      float:left;
+      float: left;
     }
   }
+
   .cennik-aktualizacja {
     @include trailer($lil);
     @include small;
     @include bold;
   }
+
   h2 {
     @include trailer(0.5);
     @include bold;
-    clear:both;
+    clear: both;
   }
+
   ul {
     @include trailer(1.5*$lil);
 
@@ -30,62 +33,68 @@
       clear: both;
       padding: 0 0 5px 0;
 
-      span + span {
+      span+span {
         @include bold;
-        display:block;
-        clear:both;
+        display: block;
+        clear: both;
       }
     }
   }
 
-    @include breakpoint($large-up) {
+  @include breakpoint($large-up) {
 
-      h1 {
-        text-transform:uppercase;
-        color:$dark-blue;
-        @include xlarge;
+    h1 {
+      text-transform: uppercase;
+      color: $dark-blue;
+      @include xlarge;
 
-        &:before {
-          content: "|";
-          display:block;
-          padding-right:12px;
-          float:left;
-          font-size:1.3em;
-        }
-        &:after {
-          content: "|";
-          display:block;
-          padding-left:12px;
-          float:left;
-          font-size:1.3em;
-        }
+      &:before {
+        content: "|";
+        display: block;
+        padding-right: 12px;
+        float: left;
+        font-size: 1.3em;
       }
-      .bg-image {
-        opacity:0.15;
+
+      &:after {
+        content: "|";
+        display: block;
+        padding-left: 12px;
+        float: left;
+        font-size: 1.3em;
       }
-      ul {
+    }
+
+    .bg-image {
+      opacity: 0.15;
+    }
+
+    ul {
       li {
         clear: both;
-        padding:0;
+        padding: 0;
 
         span:first-child {
           float: left;
           padding: 0 .4em 0 0;
           margin: 0;
-          display:inline;
+          display: inline;
         }
-        span + span {
+
+        span+span {
           float: right;
           padding: 0 0 0 .4em;
           margin: 0;
-          display:inline;
-          clear:none;
+          display: inline;
+          clear: none;
           @include regular;
 
-          &:before,&:after {
-            content:"";
+          &:before,
+          &:after {
+            content: "";
           }
         }
+
         &:after {
           content: "";
           display: block;
@@ -93,8 +102,8 @@
           height: 1em;
           border-bottom: 2px dotted;
           color: $light-blue;
-          position:relative;
-          top:-0.22em;
+          position: relative;
+          top: -0.22em;
         }
       }
     }

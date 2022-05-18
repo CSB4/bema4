@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js no-touch">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body itemscope itemtype="https://schema.org/Dentist">
+<body itemscope itemtype="https://schema.org/Dentist">
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="main-container" id="top">
+  <div class="main-container" id="top">
 
-      {% for slide in site.slides %}
+    {% for slide in site.slides %}
 
-        <div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
-          {% include slides/{{slide.type}}.html %}
-        </div>
-
-      {% endfor %}
+    <div id="{{slide.type}}" class="row slide slide-{{slide.type}} {% if slide.fullscreen %} mh-100 {% endif %}">
+      {% include slides/{{slide.type}}.html %}
     </div>
 
-    {% include footer.html %}
+    {% endfor %}
+  </div>
 
-  </body>
+  {% include footer.html %}
+
+</body>
+
 </html>
