@@ -15,7 +15,7 @@ published: true
 
 <br>
 
-* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>110 pln</span>
+* <span>przegląd jamy ustnej i konsultacja poprzedzająca leczenie</span> <span>100 pln</span>
 * <span>wypełnienie (cena zależna od rozległości ubytku)</span> <span>250&ndash;350 pln</span>
 * <span>rekonstrukcja zachowawcza</span> <span>450&ndash;600 pln</span>
 * <span>założenie opatrunku leczniczego</span> <span>200 pln</span>
