@@ -10,7 +10,7 @@ mail: "stomatologia@bema4.pl"
 godziny:
   - "<time itemprop=\"openingHours\" datetime=\"Mo-Th 08:00-20:00\"><b>pn&ndash;śr:</b> 8:00&ndash;20:00</time>"
   - "<time itemprop=\"openingHours\" datetime=\"Fr 08:00-15:00\"><b>cz&ndash;pt:</b> 8:00&ndash;15:00</time>"
-ogloszenie: 'Informujemy, że Centrum pracuje w pełnych godzinach pracy. Bardzo prosimy o telefoniczną rezerwację terminów wizyt.&nbsp;<a href="tel:+48586202182">58&nbsp;620&nbsp;21&nbsp;82</a> w godzinach 9:00&ndash;15:00.<br><br>Poprzedni tymczasowy numer telefonu komórkowego nie jest już monitorowany.'
+ogloszenie: 'Informujemy, że Centrum pracuje w pełnych godzinach pracy. Bardzo prosimy o telefoniczną rezerwację terminów wizyt.&nbsp;<a href="tel:+48586202182">58&nbsp;620&nbsp;21&nbsp;82</a> w godzinach 8:00&ndash;20:00.<br><br>Poprzedni tymczasowy numer telefonu komórkowego nie jest już monitorowany.'
 fullscreen: true
 published: true
 ---
