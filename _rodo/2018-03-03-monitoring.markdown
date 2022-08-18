@@ -5,7 +5,7 @@ title: Monitoring
 
 Mając na uwadze obowiązek uregulowany zapisami art. 13 ust. 1 i 2 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016), dalej RODO, informujemy:
 
-1) Administratorem danych jest Centrum Stomatologiczne Bema 4 z siedzibą w Gdyni przy ul. Bema 4/2.
+1) Administratorem danych jest Centrum Stomatologiczne Bema 4 sp. z o.o. z siedzibą w Gdyni przy ul. Bema 4/2.
 
 2) monitoring stosowany jest w celu ochrony mienia oraz zapewnienia bezpieczeństwa na terenie monitorowanym
 
