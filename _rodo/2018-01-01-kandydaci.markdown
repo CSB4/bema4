@@ -5,7 +5,7 @@ title: Kandydaci do pracy
 
 Mając na uwadze obowiązek uregulowany zapisami art. 13 ust. 1 i 2 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016), dalej RODO, informujemy:
 
-1) Administratorem danych osobowych kandydatów do pracy jest Centrum Stomatologiczne Bema 4 z siedzibą przy ul. Bema 4/2, 81-386 Gdynia. Adres e-mail inspektora ochrony danych: iod@bema4.pl
+1) Administratorem danych osobowych kandydatów do pracy jest Centrum Stomatologiczne Bema 4 sp. z o.o. z siedzibą przy ul. Bema 4/2, 81-386 Gdynia. Adres e-mail inspektora ochrony danych: iod@bema4.pl
 
 2) Dane osobowe kandydatów do pracy przetwarzane będą w celu wyłonienia kandydata na pracownika w aktualnej rekrutacji, a także w celu wzięcia pod uwagę CV w przyszłych rekrutacjach po udzieleniu odrębnej zgody. Przetwarzanie danych:
 
