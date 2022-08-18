@@ -5,7 +5,7 @@ title: Pracownicy
 
 Mając na uwadze obowiązek uregulowany zapisami art. 13 ust. 1 i 2 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016), dalej RODO, informujemy:
 
-1) Administratorem danych osobowych Pracownika jest Centrum Stomatologiczne Bema 4 z siedzibą w Gdyni przy ul. Bema 4/2. Adres e-mail inspektora ochrony danych: iod@bema4.pl
+1) Administratorem danych osobowych Pracownika jest Centrum Stomatologiczne Bema 4 z o.o. z siedzibą w Gdyni przy ul. Bema 4/2. Adres e-mail inspektora ochrony danych: iod@bema4.pl
 
 2) Celem przetwarzania jest realizacja zadań pracodawcy, w zakresie monitoringu – ochrona mienia oraz bezpieczeństwo pracowników. Podstawą prawną przetwarzania jest Ustawa z 26 czerwca 1974 r. Kodeks pracy, branżowe przepisy prawa, a także wyrażona zgoda (wykorzystanie wizerunku na stronie internetowej Administratora).
 
